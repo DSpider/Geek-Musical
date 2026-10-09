@@ -374,4 +374,43 @@ describe("Geek Musical: regras editoriais e segurança", () => {
       });
     expect(response.status).toBe(400);
   });
+  it("protege a política, preserva autores e rejeita revisões concorrentes no snapshot", async () => {
+    expect((await request(app).get("/api/admin/governance")).status).toBe(401);
+    const policy = await agent.get("/api/admin/governance");
+    expect(policy.body.values["governance.editorialPolicy"].enabled).toBe(
+      false,
+    );
+    const before = await agent.get("/api/admin/posts/new");
+    const created = await agent
+      .post("/api/admin/governance/authors")
+      .set("Origin", "http://localhost:3230")
+      .set("X-CSRF-Token", csrf)
+      .send({
+        revision: before.body.revision,
+        author: {
+          id: "AUTHOR-DANIEL-LIMA",
+          name: "Daniel Lima",
+          type: "Person",
+          description: "Autor do Geek Musical.",
+        },
+      });
+    expect(created.status).toBe(201);
+    const after = await agent.get("/api/admin/posts/new");
+    expect(after.body.registries.authors.slice(0, -1)).toEqual(
+      before.body.registries.authors,
+    );
+    const conflict = await agent
+      .post("/api/admin/governance/published-snapshot")
+      .set("Origin", "http://localhost:3230")
+      .set("X-CSRF-Token", csrf)
+      .send({ revision: before.body.revision });
+    expect(conflict.status).toBe(409);
+    const snapshot = await agent
+      .post("/api/admin/governance/published-snapshot")
+      .set("Origin", "http://localhost:3230")
+      .set("X-CSRF-Token", csrf)
+      .send({ revision: after.body.revision });
+    expect(snapshot.status).toBe(200);
+    expect(snapshot.body.sha256).toMatch(/^[a-f0-9]{64}$/);
+  });
 });

@@ -171,6 +171,22 @@ export const postSchema = z
       .strict()
       .optional(),
     media: z.array(mediaSchema).max(300).optional(),
+    editorialMedia: z
+      .array(
+        z
+          .object({
+            id,
+            url: z.string().regex(/^\/editorial-media\/[a-f0-9]{64}\.webp$/),
+            alt: z.string().min(10).max(300),
+            width: z.number().int().positive().max(1600),
+            height: z.number().int().positive().max(1600),
+            credit: z.string().min(3).max(300),
+            license: z.string().min(3).max(300),
+          })
+          .strict(),
+      )
+      .max(20)
+      .optional(),
     links: z
       .array(
         z

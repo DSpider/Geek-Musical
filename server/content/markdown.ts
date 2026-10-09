@@ -72,7 +72,7 @@ export function headingId(text: string, counts: Map<string, number>) {
 }
 export function references(
   body: string,
-  post?: Pick<Post, "kind" | "media" | "links">,
+  post?: Pick<Post, "kind" | "media" | "links" | "editorialMedia">,
 ) {
   const cacheKey = createHash("sha256")
     .update(body)
@@ -80,6 +80,7 @@ export function references(
       JSON.stringify([
         post?.kind,
         post?.media?.map((m) => m.id),
+        post?.editorialMedia?.map((m) => m.id),
         post?.links?.map((l) => l.id),
       ]),
     )
@@ -117,9 +118,11 @@ export function references(
       );
     if (
       token.type === "image" &&
-      (!post ||
-        post.kind !== "legacy" ||
-        !post.media?.some((m) => token.href === `media:${m.id}`))
+      !(
+        post?.kind === "legacy" &&
+        post.media?.some((m) => token.href === `media:${m.id}`)
+      ) &&
+      !post?.editorialMedia?.some((m) => token.href === `media:${m.id}`)
     )
       throw new Error(
         "Imagem inline exige referência de mídia validada da importação.",
@@ -185,6 +188,11 @@ export function renderMarkdown(
   const affiliateStores = new Set<AffiliateStore>();
   renderer.html = ({ text }) => escapeHtml(text);
   renderer.image = ({ href, text }) => {
+    const editorial = post.editorialMedia?.find(
+      (m) => href === `media:${m.id}`,
+    );
+    if (editorial)
+      return `<img src="${escapeHtml(editorial.url)}" alt="${escapeHtml(editorial.alt)}" width="${editorial.width}" height="${editorial.height}" loading="lazy" decoding="async"><small>${escapeHtml(editorial.credit)}</small>`;
     const media =
       post.kind === "legacy" &&
       post.media?.find((m) => href === `media:${m.id}`);
@@ -240,7 +248,7 @@ export function renderMarkdown(
         : label;
     }
     return destination
-      ? `<a href="${escapeHtml(destination)}"${registered?.sponsored ? ' rel="sponsored nofollow noopener"' : ""}>${label}</a>`
+      ? `<a href="${escapeHtml(destination)}"${registered?.sponsored ? ' rel="sponsored nofollow noopener noreferrer"' : ""}>${label}</a>`
       : label;
   };
   renderer.paragraph = function (token: Tokens.Paragraph) {

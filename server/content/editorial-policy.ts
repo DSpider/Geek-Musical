@@ -14,6 +14,10 @@ export function assertConsumerArticle(post: Post) {
     post.coverImage?.credit,
     ...post.sources.map((source) => source.title),
     ...(post.media ?? []).map((media) => media.alt),
+    ...(post.editorialMedia ?? []).flatMap((media) => [
+      media.alt,
+      media.credit,
+    ]),
     post.body.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1"),
   ]
     .filter(Boolean)
@@ -24,6 +28,7 @@ export function assertConsumerArticle(post: Post) {
 export function assertConsumerText(value: string, id: string) {
   const visible = value.normalize("NFKD").replace(/\p{M}/gu, "");
   const forbidden = [
+    /inteligencia artificial|gerad[oa] (?:automaticamente|por ia)|conteudo (?:automatizado|nao humano)|checagens? automaticas|revisao humana|metodo editorial|\bautomacao\b/i,
     /\bAPIs?\b|\bbackend\b|\bfrontend\b|\bendpoint\b|\bscraping\b|\bwebscrap\w*\b/i,
     /gerador oficial|conversao (?:do|de) links?|(?:destino|link|pagina).{0,100}(?:rejeitad|aceit[oa] pelo (?:programa|gerador))/i,
     /\bestoque\b|preco historico|promessa de disponibilidade/i,

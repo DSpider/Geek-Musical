@@ -188,7 +188,7 @@ export class ContentRepository {
   }
   private target(file: string) {
     if (
-      !/^(?:categories\.json|redirects\.json|products\.json|blog\/[A-Za-z0-9-]+\.md)$/.test(
+      !/^(?:categories\.json|authors\.json|redirects\.json|products\.json|blog\/[A-Za-z0-9-]+\.md)$/.test(
         file,
       )
     )
@@ -277,7 +277,12 @@ export class ContentRepository {
       );
     }
     const files: FileChange[] = [];
-    for (const name of ["categories", "redirects", "products"] as const)
+    for (const name of [
+      "categories",
+      "authors",
+      "redirects",
+      "products",
+    ] as const)
       if (
         JSON.stringify(next.registries[name]) !==
         JSON.stringify(this.state.registries[name])

@@ -137,7 +137,7 @@ describe("migração seletiva de WordPress", () => {
     } as Post;
     expect(() => references(post.body, post)).not.toThrow();
     const html = renderMarkdown(post, () => undefined).html;
-    expect(html).toContain('rel="sponsored nofollow noopener"');
+    expect(html).toContain('rel="sponsored nofollow noopener noreferrer"');
     expect(html).toContain('loading="lazy"');
     expect(html).not.toContain("onclick");
   });

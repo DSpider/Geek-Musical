@@ -23,6 +23,7 @@
     "blog:audit": "tsx scripts/blog-link-audit.ts artifacts/blog-silos/audit.json --strict",
     "seo:check": "tsx scripts/content-check.ts seo",
     "content:new": "tsx scripts/content-new.ts",
+    "editorial:operator": "tsx scripts/editorial-operator.ts",
     "migration:import": "tsx scripts/migrate-wordpress.ts",
     "migration:verify": "tsx scripts/verify-preservation.ts --preservation-only",
     "admin:bootstrap": "tsx scripts/bootstrap-admin.ts"

@@ -1,5 +1,7 @@
 # Geek Musical
 
+- Exceção editorial autorizada expressamente em 09/10/2026 neste chat: rotina Geek Musical — publicação editorial, uma publicação durante a implementação e seg/qua/sex às 14h America/Sao_Paulo em produção, sem aprovação humana por artigo, SOMENTE após todos os gates documentados em docs/editorial-routine.md e na política privada. O servidor não mantém calendário de publicação; rodadas recorrentes não fazem deploy de código. Preservar a regra de rascunho/revisão para trabalhos fora dessa autorização.
+
 Portal editorial musical independente. DEV: Windows, `http://localhost:3230`. PROD: `https://www.geekmusical.com.br`. Login `/gm-admin-login`, painel `/gm-admin`.
 
 - Leia README.md, docs/architecture.md, docs/security.md, docs/seo.md, docs/design.md, docs/editorial.md e deploy/README.md conforme a área. Estas instruções centrais prevalecem sobre os perfis específicos.

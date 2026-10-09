@@ -1,6 +1,9 @@
 import { z } from "zod";
 import path from "node:path";
 import { mkdir, writeFile } from "node:fs/promises";
+import { mkdirSync, writeFileSync, renameSync } from "node:fs";
+import { randomUUID } from "node:crypto";
+import { contentSnapshot } from "../../content/build.js";
 import sharp from "sharp";
 import { digest } from "../database.js";
 import { adminUser, upsertAdminUser } from "../auth.js";
@@ -8,6 +11,9 @@ import { AdminError } from "../errors.js";
 import type { AdminPluginDefinition } from "../registry.js";
 import { readLegacyManifest } from "../../content/legacy.js";
 import { passwordSchema } from "../../../shared/admin.js";
+import { revisionSchema } from "../../../shared/admin.js";
+import { authorSchema } from "../../../shared/content.js";
+import { settingsApi } from "./settings-api.js";
 const usersRevision = (ctx: import("../registry.js").PluginContext) =>
   digest(
     JSON.stringify(
@@ -24,7 +30,35 @@ export const governancePlugin: AdminPluginDefinition = {
   description: "Mídia, SEO e contas próprias do Geek Musical.",
   version: "1.0.0",
   required: true,
+  settings: [
+    {
+      key: "governance.editorialPolicy",
+      schema: z
+        .object({
+          enabled: z.boolean(),
+          site: z.literal("https://www.geekmusical.com.br"),
+          timezone: z.literal("America/Sao_Paulo"),
+          authorId: z.string(),
+          authorizedBy: z.string(),
+          authorizedAt: z.string(),
+          contractVersion: z.literal("2026-10-09"),
+          humanApprovalPerArticle: z.literal(false),
+        })
+        .strict(),
+      defaultValue: {
+        enabled: false,
+        site: "https://www.geekmusical.com.br",
+        timezone: "America/Sao_Paulo",
+        authorId: "AUTHOR-DANIEL-LIMA",
+        authorizedBy: "",
+        authorizedAt: "",
+        contractVersion: "2026-10-09",
+        humanApprovalPerArticle: false,
+      },
+    },
+  ],
   permissions: [
+    { id: "governance.publish", roles: ["admin"] },
     { id: "media.read", roles: ["admin", "editor", "seo"] },
     { id: "media.manage", roles: ["admin", "editor"] },
     { id: "seo.read", roles: ["admin", "editor", "seo"] },
@@ -57,6 +91,78 @@ export const governancePlugin: AdminPluginDefinition = {
     },
   ],
   api: [
+    ...settingsApi("governance", "governance.publish"),
+    {
+      method: "post",
+      path: "/governance/published-snapshot",
+      permission: "governance.publish",
+      handle: (ctx, req, res) => {
+        const input = z
+          .object({ revision: revisionSchema })
+          .strict()
+          .parse(req.body);
+        ctx.content.refresh();
+        if (input.revision !== ctx.content.revision)
+          throw new AdminError(
+            "CONFLICT",
+            "Conteúdo alterado antes do snapshot.",
+          );
+        const snapshot = contentSnapshot(
+          ctx.content.snapshot(),
+          ctx.web.environment || "development",
+          false,
+          ctx.web.siteUrl,
+        );
+        const directory = path.resolve(ctx.content.root, "../published");
+        mkdirSync(directory, { recursive: true, mode: 0o700 });
+        const temporary = path.join(directory, randomUUID() + ".tmp");
+        const serialized = JSON.stringify(snapshot);
+        writeFileSync(temporary, serialized, { mode: 0o600, flag: "wx" });
+        renameSync(temporary, path.join(directory, "catalog.json"));
+        ctx.db.audit(
+          adminUser(res).id,
+          "PUBLISHED_SNAPSHOT",
+          "content",
+          ctx.content.revision,
+        );
+        res.json({
+          revision: ctx.content.revision,
+          posts: snapshot.posts.length,
+          sha256: digest(serialized),
+        });
+      },
+    },
+    {
+      method: "post",
+      path: "/governance/authors",
+      permission: "governance.publish",
+      handle: (ctx, req, res) => {
+        const input = z
+          .object({ revision: revisionSchema, author: authorSchema })
+          .strict()
+          .parse(req.body);
+        ctx.content.commit(
+          input.revision,
+          adminUser(res).id,
+          "CREATE_AUTHOR",
+          "authors",
+          input.author.id,
+          (state) => {
+            if (
+              state.registries.authors.some(
+                (a) => a.id === input.author.id || a.name === input.author.name,
+              )
+            )
+              throw new AdminError(
+                "CONFLICT",
+                "Autor já cadastrado. Preserve sua identidade existente.",
+              );
+            state.registries.authors.push(input.author);
+          },
+        );
+        res.status(201).json({ revision: ctx.content.revision });
+      },
+    },
     {
       method: "get",
       path: "/governance/media",
@@ -250,6 +356,17 @@ export const governancePlugin: AdminPluginDefinition = {
     return (req, res, next) => {
       const match = /^\/editorial-media\/([a-f0-9]{64}\.webp)$/.exec(req.path);
       if (!match) return next();
+      const published = ctx.content.catalog(false).summaries.some((summary) => {
+        const post = ctx.content.catalog(false).getPost(summary.id);
+        return (
+          post?.coverImage?.path === req.path ||
+          post?.editorialMedia?.some((media) => media.url === req.path)
+        );
+      });
+      if (!published) {
+        res.status(404).set("Cache-Control", "no-store").end();
+        return;
+      }
       res
         .set("Cache-Control", "public, max-age=86400")
         .sendFile(

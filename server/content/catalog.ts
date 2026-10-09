@@ -394,6 +394,19 @@ export function validateContent(
         throw new Error(`Referência inválida: ${post.id} → ${id}`);
     unique(post.relatedPostIds, `Relação em ${post.id}`);
     unique(
+      (post.editorialMedia || []).map((m) => m.id),
+      `Imagem editorial em ${post.id}`,
+    );
+    for (const media of post.editorialMedia || [])
+      if (
+        !existsSync(
+          path.join(contentRoot, "editorial-media", path.basename(media.url)),
+        )
+      )
+        throw new Error(
+          `Imagem editorial inexistente: ${post.id} → ${media.id}`,
+        );
+    unique(
       (post.media || []).map((m) => m.id),
       `Mídia em ${post.id}`,
     );
