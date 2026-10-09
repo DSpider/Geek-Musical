@@ -107,7 +107,7 @@ describe("Geek Musical: regras editoriais e segurança", () => {
         layout,
         new Set(admin.content.catalog(false).summaries.map((p) => p.id)),
       ),
-    ).toThrow(/distintos/);
+    ).toThrow(/uma vez/);
     const empty = structuredClone(layout);
     empty.grids[0].postIds = [];
     expect(() => validateMusicalHome(empty, new Set())).not.toThrow();
@@ -151,6 +151,113 @@ describe("Geek Musical: regras editoriais e segurança", () => {
         },
       ),
     ).toThrow(/Substitua/);
+  });
+  it("salva os cinco tipos, reordena e remove grades sem alterar o acervo", async () => {
+    const before = (await agent.get("/api/admin/home")).body;
+    const postsBefore = admin.content.revision;
+    const base = {
+      title: "Nova grade",
+      eyebrow: "",
+      columns: 2,
+      rows: 1,
+      postIds: [],
+    };
+    const grids = [
+      ...before.layout.grids,
+      {
+        ...base,
+        id: "manual-extra",
+        mode: "manual",
+        postIds: [before.posts[0].id],
+      },
+      { ...base, id: "oldest-extra", mode: "oldest" },
+      { ...base, id: "popular-extra", mode: "popular" },
+      {
+        ...base,
+        id: "category-extra",
+        mode: "category",
+        categoryId: before.categories[0].id,
+      },
+    ].reverse();
+    const save = (value: HomeLayout, revision: string) =>
+      agent
+        .put("/api/admin/home")
+        .set("Origin", "http://localhost:3230")
+        .set("X-CSRF-Token", csrf)
+        .send({ layout: value, revision });
+    const response = await save({ version: 1, grids }, before.revision);
+    expect(response.status).toBe(200);
+    expect(response.body.layout.grids.map((g: { id: string }) => g.id)).toEqual(
+      grids.map((g) => g.id),
+    );
+    const latest = response.body.resolvedGrids.find(
+      (g: { id: string }) => g.id === "recentes",
+    );
+    expect(latest.cards).toHaveLength(3);
+    expect(admin.content.revision).toBe(postsBefore);
+    const selected = before.posts[0].id;
+    expect(() =>
+      admin.content.commit(
+        admin.content.revision,
+        "test-admin",
+        "TEST",
+        "posts",
+        selected,
+        (state) => {
+          const post = state.posts.find((p) => p.id === selected)!;
+          post.status = "draft";
+          delete post.publishedAt;
+        },
+      ),
+    ).toThrow(/grades manuais/);
+    // Removing a grid only changes the Home configuration.
+    const empty = await save({ version: 1, grids: [] }, response.body.revision);
+    expect(empty.status).toBe(200);
+    expect(empty.body.resolvedGrids).toEqual([]);
+    expect(admin.content.revision).toBe(postsBefore);
+    expect((await save(before.layout, empty.body.revision)).status).toBe(200);
+  });
+  it("rejeita categoria inativa, IDs inexistentes e grades inválidas pela API", async () => {
+    const before = (await agent.get("/api/admin/home")).body;
+    const base = {
+      id: "test",
+      title: "Teste",
+      eyebrow: "",
+      columns: 1,
+      rows: 1,
+      postIds: [],
+    };
+    for (const grid of [
+      { ...base, mode: "category", categoryId: "inexistente" },
+      { ...base, mode: "manual", postIds: ["inexistente"] },
+      { ...base, mode: "latest", postIds: [before.posts[0].id] },
+      {
+        ...base,
+        mode: "manual",
+        postIds: [before.posts[0].id, before.posts[0].id],
+      },
+    ]) {
+      const response = await agent
+        .put("/api/admin/home")
+        .set("Origin", "http://localhost:3230")
+        .set("X-CSRF-Token", csrf)
+        .send({
+          layout: { version: 1, grids: [grid] },
+          revision: before.revision,
+        });
+      expect(response.status).toBe(400);
+    }
+    expect((await agent.get("/api/admin/home")).body.revision).toBe(
+      before.revision,
+    );
+    expect((await request(app).get("/api/admin/home")).status).toBe(401);
+    expect(
+      (
+        await agent
+          .put("/api/admin/home")
+          .send({ layout: before.layout, revision: before.revision })
+      ).status,
+    ).toBe(403);
   });
   it("exclui rascunhos do catálogo público", () => {
     const id = admin.content

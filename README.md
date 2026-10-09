@@ -14,6 +14,6 @@ Execute `npm run typecheck`, `npm test`, `npm run build`, `npm run lint`, `npm r
 
 ## Acervo e operação
 
-As Web Stories, o formulário de Contato e a administração WordPress permanecem no legado. As rotas e os dados originais são preservados no inventário. Os nove destaques são manuais e não podem ser retirados de publicação sem substituição. Os três recentes usam a publicação original, independentemente da data de revisão.
+As Web Stories, o formulário de Contato e a administração WordPress permanecem no legado. As rotas e os dados originais são preservados no inventário. A Home inicia com nove destaques manuais e três recentes por publicação original. O [editor visual de grades](docs/admin/grades-home.md) permite configurar até oito grades com seleção manual, recentes, antigos, mais vistos ou determinada categoria. Artigos selecionados manualmente exigem remoção ou substituição na Home antes de despublicação. Revisões não alteram a ordem da publicação original.
 
 Consulte [arquitetura](docs/architecture.md), [segurança](docs/security.md), [diretrizes editoriais](docs/editorial.md) e [operação](deploy/README.md). Os relatórios de migração ficam em `docs/migration/`; evidências privadas e temporárias ficam em `artifacts/`.

@@ -22,7 +22,9 @@ function read(ctx: PluginContext) {
     ctx.settings.get<HomeLayout | null>("home.layout") ??
     defaultHomeLayout(homePostCards(catalog));
   const { views, ...popularity } = homePopularity(ctx.db);
-  popularity.available = catalog.summaries.some((p) => (views[p.url] || 0) > 0);
+  popularity.available = catalog.summaries.some(
+    (p) => (views[p.url] || 0) > 0 && !!homePostCard(catalog, p.id),
+  );
   return {
     layout,
     categories: catalog.registries.categories
@@ -43,7 +45,7 @@ export const homePlugin: AdminPluginDefinition = {
   id: "home",
   name: "Editor da Home",
   description: "Grades de artigos e ordem dos posts na página inicial.",
-  version: "1.1.0",
+  version: "1.2.0",
   required: true,
   permissions: [{ id: "home.manage", roles: ["admin"] }],
   pages: [

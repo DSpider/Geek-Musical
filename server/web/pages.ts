@@ -225,13 +225,24 @@ export function mountPages(
               .replace("/main.tsx", "/editorial.tsx");
         html = html.replace("<!--noscript-->", "");
       }
+      const layout = req.path === "/" && exists ? getHomeLayout?.() : undefined;
+      const grids =
+        req.path === "/" && exists
+          ? homeGrids(
+              publicContent,
+              layout,
+              layout?.grids.some((grid) => grid.mode === "popular")
+                ? getHomePopularity?.()
+                : undefined,
+            )
+          : [];
       if (!editorial) {
         const rendered =
           req.path === "/" && exists
             ? renderToStaticMarkup(
                 createElement(EditorialHome, {
                   catalog: publicContent,
-                  grids: homeGrids(publicContent, getHomeLayout?.()),
+                  grids,
                 }),
               )
             : renderToStaticMarkup(
@@ -245,14 +256,6 @@ export function mountPages(
       }
       if (transform) html = await transform(req.originalUrl, html);
       if (req.path === "/" && exists) {
-        const layout = getHomeLayout?.();
-        const grids = homeGrids(
-          publicContent,
-          layout,
-          layout?.grids.some((g) => g.mode === "popular")
-            ? getHomePopularity?.()
-            : undefined,
-        );
         const cards = JSON.stringify(
           grids.flatMap((g) => g.cards).slice(0, 6),
         ).replaceAll("<", "\\u003c");

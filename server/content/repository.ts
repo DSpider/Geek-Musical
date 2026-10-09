@@ -69,10 +69,13 @@ export class ContentRepository {
       .get();
     if (!row) return;
     const layout = JSON.parse(String(row.value)) as {
-      grids: { id: string; postIds: string[] }[];
+      grids: { mode?: string; postIds: string[] }[];
     } | null;
-    for (const id of layout?.grids.find((g) => g.id === "destaques")?.postIds ||
-      []) {
+    const selected =
+      layout?.grids
+        .filter((grid) => !grid.mode || grid.mode === "manual")
+        .flatMap((grid) => grid.postIds) || [];
+    for (const id of new Set(selected)) {
       const post = state.posts.find((p) => p.id === id);
       if (
         !post ||
@@ -83,7 +86,7 @@ export class ContentRepository {
       )
         throw new AdminError(
           "CONFLICT",
-          "Substitua o artigo nos destaques da Home antes de retirar sua publicação ou desativar sua categoria.",
+          "Substitua ou remova o artigo das grades manuais da Home antes de retirar sua publicação ou desativar sua categoria.",
         );
     }
   }

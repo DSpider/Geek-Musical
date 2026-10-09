@@ -121,33 +121,12 @@ export function validateMusicalHome(
   layout: HomeLayout,
   publishedIds: ReadonlySet<string>,
 ) {
-  const [featured, latest] = layout.grids;
-  if (
-    layout.grids.length !== 2 ||
-    featured?.id !== "destaques" ||
-    latest?.id !== "recentes" ||
-    featured.mode !== "manual" ||
-    latest.mode !== "latest" ||
-    featured.columns !== 3 ||
-    featured.rows !== 3 ||
-    latest.columns !== 3 ||
-    latest.rows !== 1 ||
-    latest.postIds.length ||
-    featured.categoryId ||
-    latest.categoryId
-  )
-    throw new Error(
-      "A Home exige uma grade manual 3×3 e uma grade de três artigos recentes, nesta ordem.",
-    );
-  const expected = Math.min(9, publishedIds.size);
-  if (
-    featured.postIds.length !== expected ||
-    new Set(featured.postIds).size !== expected ||
-    featured.postIds.some((id) => !publishedIds.has(id))
-  )
-    throw new Error(
-      `Selecione ${expected} artigos publicados distintos para os destaques.`,
-    );
+  homeLayoutSchema.parse(layout);
+  for (const grid of layout.grids)
+    if (grid.postIds.some((id) => !publishedIds.has(id)))
+      throw new Error(
+        "Selecione somente artigos publicados em categorias ativas.",
+      );
 }
 
 // The same move serves pointer drag/drop and the accessible position controls.

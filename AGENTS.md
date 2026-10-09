@@ -5,7 +5,7 @@ Portal editorial musical independente. DEV: Windows, `http://localhost:3230`. PR
 - Leia README.md, docs/architecture.md, docs/security.md, docs/seo.md, docs/design.md, docs/editorial.md e deploy/README.md conforme a área. Estas instruções centrais prevalecem sobre os perfis específicos.
 - Preserve o acervo, URLs, datas, autoria, imagens, fontes e versões originais. Não resuma os artigos nem invente especificações, preços, experiências ou testes práticos.
 - React/Express/TypeScript; Markdown/JSON editorial, SQLite administrativo. Conteúdo público renderizado no servidor; rascunhos privados.
-- Home editorial: nove destaques manuais e três recentes por publicação original. A chamada “O que você está procurando?” navega para categorias. Não implementar busca comercial ou voz.
+- Home editorial: configuração inicial preservada de nove destaques manuais e três recentes por publicação original; o editor permite grades predefinidas conforme pedido de 09/10/2026 (docs/admin/grades-home.md). A chamada “O que você está procurando?” navega para categorias. Não implementar busca comercial ou voz.
 - Somente DEV e PROD. Nenhuma homologação. Não alterar os projetos de referência, suas credenciais ou serviços.
 - Amazon `geekmusical-20`; Mercado Livre `geekmusical`; Shopee SubID `geekmusical`. Rastreamento exige mecanismo oficial e evidência, separada da disponibilidade do destino.
 - Segredos, bancos, sessões e backups fora do Git. Use contas próprias; nunca sobrescreva senhas existentes para testes.
