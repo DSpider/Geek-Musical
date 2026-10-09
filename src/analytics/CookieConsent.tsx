@@ -64,8 +64,8 @@ export function CookieConsent() {
               <p id="cookie-description">
                 Usamos armazenamento essencial para suas preferências. Com sua
                 autorização, cookies de Analytics podem medir visitas e uso do
-                site quando o serviço estiver habilitado. Sua busca e seu áudio
-                não entram nessas métricas.{" "}
+                site quando o serviço estiver habilitado. O conteúdo das suas
+                buscas não entra nessas métricas.{" "}
                 <a href="/politica-de-privacidade/">Política de Privacidade</a>
               </p>
             </div>

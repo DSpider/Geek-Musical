@@ -5,7 +5,7 @@ ssh=['ssh','-T','-i',str(pathlib.Path.home()/'.ssh/guiaproduto_vps_ed25519'),'-o
 sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root).decode().strip()
 assert re.fullmatch('[a-f0-9]{40}',sha)
 remote=r"""
-import pathlib,subprocess,json,hashlib,datetime,sqlite3,tarfile,os,urllib.request,re
+import pathlib,subprocess,json,hashlib,datetime,sqlite3,tarfile,os,urllib.request,re,time
 os.umask(0o077)
 base=pathlib.Path('/opt/geek-musical');state=pathlib.Path('/var/lib/geek-musical')
 prepared=json.loads((base/'prepared-release.json').read_text());assert prepared['commit']==SHA
@@ -93,18 +93,27 @@ def get(path):
  # existing protection rather than changing the allowlist for a local probe.
  fresh='gm_release_verify='+datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d%H%M%S%f')
  return run(['curl','--fail','--silent','--show-error','--max-time','45','-H','Cache-Control: no-cache','https://www.geekmusical.com.br'+path+('?' if '?' not in path else '&')+fresh])
+def verify_home(node):
+ # Nginx reload acknowledges the signal before new workers accept traffic.
+ # Poll the actual public response across the transition, bounded to 20 tries.
+ for attempt in range(20):
+  html=get('/')
+  if ('musical-hero-gradient' in html)==node and (node or 'wp-content' in html):return
+  time.sleep(1)
+ (guard/'unexpected-home.private.html').write_text(html)
+ raise RuntimeError('Public homepage did not switch to '+('Node' if node else 'WordPress'))
 try:
  apply(after)
- assert 'musical-hero-gradient' in get('/')
+ verify_home(True)
  assert json.loads(get('/api/health'))['environment']=='production'
  assert 'sitemapindex' in get('/sitemap.xml') and 'web-story-sitemap.xml' in get('/sitemap.xml')
  assert 'wp-content' in get('/contato/')
  assert 'wp-content' in get('/web-stories/as-melhores-marcas-de-cavaquinho/')
  # Exercise rollback of traffic only. The Node process and editable state remain active.
  apply(before)
- assert 'musical-hero-gradient' not in get('/') and 'wp-content' in get('/')
+ verify_home(False)
  apply(after)
- assert 'musical-hero-gradient' in get('/')
+ verify_home(True)
  assert json.loads(get('/api/health'))['ok']
  assert all(digest(pathlib.Path(p))==h for p,h in others.items())
  assert all(run(['systemctl','show','-p','MainPID','--value',s]).strip()==pid for s,pid in pids.items())

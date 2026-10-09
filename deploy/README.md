@@ -16,7 +16,7 @@ Executar `python -X utf8 deploy/cutover.py` para a primeira migração do tráfe
 
 Executar `python -X utf8 deploy/rollback.py` do checkout validado. O script valida o checksum e repõe o vhost WordPress salvo em `/root/geekmusical-security/traffic-<timestamp>/vhost-wordpress.conf`, depois testa e recarrega Nginx. O Node continua ativo e todo o estado administrativo posterior permanece em `/var/lib/geek-musical`. A reversão de arquivos ou banco exige um incidente separado; nunca restaurar automaticamente o SQLite sobre edições recentes.
 
-Antes do primeiro corte, a preparação pode trocar uma release ainda isolada. Depois do corte, o script recusa trocar um symlink existente por outro commit. Atualizações posteriores devem preparar uma nova release e selecionar explicitamente o commit aprovado, preservando o estado e guardando a release anterior. Não executar nova importação WordPress sobre edições administrativas de produção.
+Antes do primeiro corte, a preparação pode trocar uma release ainda isolada. Depois do corte, atualizações de código usam explicitamente `python -X utf8 deploy/prepare.py --upgrade`, com commit publicado, backup íntegro do SQLite e conteúdo, symlink atômico e recuperação da release anterior se o serviço falhar. O procedimento recusa mudanças nos arquivos de esquema/migração SQLite; essas exigem revisão de compatibilidade específica. Não executar nova importação WordPress sobre edições administrativas de produção.
 
 ## Legado e cache
 

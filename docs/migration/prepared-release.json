@@ -1,0 +1,15 @@
+{
+  "commit": "fcf42b790b879941e41a401fa5880c672ae38dcb",
+  "github": "https://github.com/DSpider/Geek-Musical.git",
+  "sourceArchiveSha256": "947fe91ce5d92a7d42c81a3cf5f7d69db3436219fc7271122ac736ff2afdbecf",
+  "release": "/opt/geek-musical/releases/fcf42b790b879941e41a401fa5880c672ae38dcb",
+  "runtime": "v22.23.1",
+  "health": {
+    "ok": true,
+    "site": "Geek Musical",
+    "environment": "production"
+  },
+  "state": "/var/lib/geek-musical",
+  "environment": "production",
+  "trafficCutOver": false
+}

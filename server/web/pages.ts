@@ -5,12 +5,7 @@ import InstitutionalPage from "../../src/pages/InstitutionalPage.js";
 import type { Express } from "express";
 import { pages } from "../../shared/site.js";
 import { config, type WebConfig } from "../config.js";
-import {
-  isPublicRequest,
-  noScriptContent,
-  renderHead,
-  robotsPolicy,
-} from "./seo.js";
+import { isPublicRequest, renderHead, robotsPolicy } from "./seo.js";
 import { editorialPage, removedPage } from "./blog.js";
 import type { LegacyManifest } from "../../shared/legacy.js";
 import { ContentCatalog, readSourceContent } from "../content/catalog.js";
@@ -229,13 +224,7 @@ export function mountPages(
               .replace('<div id="root"></div>', editorial.html)
               .replace("/main.tsx", "/editorial.tsx");
         html = html.replace("<!--noscript-->", "");
-      } else
-        html = html.replace(
-          "<!--noscript-->",
-          comparison
-            ? '<noscript><main><h1>Comparativo de produtos</h1><p>Ative o JavaScript para consultar características, fontes e ofertas. Nenhuma análise paga é disparada ao abrir esta página.</p><a href="/">Geek Musical</a></main></noscript>'
-            : noScriptContent(exists ? req.path : "/__not-found/"),
-        );
+      }
       if (!editorial) {
         const rendered =
           req.path === "/" && exists

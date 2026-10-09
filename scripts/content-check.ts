@@ -70,6 +70,7 @@ if (mode === "content") {
       );
       assert.ok(response.headers["x-robots-tag"].includes("noindex"));
       if (
+        url === "/" ||
         url.startsWith("/blog/") ||
         url === "/mapa-do-site/" ||
         catalog.findPost(url)

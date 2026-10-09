@@ -1,8 +1,9 @@
 """Prepare a site-scoped release fetched from the official GitHub repository."""
-import pathlib,subprocess,json,hashlib,secrets,re
+import pathlib,subprocess,json,hashlib,secrets,re,sys
 root=pathlib.Path(__file__).resolve().parents[1]
 artifacts=root/'artifacts/deploy';artifacts.mkdir(parents=True,exist_ok=True)
 repo='https://github.com/DSpider/Geek-Musical.git'
+allow_upgrade='--upgrade' in sys.argv
 ssh=['ssh','-T','-i',str(pathlib.Path.home()/'.ssh/guiaproduto_vps_ed25519'),'-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','root@195.35.18.232']
 sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root).decode().strip();assert re.fullmatch('[a-f0-9]{40}',sha)
 assert subprocess.check_output(['git','remote','get-url','origin'],cwd=root).decode().strip()==repo
@@ -18,7 +19,7 @@ envfile=artifacts/'production.private.env';envfile.write_text(environment,encodi
 p=subprocess.run(['scp','-i',str(pathlib.Path.home()/'.ssh/guiaproduto_vps_ed25519'),'-o','BatchMode=yes','-o','StrictHostKeyChecking=yes',str(envfile),'root@195.35.18.232:/root/geekmusical-security/production-incoming.env'],capture_output=True,timeout=60)
 if p.returncode:raise SystemExit('Private environment transfer failed.')
 remote=r"""
-import pathlib,subprocess,os,hashlib,shutil,json,time,urllib.request,tarfile,re
+import pathlib,subprocess,os,hashlib,shutil,json,time,urllib.request,tarfile,re,sqlite3,datetime
 os.umask(0o077)
 base=pathlib.Path('/opt/geek-musical');base.mkdir(mode=0o755,exist_ok=True);base.chmod(0o755)
 state=pathlib.Path('/var/lib/geek-musical');state.mkdir(mode=0o700,exist_ok=True)
@@ -55,6 +56,22 @@ env=os.environ.copy();env['PATH']=str(runtime/'bin')+':'+env['PATH'];env.update(
 run([str(runtime/'bin/npm'),'ci','--include=dev','--no-audit','--no-fund'],cwd=release,env=env)
 run([str(runtime/'bin/npm'),'run','build'],cwd=release,env=env)
 scan_env={**env,'CHECK_SECRETS_ENV_FILE':str(prod_env)};run([str(runtime/'bin/npm'),'run','check:secrets'],cwd=release,env=scan_env)
+current=base/'current';previous=current.resolve() if current.exists() else None
+traffic=base/'traffic-state.json';upgrade=bool(previous and previous!=release and traffic.exists())
+upgrade_guard=None
+if upgrade:
+ assert ALLOW_UPGRADE, 'Use --upgrade explicitly after traffic cutover.'
+ assert json.loads(traffic.read_text())['active']=='node'
+ # This procedure handles code-only updates. Schema changes need a separately
+ # reviewed migration and compatibility procedure rather than an implicit reset.
+ for file in (release/'server/admin').rglob('*.ts'):
+  if re.search(r'(migration|database|schema|/db\.ts$)',str(file)):
+   old=previous/file.relative_to(release)
+   assert old.exists() and hashlib.sha256(old.read_bytes()).digest()==hashlib.sha256(file.read_bytes()).digest(), 'Review SQLite migration compatibility before upgrading.'
+ upgrade_guard=pathlib.Path('/root/geekmusical-security')/('release-'+datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ'));upgrade_guard.mkdir(mode=0o700)
+ conn=sqlite3.connect(state/'admin/admin.sqlite');backup=sqlite3.connect(upgrade_guard/'admin-before.private.sqlite');conn.backup(backup);assert backup.execute('PRAGMA integrity_check').fetchone()[0]=='ok';backup.close();conn.close()
+ with tarfile.open(upgrade_guard/'editorial-state.private.tar.gz','w:gz') as archive:archive.add(state/'content',arcname='content')
+ (upgrade_guard/'previous-release.json').write_text(json.dumps({'release':str(previous),'commit':previous.name,'newCommit':SHA}))
 if not (state/'content').exists():shutil.copytree(release/'content',state/'content')
 for folder in ['admin','private','backups']:(state/folder).mkdir(mode=0o700,exist_ok=True)
 private_env={}
@@ -67,11 +84,10 @@ if subprocess.run(['id','geek-musical-app'],capture_output=True).returncode:run(
 run(['chown','-R','geek-musical-app:geek-musical-app',str(state)])
 # Files are readable for the isolated service; only state is writable.
 run(['chmod','-R','a+rX',str(release),str(runtime)])
-current=base/'current'
 switching = current.exists() and current.resolve()!=release
 if switching:
- assert not (base/'traffic-state.json').exists(), 'Use a reviewed upgrade procedure after traffic cutover.'
- current.unlink()
+ assert not traffic.exists() or upgrade
+ next_link=base/'current-next';assert not next_link.exists();next_link.symlink_to(release,target_is_directory=True);os.replace(next_link,current)
 if not current.exists():current.symlink_to(release,target_is_directory=True)
 unit='''[Unit]
 Description=Geek Musical editorial portal
@@ -98,17 +114,24 @@ TimeoutStopSec=15
 WantedBy=multi-user.target
 '''
 pathlib.Path('/etc/systemd/system/geek-musical.service').write_text(unit);run(['systemctl','daemon-reload']);run(['systemctl','enable','--now','geek-musical'])
-if switching:run(['systemctl','restart','geek-musical'])
-for attempt in range(30):
- try:
-  with urllib.request.urlopen('http://127.0.0.1:3230/api/health',timeout=2) as response:health=json.load(response)
-  if health.get('ok'):break
- except Exception:time.sleep(1)
-else:raise RuntimeError('Prepared service health failed.')
-manifest={'commit':SHA,'github':REPO,'sourceArchiveSha256':DIGEST,'release':str(release),'runtime':runtime_version,'health':health,'state':str(state),'environment':'production','trafficCutOver':False}
+try:
+ if switching:run(['systemctl','restart','geek-musical'])
+ for attempt in range(30):
+  try:
+   with urllib.request.urlopen('http://127.0.0.1:3230/api/health',timeout=2) as response:health=json.load(response)
+   if health.get('ok'):break
+  except Exception:time.sleep(1)
+ else:raise RuntimeError('Prepared service health failed.')
+ if upgrade:
+  public=run(['curl','--fail','--silent','--show-error','--max-time','30','https://www.geekmusical.com.br/api/health']);assert json.loads(public)['environment']=='production'
+except Exception:
+ if upgrade:
+  recovery=base/'current-rollback';assert not recovery.exists();recovery.symlink_to(previous,target_is_directory=True);os.replace(recovery,current);run(['systemctl','restart','geek-musical'])
+ raise
+manifest={'commit':SHA,'github':REPO,'sourceArchiveSha256':DIGEST,'release':str(release),'runtime':runtime_version,'health':health,'state':str(state),'environment':'production','trafficCutOver':traffic.exists(),'previousRelease':str(previous) if upgrade else None,'upgradeGuard':str(upgrade_guard) if upgrade else None,'adminStatePreserved':True}
 (base/'prepared-release.json').write_text(json.dumps(manifest,indent=2));print(json.dumps(manifest));log.close()
 """
-remote=re.sub(r'\bSHA\b',repr(sha),remote).replace('REPO',repr(repo)).replace('DIGEST',repr(source_digest))
+remote=re.sub(r'\bSHA\b',repr(sha),remote).replace('REPO',repr(repo)).replace('DIGEST',repr(source_digest)).replace('ALLOW_UPGRADE',repr(allow_upgrade))
 p=subprocess.run(ssh+['python3','-'],input=remote.encode(),capture_output=True,timeout=1800)
 (artifacts/'prepare-output.private.log').write_bytes(p.stdout+p.stderr)
 if p.returncode:raise SystemExit('Release preparation failed; private diagnostic saved.')

@@ -1,0 +1,14 @@
+{
+  "commit": "fcf42b790b879941e41a401fa5880c672ae38dcb",
+  "guard": "/root/geekmusical-security/traffic-20261009T035215Z",
+  "vhost": "/etc/nginx/sites-enabled/www.geekmusical.com.br.conf",
+  "beforeSha256": "b5c44ce45bbe508ec19dba9d274d824eba9018b3a824df063ab7e38e1daba29a",
+  "afterSha256": "d576ce811d99696f226ed90969e768fffbd110d32308373ab7894ac5ad302034",
+  "rollbackTrafficRehearsed": true,
+  "adminStateNotRestoredOrReset": true,
+  "otherVhostsUnchanged": true,
+  "otherServicePidsUnchanged": true,
+  "legacyStoriesAndContactVerified": true,
+  "active": "node",
+  "completedAt": "2026-10-09T03:52:33.315954+00:00"
+}
