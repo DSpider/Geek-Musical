@@ -1,0 +1,254 @@
+.musical-hero {
+  padding-top: 76px;
+  padding-bottom: 56px;
+  text-align: center;
+  position: relative;
+}
+.musical-hero > .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--primary);
+}
+.musical-hero h1 {
+  font-size: clamp(36px, 4.4vw, 55px);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+  max-width: 820px;
+  margin: 20px auto;
+}
+.musical-hero p {
+  font-size: 19px;
+  line-height: 1.65;
+  max-width: 680px;
+  margin: 0 auto 26px;
+  color: var(--muted);
+}
+.musical-hero-gradient {
+  color: #470e68;
+  background: linear-gradient(110deg, #470e68 10%, #12618c 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+[data-theme="dark"] .musical-hero-gradient {
+  background-image: linear-gradient(110deg, #d09aee 10%, #68bce8 90%);
+}
+@media (forced-colors: active) {
+  .musical-hero-gradient {
+    background: none;
+    -webkit-text-fill-color: CanvasText;
+    color: CanvasText;
+  }
+}
+.musical-hero-link,
+.musical-about > a {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 750;
+  color: var(--primary);
+}
+.musical-categories {
+  padding-top: 16px;
+  padding-bottom: 50px;
+}
+.musical-category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.musical-category {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 17px 18px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  transition:
+    border-color 0.15s,
+    color 0.15s;
+  min-height: 72px;
+  color: var(--text);
+}
+.musical-category > svg:first-child {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+.musical-category > svg:last-child {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--muted);
+}
+.musical-category:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.musical-about {
+  margin-top: 36px;
+  margin-bottom: 64px;
+  padding: 34px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: var(--surface);
+}
+.musical-about h2 {
+  font-size: 28px;
+  line-height: 1.25;
+  margin: 12px 0;
+}
+.musical-about p {
+  max-width: 780px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+.home-post-copy > p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0 0 18px;
+}
+.home-post-copy {
+  display: flex;
+  flex-direction: column;
+}
+.home-post-bottom {
+  margin-top: auto;
+}
+.brand-logo img {
+  max-width: 190px;
+}
+.site-header .brand {
+  max-width: 210px;
+}
+.footer-logo img {
+  max-width: 220px;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #12618c;
+  outline-offset: 4px;
+}
+.editorial-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.blog-body img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 1000px) {
+  .musical-category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .musical-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .musical-hero {
+    padding-top: 45px;
+    padding-bottom: 34px;
+  }
+  .musical-hero p {
+    font-size: 16px;
+  }
+  .musical-category {
+    padding: 13px 12px;
+    font-size: 13px;
+    gap: 8px;
+  }
+  .musical-about {
+    padding: 24px;
+  }
+  .site-header .header-blog-search {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .musical-category-grid {
+    grid-template-columns: 1fr;
+  }
+  .musical-hero h1 {
+    font-size: 34px;
+  }
+}
+
+:root {
+  --primary: #470e68;
+  --text: #010101;
+  --surface: #fff;
+  --border: #e6dfec;
+}
+:root[data-theme="dark"] {
+  --primary: #d09aee;
+  --text: #f3edf7;
+  --surface: #414149;
+  --border: #7b7b83;
+}
+.brand-logo {
+  object-fit: contain;
+  height: 70px;
+  width: 165px;
+}
+.footer-logo .brand-logo {
+  height: 100px;
+  width: 220px;
+}
+
+/* Gray dark theme: the original transparent logo sits directly on the header. */
+:root[data-theme="dark"] {
+  background: #34343b;
+  color: #f6f6f8;
+  --muted: #e0e0e5;
+  --surface-soft: #484851;
+  --discovery-surface: #414149;
+  --discovery-soft: #484851;
+  --line: #797982;
+}
+:root[data-theme="dark"] .site-header {
+  background: linear-gradient(180deg, #5d5d66 0%, #505059 45%, #34343b 100%);
+  border-color: transparent;
+}
+:root[data-theme="dark"] .site-header nav,
+:root[data-theme="dark"] .site-header nav a,
+:root[data-theme="dark"] .site-header .header-tag {
+  color: #f6f6f8;
+}
+:root[data-theme="dark"] .brand-logo,
+:root[data-theme="dark"] .brand img,
+:root[data-theme="dark"] .footer-logo img {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+:root[data-theme="dark"] .site-footer {
+  background: #73737b;
+  color: #f6f6f8;
+  border-radius: 20px;
+  padding-inline: 28px;
+}
+:root[data-theme="dark"] .site-footer p,
+:root[data-theme="dark"] .site-footer a,
+:root[data-theme="dark"] .site-footer button,
+:root[data-theme="dark"] .site-footer small {
+  color: #f6f6f8;
+}
+:root[data-theme="dark"] .header-blog-search {
+  background: #63636c;
+  border-color: #94949e;
+  color: #f6f6f8;
+}
+:root[data-theme="dark"] .header-blog-search button {
+  color: #f6f6f8;
+}
+:root[data-theme="dark"] .theme-control,
+:root[data-theme="dark"] .document-toc,
+:root[data-theme="dark"] .secondary-button {
+  background: #414149;
+  border-color: #73737b;
+  color: #f6f6f8;
+}

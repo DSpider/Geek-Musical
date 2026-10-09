@@ -1,0 +1,280 @@
+.product-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+.product-actions:not(.with-coupon) .store-link {
+  grid-column: 1/-1;
+}
+.product-actions .compare-toggle {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 8px;
+  border: 2px solid var(--purple);
+  background: transparent;
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: 750;
+}
+.product-actions .compare-toggle:hover,
+.product-actions .compare-toggle.selected {
+  background: var(--button-gradient);
+  border-color: transparent;
+  color: #fff;
+}
+.product-actions .compare-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+.compare-discovery {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.intelligent-compare .comparison-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin: 16px 0;
+}
+.compare-dialog.intelligent-compare[open] {
+  display: block;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-x pan-y pinch-zoom;
+  -webkit-overflow-scrolling: touch;
+  width: min(1100px, calc(100% - 24px));
+  max-width: calc(100% - 24px);
+  padding: 20px;
+}
+.intelligent-compare .dialog-heading {
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+.comparison-validity {
+  display: block;
+}
+.comparison-essential-note {
+  margin: 10px 0 14px;
+  font-size: 0.8125rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.comparison-criterion-info {
+  margin-top: 6px;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.comparison-criterion-info summary {
+  cursor: pointer;
+  min-height: 44px;
+  color: var(--muted);
+}
+.comparison-controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+}
+.comparison-controls select {
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px;
+  color: inherit;
+  background: transparent;
+}
+.comparison-controls button,
+.comparison-subsets button,
+.comparison-remove {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  min-height: 44px;
+  color: inherit;
+}
+.comparison-coverage {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+.comparison-warnings {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--purple);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 16px 0;
+  line-height: 1.6;
+}
+.comparison-warnings ul,
+.comparison-advantages ul {
+  padding-left: 20px;
+  margin: 8px 0;
+}
+.intelligent-compare .comparison-scroll {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  /* Only the dialog scrolls vertically; gestures over the table reach it. */
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  overscroll-behavior-y: auto;
+  touch-action: pan-x pan-y pinch-zoom;
+  -webkit-overflow-scrolling: touch;
+}
+.intelligent-compare .comparison-scroll thead th span {
+  display: block;
+  overflow: visible;
+}
+.intelligent-compare th,
+.intelligent-compare td {
+  vertical-align: top;
+}
+.comparison-cell-note {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.comparison-advantage {
+  font-weight: 700;
+  color: var(--purple);
+}
+.comparison-sources {
+  margin-top: 16px;
+  line-height: 1.6;
+}
+.comparison-sources ol {
+  padding-left: 24px;
+}
+.comparison-sources li {
+  margin: 10px 0;
+  overflow-wrap: anywhere;
+}
+.comparison-sources a {
+  text-decoration: underline;
+}
+.comparison-offer {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0;
+  min-width: 160px;
+}
+.comparison-offer small {
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+.comparison-share-url {
+  overflow-wrap: anywhere;
+  font-size: 0.875rem;
+  margin: 10px 0;
+}
+.comparison-subsets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.comparison-remove {
+  margin-top: 10px;
+  font-size: 0.8125rem;
+}
+.intelligent-compare .comparison-scroll:focus-visible {
+  outline: 3px solid var(--purple);
+  outline-offset: 4px;
+}
+.intelligent-compare .comparison-advantages {
+  line-height: 1.6;
+  margin-top: 16px;
+}
+.compare-loading,
+.compare-error {
+  padding: 20px 0;
+  line-height: 1.6;
+}
+@media (max-width: 430px) {
+  .compare-dialog.intelligent-compare[open] {
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+    padding: 16px 12px;
+  }
+  .intelligent-compare .comparison-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+    margin: 10px 0;
+  }
+  .intelligent-compare .comparison-controls label {
+    grid-column: 1/-1;
+    flex-wrap: wrap;
+  }
+  .intelligent-compare .comparison-controls button {
+    padding: 8px;
+    font-size: 0.8125rem;
+  }
+  .intelligent-compare .dialog-heading h2 {
+    font-size: 1.15rem;
+  }
+  .intelligent-compare .comparison-scroll[data-product-count="2"] table {
+    min-width: 0;
+  }
+  .intelligent-compare
+    .comparison-scroll[data-product-count="2"]
+    .comparison-offer {
+    min-width: 0;
+  }
+  .intelligent-compare .comparison-scroll[data-product-count="2"] .store-link {
+    white-space: normal;
+    flex-wrap: wrap;
+    padding: 8px 6px;
+  }
+  .intelligent-compare
+    .comparison-scroll[data-product-count="2"]
+    thead
+    th:first-child {
+    width: 33%;
+  }
+  .intelligent-compare .comparison-scroll th,
+  .intelligent-compare .comparison-scroll td {
+    padding: 10px 6px;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .intelligent-compare .comparison-scroll th img {
+    width: 100%;
+    max-width: 90px;
+    height: 72px;
+    margin-bottom: 8px;
+  }
+  .intelligent-compare .comparison-cell-note {
+    font-size: 0.6875rem;
+  }
+  .intelligent-compare .comparison-remove {
+    padding: 6px;
+    font-size: 0.6875rem;
+  }
+  .compare-discovery {
+    font-size: 0.8125rem;
+  }
+  .compare-bar .compare-open {
+    font-size: 0.8125rem;
+    max-width: 120px;
+  }
+  .compare-bar small {
+    white-space: normal;
+  }
+  .product-actions .compare-toggle {
+    font-size: 0.8125rem;
+  }
+}

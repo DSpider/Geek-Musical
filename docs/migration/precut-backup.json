@@ -1,0 +1,21 @@
+{
+  "guard": "/root/geekmusical-security/before-20261009T030719Z",
+  "siteRoot": "/home/geekmusical/htdocs/www.geekmusical.com.br",
+  "vhost": "/etc/nginx/sites-enabled/www.geekmusical.com.br.conf",
+  "archive": "/root/geekmusical-security/before-20261009T030719Z/wordpress-full.private.tar.gz",
+  "archiveSha256": "6f2009019d462df10fa8e4ffce253e9027407c95c73f4d3f64dd0672c50526d5",
+  "export": "/root/geekmusical-security/before-20261009T030719Z/wordpress-export.private.json",
+  "exportSha256": "1f9b1199e82735070822f0635bc0ba937f0c350ae7b5a83173beaefe9c120b47",
+  "posts": 149,
+  "publishedPosts": 149,
+  "pages": 8,
+  "stories": 106,
+  "categories": 29,
+  "attachments": 1299,
+  "memoryTables": [
+    "wp_wfls_role_counts"
+  ],
+  "offServerCopyVerified": true,
+  "archiveReadable": true,
+  "offsite": "D:\\GeekMusical-backups\\wordpress-precut-20261009T030716Z"
+}

@@ -1,0 +1,1688 @@
+[
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin.html",
+    "destination": "src/admin.html",
+    "sha256": "8e7485b4328f894aef7aba3b944b0a9a8f277701e0a30e1aa43f087216b2fc0d",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\App.tsx",
+    "destination": "src/App.tsx",
+    "sha256": "7443bea29478d5c62d11732af6470da5928419deb628007231ada4e90e183d09",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\blog.css",
+    "destination": "src/blog.css",
+    "sha256": "771be36dead093379c534846860fc2a2e52a71b59ede618baee370031a2475cc",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\blog.html",
+    "destination": "src/blog.html",
+    "sha256": "c77df47bbd40766091bd73c29a425efb5698dae600029a6de57802e68f68c136",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\comparativos.css",
+    "destination": "src/comparativos.css",
+    "sha256": "23810f2c43287935737eb0bd044d64119b538c1f7ca71bb27ff608f481fa2998",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\editorial.tsx",
+    "destination": "src/editorial.tsx",
+    "sha256": "73b706fb2464fc254ab08eaa3348949c762621ceb0ec97464c2554a9de47d19e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\index.html",
+    "destination": "src/index.html",
+    "sha256": "716e4274cc02770ea14478c89ccc4b35104bad889536eacf2d7e39fd282c3e71",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\institutional.css",
+    "destination": "src/institutional.css",
+    "sha256": "ff8b6169a18f8e5a4d92e30d9e482978252f41feb1e0de743cb458121dda1ace",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\main.tsx",
+    "destination": "src/main.tsx",
+    "sha256": "f25d6fd534a40edd8325da41c2de9fc47d3596e872e7995d92ed55f0baec0eba",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\styles.css",
+    "destination": "src/styles.css",
+    "sha256": "d3ad48dccf47237fbcdbc48da094b73ae0692c42204f44a5d361dbcd6b448080",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\theme.css",
+    "destination": "src/theme.css",
+    "sha256": "c056ee067d73c41b62c3c7d77b21ac66fce180adfbf304e7c800e0feddb3bd85",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\admin.css",
+    "destination": "src/admin/admin.css",
+    "sha256": "fce712fc0a84d2865cd02d0f13bfd71ddecef8cae01a2a3d3fcc80587a56df29",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\api.ts",
+    "destination": "src/admin/api.ts",
+    "sha256": "884043089ba803ad3f309b665bf753990ea692f6d21f3860f763ba328194cba8",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\App.tsx",
+    "destination": "src/admin/App.tsx",
+    "sha256": "611b7b169bf87c6c190997d33813efe85629c3185c8c2f6f513a940af5727620",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\components.tsx",
+    "destination": "src/admin/components.tsx",
+    "sha256": "9dd46807ba54de603b48d2ec0565e0004d899d38799f7b8240d19f06275bc867",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\context.tsx",
+    "destination": "src/admin/context.tsx",
+    "sha256": "8824622af8f5052bd3ec41e1037ca2dab44262d6ad8e4e426782c35a3aa92345",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\FieldHelp.tsx",
+    "destination": "src/admin/FieldHelp.tsx",
+    "sha256": "70bc02775775d65f3fc4d84b529f5e34468d5837c48dc34c82135f1be2d6cdfb",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\main.tsx",
+    "destination": "src/admin/main.tsx",
+    "sha256": "1fafdee67eee8843c91c541609d761391b21ebd9a8c8b12527651ea639c3a6d1",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\analytics\\client.ts",
+    "destination": "src/analytics/client.ts",
+    "sha256": "7e0589ec22bf02436ea3d8593581d5a3e54876dfc7203b05f1933cd2e304651d",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\analytics\\CookieConsent.tsx",
+    "destination": "src/analytics/CookieConsent.tsx",
+    "sha256": "2fee15783e9947a17221ac7359a2d8bda760dda41d9c7dca655213f7c0ce6a8d",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\analytics\\cookies.css",
+    "destination": "src/analytics/cookies.css",
+    "sha256": "cd493a58eceabf15c0c135ba4d39d1283c8f5e6e69cf27d05cb8651a51eb60da",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\analytics\\index.tsx",
+    "destination": "src/analytics/index.tsx",
+    "sha256": "95cc0bd5644b54f65209f8f7e958f6a54aa639a16a9668096132dfd037c0d7d9",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\AmazonOfferNotice.tsx",
+    "destination": "src/components/AmazonOfferNotice.tsx",
+    "sha256": "760bd1aacf7361d0749717129a0853ad626f908e93806abe73296706d88bf219",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\AwinStoreToggle.tsx",
+    "destination": "src/components/AwinStoreToggle.tsx",
+    "sha256": "752df792a67b7da9b6ef51daf44c8059e11199d714d76e8236adb44c4707602c",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\BrandLogo.tsx",
+    "destination": "src/components/BrandLogo.tsx",
+    "sha256": "5ef4eee0652da7455ccb437212565cacdabf655eb02f81dbd4d5a0288a39a2e0",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\CategoryArt.tsx",
+    "destination": "src/components/CategoryArt.tsx",
+    "sha256": "b073f31fe25f8b7b03e5621105b7a04589a6a704b0db1e13975e047691fcd891",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\CompareDialog.tsx",
+    "destination": "src/components/CompareDialog.tsx",
+    "sha256": "725e958f93f38fc912a57f4e97fdd4657d28c0f11fb17c6edc78340cd9a6ce2a",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\HomeBlogCards.tsx",
+    "destination": "src/components/HomeBlogCards.tsx",
+    "sha256": "afc3783cbf5aabcf7db3d625cc8f9cb88b85064364059171f5043c369d68c134",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\HomeStoreFilters.tsx",
+    "destination": "src/components/HomeStoreFilters.tsx",
+    "sha256": "9e04c2f2ddc964357925a9cc7bbda080cfebec7885ef873d9e830f89e87e5b08",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\HouseholdArt.tsx",
+    "destination": "src/components/HouseholdArt.tsx",
+    "sha256": "b6e52fa7145cfff7c866b751ddd838cc214cf6b6014d72c3314519d200f2def7",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\IntelligentCompareDialog.tsx",
+    "destination": "src/components/IntelligentCompareDialog.tsx",
+    "sha256": "4ae84ef449e7680c2230d12978f87a5fe2887de36a55ffa7504414955b115620",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\ProductCard.tsx",
+    "destination": "src/components/ProductCard.tsx",
+    "sha256": "f9910f47f3e4233b5596a59a47a231a222eb8cc4201e1f3974b0f5f8b5639145",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\SiteFooter.tsx",
+    "destination": "src/components/SiteFooter.tsx",
+    "sha256": "0c3109a1b245f0864ad63f439977bb8b4a9f470dc9d098f8b1e414a31adb96e1",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\SiteHeader.tsx",
+    "destination": "src/components/SiteHeader.tsx",
+    "sha256": "52d12a05bf2b325e1a3eaae07167a8400a0872619c78db0e86b6d9830e9372ac",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\ThemeControl.tsx",
+    "destination": "src/components/ThemeControl.tsx",
+    "sha256": "400b93ac20d0833c85436fd1d8e1d61cff41fb503ea69aca9c4616badd888521",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\hooks\\useVoice.ts",
+    "destination": "src/hooks/useVoice.ts",
+    "sha256": "2d63215fd398064ef7a8a14d576dda6923de2165b86b4875d73646a02e99bccd",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\lib\\format.ts",
+    "destination": "src/lib/format.ts",
+    "sha256": "a9e1e44dd7302b7f8bf64e9184093da4e790916b2d7dae4b3eae9e5d900161b2",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\lib\\search.ts",
+    "destination": "src/lib/search.ts",
+    "sha256": "4719f0d38c6334b9da100234843f6cc85a0cd1826f4f255c59acba6a689f83af",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\lib\\suggestions.ts",
+    "destination": "src/lib/suggestions.ts",
+    "sha256": "40330388a8abab8b2f7b5332cea7b9443115867bce3f14bc3b3bf41aef42609f",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\lib\\transcript.ts",
+    "destination": "src/lib/transcript.ts",
+    "sha256": "0ea7db3617a313b22f0fdd48600daf888300631d92f87e4fad1436ec786e9610",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\pages\\InstitutionalPage.tsx",
+    "destination": "src/pages/InstitutionalPage.tsx",
+    "sha256": "665a061ccc2db80c562958a99fa626ecc0452ecaf488374f79d43a1706581eab",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\blog\\BlogOfferAlert.tsx",
+    "destination": "src/components/blog/BlogOfferAlert.tsx",
+    "sha256": "513861e31eb7d32f5534e66b81d27a4b20e809f8e171a1a8e84b433fb6e42bfe",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\components\\blog\\BlogTemplates.tsx",
+    "destination": "src/components/blog/BlogTemplates.tsx",
+    "sha256": "92058c536d7cf7ca21fd407ed54ff70a21cbeaa44e253de1ae65dbb22f5c5f24",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Analytics.tsx",
+    "destination": "src/admin/pages/Analytics.tsx",
+    "sha256": "a75d5bc77e201203910f435e7a4189f176cf0f0dc100522899918a0ef5b86ef2",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Awin.tsx",
+    "destination": "src/admin/pages/Awin.tsx",
+    "sha256": "20feee5cd4a27c157897c929968b65a17960c84bb70c02820224cf7d3298bbbe",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Categories.tsx",
+    "destination": "src/admin/pages/Categories.tsx",
+    "sha256": "12c86ea0ed88840f0cd7c152d22e4adf50604801ba94f272a32cf37154c37371",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\comparativos-help.ts",
+    "destination": "src/admin/pages/comparativos-help.ts",
+    "sha256": "8816741245c00febd403fd8b8ab50c4e0642078daf2b222442cdd3a004fa659f",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\comparativos.css",
+    "destination": "src/admin/pages/comparativos.css",
+    "sha256": "949d99adf9c48db98055610b5469b5854bb5d4bdc9be82445a7b266ed209f265",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Comparativos.tsx",
+    "destination": "src/admin/pages/Comparativos.tsx",
+    "sha256": "0c268eb45ab45a052f305e8ce18ae7421e56f9d5b10374c7bb041f4af02f63e9",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\ComparisonLabCases.tsx",
+    "destination": "src/admin/pages/ComparisonLabCases.tsx",
+    "sha256": "4ec7789e476f3f4d4c8a0af058241c8d1037e2c3e9ace77f962a858dec0c23a6",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Configuration.tsx",
+    "destination": "src/admin/pages/Configuration.tsx",
+    "sha256": "f2504179699244f1f2e371162d7c1afad26666253255254eda2ee6caf8898776",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Core.tsx",
+    "destination": "src/admin/pages/Core.tsx",
+    "sha256": "7e9a23e86ee304058f86edd9cc18a1a8f79dcb3bd4bd1641e508dc73270460c5",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\EditorialAutomation.tsx",
+    "destination": "src/admin/pages/EditorialAutomation.tsx",
+    "sha256": "ffead0a092a720320c365b293f81749bda900ddf433313cb1bfe3d8d9e4f6435",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\HomeEditor.tsx",
+    "destination": "src/admin/pages/HomeEditor.tsx",
+    "sha256": "e8f61fcc3f4c043058fc08929e275ac5c5f9f9ae23e4abf6d5d2ce58a62834f4",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Integrations.tsx",
+    "destination": "src/admin/pages/Integrations.tsx",
+    "sha256": "0e6caa51ab63b35c76feea43b6417c4c6a724fe2dc1dcf5d401abcc5ea9699b5",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\LinkBuilding.tsx",
+    "destination": "src/admin/pages/LinkBuilding.tsx",
+    "sha256": "228f3eddfe5f8542f4576b90d0ebc288b4334554c3fe13ce82e6dd2176e1d6b1",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\MeliCatalog.tsx",
+    "destination": "src/admin/pages/MeliCatalog.tsx",
+    "sha256": "06a81bc86ba115fe2522ff9d766f279e156e8de459b6ffaa60e0b62a9f425ec4",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\PostAffiliateLinks.tsx",
+    "destination": "src/admin/pages/PostAffiliateLinks.tsx",
+    "sha256": "9337cbdbaf677937d63fe879d16f0a65072dea2956cb54c2307ffaf23891c86a",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\PostEditor.tsx",
+    "destination": "src/admin/pages/PostEditor.tsx",
+    "sha256": "98769c09f80d0878a284912ae0288a1ef7d64867eaeb97def800ac0480be17e2",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\PostFields.tsx",
+    "destination": "src/admin/pages/PostFields.tsx",
+    "sha256": "00d98462ff6623f1bf669b1891c949d12cf5bf3408f3be7626f53dcaee777502",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Posts.tsx",
+    "destination": "src/admin/pages/Posts.tsx",
+    "sha256": "6963fdbb39760579c989d4dbc750ecae1c61d39243bad4f5b66997572b51c807",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\PostsList.tsx",
+    "destination": "src/admin/pages/PostsList.tsx",
+    "sha256": "a07e08220ab1b69c69e0008aac4ac0af8896eb4b4b054fede72cb96633b23ecb",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\ProductImageEditor.tsx",
+    "destination": "src/admin/pages/ProductImageEditor.tsx",
+    "sha256": "f1c138e474d9b56b800a75883e4e806b70cce9ad9ac91334d468787e22f4eb52",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\Redirect.tsx",
+    "destination": "src/admin/pages/Redirect.tsx",
+    "sha256": "e538817821c4b1d8c03c0cefeb2d5893cf49f5d33bbb78d6a07f2b47cdc63322",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\RedirectEditor.tsx",
+    "destination": "src/admin/pages/RedirectEditor.tsx",
+    "sha256": "d112c7ff8f09889f9d10ece7a7165503f5d031e4b4b296f5de6429c7d7ecc90f",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\registry.ts",
+    "destination": "src/admin/pages/registry.ts",
+    "sha256": "2b0aa62d09b49b11f83699b1896335d66123982ff41ff163fae2c198c3c1d521",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\SearchHistory.tsx",
+    "destination": "src/admin/pages/SearchHistory.tsx",
+    "sha256": "96e7b2e0cf34b18ae1aa56650d9a3e6f4395504ad589149d9bb9d143815daa7a",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\analytics\\Connection.tsx",
+    "destination": "src/admin/pages/analytics/Connection.tsx",
+    "sha256": "815844713d04585532652036cb6a2922af7cdd2e8b4c695626c9a96d4aa2c315",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\analytics\\Details.tsx",
+    "destination": "src/admin/pages/analytics/Details.tsx",
+    "sha256": "3fb273b51f058779523b27b8aab7f8bccf0c242f6af985ed45ff060e7b38c3c4",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\analytics\\format.ts",
+    "destination": "src/admin/pages/analytics/format.ts",
+    "sha256": "7dc4bc91f1ee74c359379d9a4f6d8ec079116c1de1fdcc8cd0295c3d48f9de5e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\analytics\\Parameters.tsx",
+    "destination": "src/admin/pages/analytics/Parameters.tsx",
+    "sha256": "838280197f690809e7ae8ab5d8a918a8a91a01d7c4e2d6a6e5e44137aaf3fcd2",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\analytics\\UrlMetrics.tsx",
+    "destination": "src/admin/pages/analytics/UrlMetrics.tsx",
+    "sha256": "2d43941ebb539e30616bbba99fe5e6395d9eed08a5e46e8dff481f9aee5da5f1",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\analytics\\VisitedPages.tsx",
+    "destination": "src/admin/pages/analytics/VisitedPages.tsx",
+    "sha256": "e61d2dd60f8e82d62725b72f66fff97b89c60ed49d0cbb6e4724b8ba55fe80a6",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\src\\admin\\pages\\analytics\\WeeklyAudit.tsx",
+    "destination": "src/admin/pages/analytics/WeeklyAudit.tsx",
+    "sha256": "f6c87a7df1961ada049e7b9b76752645367e3cf59966e5859bdab48862551127",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\app.ts",
+    "destination": "server/app.ts",
+    "sha256": "09fa37e40aa6c743ac7c91862b3c43473f15a5f03a4eba841103c859db6c640a",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\config.ts",
+    "destination": "server/config.ts",
+    "sha256": "4676c4606dbcda46856b02abfa0c408e4feb65c59cd5410ddf53a2d7cb450320",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\index.ts",
+    "destination": "server/index.ts",
+    "sha256": "6ff4b8a204932c3b8e99daa7c4421141094e525d4466d425a3b8db2768f158d9",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\security.ts",
+    "destination": "server/security.ts",
+    "sha256": "327074f17c20871633744c0ca587553d8e349558cb442564c7528194022dcc80",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\auth.ts",
+    "destination": "server/admin/auth.ts",
+    "sha256": "8774c8a8a78b9edf70ff26f89c1b32905e4114c8280444c36f330d5e42426bce",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\cli.ts",
+    "destination": "server/admin/cli.ts",
+    "sha256": "9def11fac288cd47d3a63fef4bdc6d0b35d239ac71bc4dd3ee35dc43dbcc19d7",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\config.ts",
+    "destination": "server/admin/config.ts",
+    "sha256": "44ca7c23bf40a1144f8aa4d509dd8d05d2331012bb516a0231ce9a94280812c8",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\database.ts",
+    "destination": "server/admin/database.ts",
+    "sha256": "665dcc8ab22d321a6c2e705dc433d03921891d8cd6e8029ec20ce00f30ba7e7e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\errors.ts",
+    "destination": "server/admin/errors.ts",
+    "sha256": "5ade46b38b49d6455c1efb2f2cb6fee8dc93e5cbd2244a0525ad67441141c8aa",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\registry.ts",
+    "destination": "server/admin/registry.ts",
+    "sha256": "1a22d1b3b58830a0f65840ef29435e237164405147c937ff5e357cd3a2126b92",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\runtime.ts",
+    "destination": "server/admin/runtime.ts",
+    "sha256": "faa4aa92422dd9373b8f41ce98d537b7bf5ba691baab09a9ef66643c487d7515",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\settings.ts",
+    "destination": "server/admin/settings.ts",
+    "sha256": "dfa6b5d7a03646a6ba738f3fc75b0f16d24abdb341d5485006b7b869d74c5a15",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\writer-lock.ts",
+    "destination": "server/admin/writer-lock.ts",
+    "sha256": "8ec69028c01e687b8c8614e0caa313007755637162fb6b1f1931db7018d2a5de",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\ai\\functional.ts",
+    "destination": "server/ai/functional.ts",
+    "sha256": "d25e2091c9950583cc4a1fad8a3252f676203df1c7a8c18237e456fc4b698aba",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\ai\\index.ts",
+    "destination": "server/ai/index.ts",
+    "sha256": "63e6cb47c6f06f4b2824e11c55efec39ffb4d5b3e7d2c5bc952aacd44e86e2ad",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\ai\\intent.ts",
+    "destination": "server/ai/intent.ts",
+    "sha256": "827cdab4874ede47bb54a11f766b00407ef5e16b2d96a8263f5ca76ca450cac2",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\ai\\numbers.ts",
+    "destination": "server/ai/numbers.ts",
+    "sha256": "667d88b973e8b9c036da6781d0a5ae4c1f31118d203dbaf03e58dfbecc86c966",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\ai\\provider.ts",
+    "destination": "server/ai/provider.ts",
+    "sha256": "90382c8a40541539adfe4583a9adb657e8e880a22dae82d4f8b40bcd2263fcb8",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\ai\\search-terms.ts",
+    "destination": "server/ai/search-terms.ts",
+    "sha256": "bc19e725d54cf7edce44c086df5376bee97f9b84abf73f8f8f4e7e70a057a9e7",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\config.ts",
+    "destination": "server/analytics/config.ts",
+    "sha256": "1bd8c1af04810ac90dc61ab028d03600808d1fce754018588cbf1aa33cdcee69",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\errors.ts",
+    "destination": "server/analytics/errors.ts",
+    "sha256": "86ca527ec1f5a5c4fb5346c0f9aa7a266d5c291df40a816cee1bd93566711daa",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\ga4.ts",
+    "destination": "server/analytics/ga4.ts",
+    "sha256": "361003cad63abf42a4a375ba9e04a682cc5f318bfe1b471b2135afa3dcb94adf",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\google.ts",
+    "destination": "server/analytics/google.ts",
+    "sha256": "587f0a7620fa237605284dd4cbd3a900e3a09b22e089e6992043b4519d663dc9",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\gsc.ts",
+    "destination": "server/analytics/gsc.ts",
+    "sha256": "cac0c821d532f279242af3d2cf95eada2b093ba8ec3b484bbc8608a1b02af8a3",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\reports.ts",
+    "destination": "server/analytics/reports.ts",
+    "sha256": "b7ab3011c291405bd4df0f0c51b346fb4299649719998b6953f61873cdd83aac",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\repository.ts",
+    "destination": "server/analytics/repository.ts",
+    "sha256": "6184b044070ae44b1936389866c4a0f1345208d878b9e24ed16b982c2e3aef92",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\service.ts",
+    "destination": "server/analytics/service.ts",
+    "sha256": "41fab24448a47330a7b5fa931228f73489c8f9b8876a806a509056e7ade5e190",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\sync.ts",
+    "destination": "server/analytics/sync.ts",
+    "sha256": "2e9599060acacb2b8577947eea326bdb556f7bc5ea8c060dbbb248df48027eca",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\analytics\\weekly-audit.ts",
+    "destination": "server/analytics/weekly-audit.ts",
+    "sha256": "d56aac992b1c852dcb226438bac95017e0fabf1c61f0f2f5c3ac082c3e119206",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\cli.ts",
+    "destination": "server/awin/cli.ts",
+    "sha256": "4c086cdd694054c4eca3885906fb35af690fcccdd8c2e5328848a9b50d4df290",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\client.ts",
+    "destination": "server/awin/client.ts",
+    "sha256": "075a95482d9cc6d775ebd4fe72f02381a3e66a8589d6ca4f585d8adfa2187f82",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\config.ts",
+    "destination": "server/awin/config.ts",
+    "sha256": "c509c85c8e50e343f6f6fe9c6181d081d46806fc3274603049e875275c123927",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\errors.ts",
+    "destination": "server/awin/errors.ts",
+    "sha256": "09e482b65c694cc346ae66e43b21658429a748f3d49c5391f1f09c7649bf2e01",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\http.ts",
+    "destination": "server/awin/http.ts",
+    "sha256": "46b7de295c9055c9072a96a1fd860c5d23fa5d0e7d4d8cb13b58916f9faed947",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\images.ts",
+    "destination": "server/awin/images.ts",
+    "sha256": "f2c5419a5c62b7d00e6b1d88dd429d917a6abc08c616a8025ed817253e7114fc",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\normalize.ts",
+    "destination": "server/awin/normalize.ts",
+    "sha256": "b249975b8b25db78118d502df530724582e3f122159acfd03c68f3fdbfca7614",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\parsers.ts",
+    "destination": "server/awin/parsers.ts",
+    "sha256": "7e15ea595a72d8c7404bf51b8f3ac76c7abd8950a89332dcb9e011065895054b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\repository.ts",
+    "destination": "server/awin/repository.ts",
+    "sha256": "80ae22f8f778dcdc81669d825efb534760ce7af4977f788a8e584b889d8aff5e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\service.ts",
+    "destination": "server/awin/service.ts",
+    "sha256": "f44bff531264c381fdf532995a0e0df143a4f830309410f7d1338a11703215f5",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\awin\\urls.ts",
+    "destination": "server/awin/urls.ts",
+    "sha256": "fd8e4321bf2db3b5d653b4d846f9639b7b9c3022419c6ce98adaa54381c0e8d2",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\engine.ts",
+    "destination": "server/comparativos/engine.ts",
+    "sha256": "62850314f7e4de2fa39109a14b8d28d325292960fc8e6837f86e17920ed7842c",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\facts.ts",
+    "destination": "server/comparativos/facts.ts",
+    "sha256": "fd2aa44b503dd97912f08a43045b6662b4f0171040cf365a93bfebe5b3dabacf",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\lab.ts",
+    "destination": "server/comparativos/lab.ts",
+    "sha256": "1c4f712ad850c1d3eb1ba044d7905b27d5e340c5dd18416b7d88130c21b1b75b",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\ops.ts",
+    "destination": "server/comparativos/ops.ts",
+    "sha256": "80499f5a8fc20f4d5bc960bf9ba392cf710d27f7c176130d0fa68c6734f8abbc",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\providers.ts",
+    "destination": "server/comparativos/providers.ts",
+    "sha256": "30f5f2cdfaa515e8dbb6c42cc2b4e6cfc411fde759e6de445476a68d1d6dfaea",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\refrigerator-facts.ts",
+    "destination": "server/comparativos/refrigerator-facts.ts",
+    "sha256": "a49e8a6aee167279bfae0ee94be41cd2d6136373203f1b241a1cbf308be0fef2",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\refrigerators.ts",
+    "destination": "server/comparativos/refrigerators.ts",
+    "sha256": "83cdb6e44731a468ea5590f5a815db7e6c9311c2fdf426ee99503cb2cd922821",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\repository.ts",
+    "destination": "server/comparativos/repository.ts",
+    "sha256": "ff88837d362f9aafb2a9194cf0441611eb2555a1e0c835d60a01010c17db059e",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\seeds.ts",
+    "destination": "server/comparativos/seeds.ts",
+    "sha256": "159c21e385711395e9a8e17396fc66ad4394029cd732f29c86b4bac7e92161d5",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\service.ts",
+    "destination": "server/comparativos/service.ts",
+    "sha256": "c4a7cdacbd5e9990a295a6d8cb1d02177ce717fea6e34a199e4981eb469dba87",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\specifications.ts",
+    "destination": "server/comparativos/specifications.ts",
+    "sha256": "1724f62c7aa497f27b90f0c6af7e0584cbe3679cef472dd5322de80c83f1f2a2",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\comparativos\\sqlite.ts",
+    "destination": "server/comparativos/sqlite.ts",
+    "sha256": "d3c93458314f178cfe47ea1fe77de8a48c68c591764d9ee3993fcd94393be245",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\admin-service.ts",
+    "destination": "server/content/admin-service.ts",
+    "sha256": "b30c1b0349264847efbd70c63f2c8d203170bb1526099b960b10f1d1b8b2df3e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\affiliate-destination.ts",
+    "destination": "server/content/affiliate-destination.ts",
+    "sha256": "1d24bf881b5f38b98a6f5159329addb8e636816c2060d5076b5f0f6103eab172",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\affiliate.ts",
+    "destination": "server/content/affiliate.ts",
+    "sha256": "f11a0b43bbca3807faf44dfed9bdf571bcc3e56d327d65786c2bdcc8a00ce15b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\build.ts",
+    "destination": "server/content/build.ts",
+    "sha256": "cf0ddc74754a2811562b36c83ffe8d05587f19cba73e3d779fa5790633c60fce",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\catalog.ts",
+    "destination": "server/content/catalog.ts",
+    "sha256": "78c34ea865729dccff204b3a1efa5c0e2dadb57700bfd730a2a44ea976093444",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\discovery.ts",
+    "destination": "server/content/discovery.ts",
+    "sha256": "00218f38e77a5e3ddd324d2a61fb3b2123856418ad7165ba748acf388292a06e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\editorial-policy.ts",
+    "destination": "server/content/editorial-policy.ts",
+    "sha256": "54b9be78ddd50c59335f66361a08ee89846dc9ec11b565c65eed20840f3bfbb8",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\environment.ts",
+    "destination": "server/content/environment.ts",
+    "sha256": "431cf9c9f8b8851096e56a0665da964bee6c19f220770f20f2c9184de8d40704",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\home-layout-compat.ts",
+    "destination": "server/content/home-layout-compat.ts",
+    "sha256": "880b0e53ca309a5348499dacf4f42aba78938afb7e9f110d9b390eb88fcd0c24",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\home-layout-rollback.ts",
+    "destination": "server/content/home-layout-rollback.ts",
+    "sha256": "b9f6a055b09c0e7b54daa7767e2771a87c86006b11a56fe33a671ce91104794d",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\home-popularity.ts",
+    "destination": "server/content/home-popularity.ts",
+    "sha256": "90f5cf0ca04e4c523df82499fbcd60a94a54fe55abbcccb7e94b889e9c94c5a0",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\legacy.ts",
+    "destination": "server/content/legacy.ts",
+    "sha256": "2eb674eca414d59f4240ec9b1657cc17263f53e38f8e9e6a4cba6e3bf89b8bae",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\markdown.ts",
+    "destination": "server/content/markdown.ts",
+    "sha256": "00a556e9c705cd9a543792d7c7e27afddb36d0936be698c4500b8bdfa901e14d",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\mercado-livre.ts",
+    "destination": "server/content/mercado-livre.ts",
+    "sha256": "ade1cb5b0eaeb93ce1cbd68c78af2a534c17eec6ca673c92874169d76068e61c",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\offer-checks.ts",
+    "destination": "server/content/offer-checks.ts",
+    "sha256": "6034dffe1d2a8f5b778a6e783c674c6b396835ca77e65ffbfea0c2053f9491d8",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\product-images.ts",
+    "destination": "server/content/product-images.ts",
+    "sha256": "af670836016b098e68a848d7dd0cb94fc0864214c7e45cde4caf7e5b03fb57fc",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\repository.ts",
+    "destination": "server/content/repository.ts",
+    "sha256": "8411fd4326c7f4342f6fa53e385ba5030580225d2ba4b8e96f763187bfc91ad7",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\runtime.ts",
+    "destination": "server/content/runtime.ts",
+    "sha256": "78cafe538357c8fa4cf24de6fcc0f0280059aeb0b8aba44395c7d2dc262531eb",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\content\\schema.ts",
+    "destination": "server/content/schema.ts",
+    "sha256": "bfc0cf2b67cdf55db269a115763bac52b80b51ba0da9693327e7fbcfd1916fe5",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\evaluation.ts",
+    "destination": "server/editorial/evaluation.ts",
+    "sha256": "04c5251ce38cbd1a84d686f116ee2b8b5747a53a93f753a5b5f1abeca922b005",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\fixture.ts",
+    "destination": "server/editorial/fixture.ts",
+    "sha256": "ee78bb619e464310e8886e2716be50c9b078603e4cc6903edd95472e9803bc4f",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\planning.ts",
+    "destination": "server/editorial/planning.ts",
+    "sha256": "d4502f9f94af19a38794f465c68685cd23fcb498564c6baff15900722ce4db18",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\prompt.ts",
+    "destination": "server/editorial/prompt.ts",
+    "sha256": "38f2b0fc582eb3e64dba381df072e8cc4c9c55ec6921fa974741fc1263bad135",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\publication.ts",
+    "destination": "server/editorial/publication.ts",
+    "sha256": "e3b11b36159222f5ecb7c96c1d178994aa5cea6d22659fd8ae518bd984de90f6",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\quality.ts",
+    "destination": "server/editorial/quality.ts",
+    "sha256": "9bdd8cf8ed84c944cc741356de031c8215acb88ff0c1a8ab2456e7afa4fc34a3",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\repository.ts",
+    "destination": "server/editorial/repository.ts",
+    "sha256": "90dadf23c18584fbeade530be2e285cd04adc455de4ef5174c81e51726b43149",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\schedule.ts",
+    "destination": "server/editorial/schedule.ts",
+    "sha256": "765539413fedc17d568c751ca01cc3854b6a8293f80e02fc95c787f74b37981c",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\service.ts",
+    "destination": "server/editorial/service.ts",
+    "sha256": "dea34fb58202394f2a2ea025975c5a87add9e78f9a9fa9eb3f0e195ca3fc5d3f",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\trends.ts",
+    "destination": "server/editorial/trends.ts",
+    "sha256": "fcae9e5fba1bf58f64962e22c251a4839a2754108b222eb2c5c5396d02ba42b3",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\editorial\\writer.ts",
+    "destination": "server/editorial/writer.ts",
+    "sha256": "b7087a1f233b28c51a4ac56ba96330c11f3a6afc797ed14d7de756b9343c2eaa",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\integrations\\service.ts",
+    "destination": "server/integrations/service.ts",
+    "sha256": "f10b753df1eece8b848d66b8c4dbb84af93ed0e7878193f5162ea378c8fd3be2",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\lib\\budget.ts",
+    "destination": "server/lib/budget.ts",
+    "sha256": "844979eac9b205e05dfe0c21f4e0f75fe8aa5330ceeedb3e3a6e76bd8da92483",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\lib\\cache.ts",
+    "destination": "server/lib/cache.ts",
+    "sha256": "b0bef58808eec057a2d6a898765b068ca82dde1f9d41fd942a09dfc00e874146",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\lib\\deadline.ts",
+    "destination": "server/lib/deadline.ts",
+    "sha256": "076e7b2cd95546c1c0705e187db14d0d43105986d72f1f2fa24c42ad4eb1127f",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\lib\\http.ts",
+    "destination": "server/lib/http.ts",
+    "sha256": "d8a3523860f2e38cc89f2126a55dd9a22adb7397f41361792edd77783fe8dd5e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\lib\\monthly-budget.ts",
+    "destination": "server/lib/monthly-budget.ts",
+    "sha256": "5bb2ea84e16a1119ba0d378c5511407308101437fce7b435a5d0349035e438d0",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\lib\\remote-image.ts",
+    "destination": "server/lib/remote-image.ts",
+    "sha256": "f7e8d5c60689a028845e95c6aaba9bcdda15ffce04dde53d2107a4b093706893",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\mercado-livre\\api.ts",
+    "destination": "server/mercado-livre/api.ts",
+    "sha256": "e6e2306f17ab0bc4c57f874154b3f25e560d61f3cde41df52a4919fac1cba008",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\mercado-livre\\migration.ts",
+    "destination": "server/mercado-livre/migration.ts",
+    "sha256": "ec1673a508056a8bbba2407b50fc16367e1724d4dd5760515df85c49f3baba90",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\mercado-livre\\protocol.ts",
+    "destination": "server/mercado-livre/protocol.ts",
+    "sha256": "0c62fda0b691e62f89ad7f037680cbe8ebad35bfaba920b11191b8d73074dcb4",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\mercado-livre\\service.ts",
+    "destination": "server/mercado-livre/service.ts",
+    "sha256": "62f74bbd2cc5273b5c58f385cc22dfabe7114a6ed22f02bced69b2d97b25f4a5",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\products\\catalog.ts",
+    "destination": "server/products/catalog.ts",
+    "sha256": "2da79b828b15bf5c3683c6c62c00fc32ac31f89ea50c5b544a0afdfed0c1565d",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\products\\normalize.ts",
+    "destination": "server/products/normalize.ts",
+    "sha256": "40872b7c538ae420fc7ddd1b5e8c36695b237980ed83d95d55295d6125a52de9",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\products\\ranking.ts",
+    "destination": "server/products/ranking.ts",
+    "sha256": "0c5d04fa293acd1acb59b386d73560c3106c3dfd2d8ee9bee141921e806fa00d",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\marketplace.ts",
+    "destination": "server/providers/marketplace.ts",
+    "sha256": "76ca3c61b5a759014a51b92a07b9fc83c9906a7cc344c5f1d0243102531c444f",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\search\\fixtures.ts",
+    "destination": "server/search/fixtures.ts",
+    "sha256": "62932c3ac1b1099c85bbd848f71e662c465b8abaf7ad1348c29ba0af758002c9",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\search\\history.ts",
+    "destination": "server/search/history.ts",
+    "sha256": "d5913c5e2b68b2e25c7d10089170fdd9089de1ade6cc3b283da4cedf8591e658",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\search\\service.ts",
+    "destination": "server/search/service.ts",
+    "sha256": "0adc31cf861b955d78c940754366f2f581a6f035684d11c602e3c07252589fb7",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\blog-search.tsx",
+    "destination": "server/web/blog-search.tsx",
+    "sha256": "2fb049deece161997cb66434b74e3f4d94adf83b8220b53ce2b6e73a46bff079",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\blog.tsx",
+    "destination": "server/web/blog.tsx",
+    "sha256": "17bd7691057ad111da42b64356bf084d5bf2758b33f1c15d9c6071f66ff80d74",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\escape.ts",
+    "destination": "server/web/escape.ts",
+    "sha256": "40d3cf589fbabcdb78eea528990908490513be70cef62743c112ad3b12876835",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\inventory.ts",
+    "destination": "server/web/inventory.ts",
+    "sha256": "64c36880f3555bf6dc2d5c625d8bd967ec0cc1d3237f6fd901226e0d0908432e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\manifest.ts",
+    "destination": "server/web/manifest.ts",
+    "sha256": "facb3f062ef8b7ce3b391f15ffbc317af04aa69960ea68708d8babba86a3bf76",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\pages.ts",
+    "destination": "server/web/pages.ts",
+    "sha256": "126a3de11f5ab6f1e0adb2b67ab4bf8158bd46828a5af00bb1c6f71b8b58e59c",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\seo.ts",
+    "destination": "server/web/seo.ts",
+    "sha256": "f44d06999ee5a3f9e9c746a13a238625114df01d3ddcec01f844700dc29db165",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\web\\sitemaps.ts",
+    "destination": "server/web/sitemaps.ts",
+    "sha256": "4606a21b88540c8d9c317f849a66176c35a461b8bd7371414e91321fa852961b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\amazon\\index.ts",
+    "destination": "server/providers/amazon/index.ts",
+    "sha256": "87da74af579fbbfa82367e003aab8e90299cde98c7da542385d989b311ba611e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\amazon\\queue.ts",
+    "destination": "server/providers/amazon/queue.ts",
+    "sha256": "017bf0a228b63715de508bcd5a4e1b5a07cec03f2216a9ce65c52098ef352616",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\awin\\index.ts",
+    "destination": "server/providers/awin/index.ts",
+    "sha256": "dfde69c96f50e44314683086e44c62e7bb7cba91411785b31f0d73be2dba400a",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\jev\\client.ts",
+    "destination": "server/providers/jev/client.ts",
+    "sha256": "94804e617fc5a0d309a89915cd93d101e6550c53881f3f52bec51c477aff9d18",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\jev\\index.ts",
+    "destination": "server/providers/jev/index.ts",
+    "sha256": "451c6d8bbac368118f8530d398bc39633459874fc693a7263c3a6d71c660864b",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\magalu\\index.ts",
+    "destination": "server/providers/magalu/index.ts",
+    "sha256": "a75dbae0e8d6262c80d61839835dfe841169112c3dbcf3823d1f3ceb8c46d373",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\mercado-livre\\index.ts",
+    "destination": "server/providers/mercado-livre/index.ts",
+    "sha256": "ec70a5959ba1d16ffce7b361369dcc115ea37370b0e8136b7351e0ac8f962512",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\openai\\structured.ts",
+    "destination": "server/providers/openai/structured.ts",
+    "sha256": "325e9183cb90ba83d9536a7e516b68ca9e23a04d4498de8beef15635c6bd8b83",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\shopee\\index.ts",
+    "destination": "server/providers/shopee/index.ts",
+    "sha256": "b6ab16998c08329fa14a5c52e429163febf3d5b601ba703705f8cb35ec83ff70",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\transcription\\duration.ts",
+    "destination": "server/providers/transcription/duration.ts",
+    "sha256": "3a9cff803f13f3c3995efe7f17d111aa2401076d02678b5102ba3794bddd0304",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\providers\\transcription\\index.ts",
+    "destination": "server/providers/transcription/index.ts",
+    "sha256": "d32d3d6dd1571f4cd281556a9a5773cc3c4a49449b75770e2c77dfc2c15fb913",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\migrations\\001-core.ts",
+    "destination": "server/admin/migrations/001-core.ts",
+    "sha256": "4d1f090eaf41bcdbb938d2fad86156a354615d5cde8b1180ba5d779345dbb8b0",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\ai.ts",
+    "destination": "server/admin/plugins/ai.ts",
+    "sha256": "24fd7d17125c0c718dc30c03b4fbc969141dfc803cdc01efc94f64d633f4985c",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\categories.ts",
+    "destination": "server/admin/plugins/categories.ts",
+    "sha256": "63700a9f99d9263cc3567a5bfa2e5dc090db9a4fa768fc8d1245a921a8232506",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\home.ts",
+    "destination": "server/admin/plugins/home.ts",
+    "sha256": "31f0357355b3a660dd96e90157d0332a72eff129353fc284aca7da79bfa98077",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\index.ts",
+    "destination": "server/admin/plugins/index.ts",
+    "sha256": "71330013bdd651c94d11c470fb9c53e2d316eecbb10ecbfa735d1c9ea54587d5",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\integrations.ts",
+    "destination": "server/admin/plugins/integrations.ts",
+    "sha256": "19628b45f09d97383431ae9cb0353119a64437894078734eff8fef9057983a25",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\link-building.ts",
+    "destination": "server/admin/plugins/link-building.ts",
+    "sha256": "42f8a1bf83c0a70d9e95095b34ff30aceb0bad3f51e00662199bad184a0667e2",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\posts.ts",
+    "destination": "server/admin/plugins/posts.ts",
+    "sha256": "da21c41db5036b58427e49b239536cc4a9d8b6f9fdbbb748fbb54b83c4704db5",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\settings-api.ts",
+    "destination": "server/admin/plugins/settings-api.ts",
+    "sha256": "5fb5c41db64de2a1c930c1851720ed088f26cb31e5586f43622f4553b085472a",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\settings.ts",
+    "destination": "server/admin/plugins/settings.ts",
+    "sha256": "5efa470434c88910b6e1e8b867e8a99c1b4430168d842711de99debf20506960",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\themes.ts",
+    "destination": "server/admin/plugins/themes.ts",
+    "sha256": "bde5dd18d7395fbc2c9b0d314dcc22230f7837f1cb3b1ae9133a712428fd01ad",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\analytics\\index.ts",
+    "destination": "server/admin/plugins/analytics/index.ts",
+    "sha256": "88049458b5d97216fe27178f867501ca97c639fd05f1aaee4446d6a2bb51008a",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\analytics\\migration.ts",
+    "destination": "server/admin/plugins/analytics/migration.ts",
+    "sha256": "66eec9f9d1de6d21157cdf6cc20bc0b22f813acedeff6e975865371311a1375b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\awin\\index.ts",
+    "destination": "server/admin/plugins/awin/index.ts",
+    "sha256": "3731cd29c48474af5535f2b2b2bf2b356dfeaa8f24d6433071d42d6abe7b0640",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\awin\\migration.ts",
+    "destination": "server/admin/plugins/awin/migration.ts",
+    "sha256": "f273fa08c8b9b3629ac113c9e595fa29392b1708fc16de984273b5af0811e24f",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\comparativos\\index.ts",
+    "destination": "server/admin/plugins/comparativos/index.ts",
+    "sha256": "a3a153dd43e0aa9b42b45001cdab70f3f8e981e7ba0e8e9b5cb579fce439bf7e",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\comparativos\\migration.ts",
+    "destination": "server/admin/plugins/comparativos/migration.ts",
+    "sha256": "e84d7b675f01a907bb9f973f1da64fbf5a62b0e25b902e55862e966c7edce5d8",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\editorial\\index.ts",
+    "destination": "server/admin/plugins/editorial/index.ts",
+    "sha256": "5876ee7b212981b138c7368335e350be2551c83152da94d14a3de3908508bdff",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\editorial\\migration.ts",
+    "destination": "server/admin/plugins/editorial/migration.ts",
+    "sha256": "fe19ede4ea3073a7d77e7c8a79d8cdc68a1b62de0c43f7999ee25be6ba3d8350",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\redirect\\index.ts",
+    "destination": "server/admin/plugins/redirect/index.ts",
+    "sha256": "2e770791862ef24bdfd6a2aa1fe70be4e035a6edf7bf287485644c78059df896",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\redirect\\repository.ts",
+    "destination": "server/admin/plugins/redirect/repository.ts",
+    "sha256": "8bb5ab2a66de9b2136832f32e12d3343463490cf90b0282c8af00817bf579e96",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\redirect\\service.ts",
+    "destination": "server/admin/plugins/redirect/service.ts",
+    "sha256": "5dce51cbdc8ddedee2c4a8bf57694d1d310da0900113ed14a61187bc1dda40b6",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\redirect\\validation.ts",
+    "destination": "server/admin/plugins/redirect/validation.ts",
+    "sha256": "d0e22ec430f5e2fa76b4068e8f43bd40ef4e5dc27a12678e018d43f48c9bc0d2",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\search-history\\index.ts",
+    "destination": "server/admin/plugins/search-history/index.ts",
+    "sha256": "3d0d046809f8edddfd62d8a5ca862be977fac254ca6eb4beee34cdc6814bb38e",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\search-history\\migration.ts",
+    "destination": "server/admin/plugins/search-history/migration.ts",
+    "sha256": "23ae69dfe7307874d6a9bf72870d1fc74019b56b9a80e64cabfa92b364b1d53a",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\server\\admin\\plugins\\redirect\\migrations\\001-redirect.ts",
+    "destination": "server/admin/plugins/redirect/migrations/001-redirect.ts",
+    "sha256": "525df9a74676b3aad3f27d4c3d30fd039c3768b93fa150d8c0574724b19ab10b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\admin.ts",
+    "destination": "shared/admin.ts",
+    "sha256": "3acc3e666948643ab3babc5eccd0555c09ff3d7de0d6d06952f1e8ab01d75b19",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\affiliate.ts",
+    "destination": "shared/affiliate.ts",
+    "sha256": "2abd31245d2e2f66af3aea32dc3999c5236d03c72ab08ee39eb53101d1295ef9",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\analytics.ts",
+    "destination": "shared/analytics.ts",
+    "sha256": "ab28e3f3b4917e7645742cc7dd5e83f66dede82a49096061f8405039697bf63b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\awin.ts",
+    "destination": "shared/awin.ts",
+    "sha256": "f7af0af16907fa96d30a198952ff09cac3ac4a3cafc3d0c41b78b91de8577d8a",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\comparativos.ts",
+    "destination": "shared/comparativos.ts",
+    "sha256": "e1d415840eaf05440f9cb5eafbb2e8f1201cf0062bb1c9c4dc42063c500aecfe",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\content.ts",
+    "destination": "shared/content.ts",
+    "sha256": "3ca4807b70572d07491218efb20fa154a3e3ef49bb002dea365c5433784536cc",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\editorialAutomation.ts",
+    "destination": "shared/editorialAutomation.ts",
+    "sha256": "f30592d1c592f2296209737f7f47fcb64375f7087af0c8c45ef9058b4cac848e",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\editorialPublication.ts",
+    "destination": "shared/editorialPublication.ts",
+    "sha256": "b623858a77bfc51d4c599dea5ea8f5cc43d5faea1fa124937fb37f961e9b2733",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\home-editor.ts",
+    "destination": "shared/home-editor.ts",
+    "sha256": "d72be2b75f981eb4315ae1173ce07d04cbbd2bcef968d5c2cdc96d46115c43b4",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\home-ideas.ts",
+    "destination": "shared/home-ideas.ts",
+    "sha256": "289700479d2cdc1d1777b55964edabc6557b827f44af1944f3a0f54576957aa4",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\home.ts",
+    "destination": "shared/home.ts",
+    "sha256": "12591db83b744788651c07b606b0c5e411f9414a14fca908db84341b32c5f7f2",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\institutional.ts",
+    "destination": "shared/institutional.ts",
+    "sha256": "36ab802189555e159e3f0c40c42a11f8e1d1a17d84a52dd969f2895780ca24d4",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\integrations.ts",
+    "destination": "shared/integrations.ts",
+    "sha256": "0908e8b698525c21050bb58af50197fad858349de1e1ba88c94e7eecd3f5a5f3",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\legacy.ts",
+    "destination": "shared/legacy.ts",
+    "sha256": "386198b7c7a230195e172f848470e02251b3bb2eaaed09c10b734f23e65cd342",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\product-image.ts",
+    "destination": "shared/product-image.ts",
+    "sha256": "781c95a156b582fa697b9f11c1ccbb7ee659dea77a9bd87ca04350599e116764",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\redirect.ts",
+    "destination": "shared/redirect.ts",
+    "sha256": "bff813766629890649b7ebe948cee21d485548c19d3ad79e01dcb53b19695618",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\searchHistory.ts",
+    "destination": "shared/searchHistory.ts",
+    "sha256": "cc007f3141a3c982803aed5fad03152c46e19fc4e48efb7d3cd842af6c309631",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\searchInput.ts",
+    "destination": "shared/searchInput.ts",
+    "sha256": "53e10a2573685eb5205891f1e5912ab73c84464aa98a40c81cc55718c68a78c9",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\seo-audit.ts",
+    "destination": "shared/seo-audit.ts",
+    "sha256": "bffbe2f636bc5696a0af865eec37f5e755758b34d8043605172eb960a0c544f7",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\site.ts",
+    "destination": "shared/site.ts",
+    "sha256": "d8f516b351b239a4fccd12023d98c699ddadb1b1622d57b336534e8129c337ac",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\shared\\types.ts",
+    "destination": "shared/types.ts",
+    "sha256": "e5f9372f97dcfa2440929dfa6aeddfe783fbb34d4b4a6b26c1ea1072be15d053",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\config\\seo-weekly.json",
+    "destination": "config/seo-weekly.json",
+    "sha256": "2c6ba6e961e2f3624039a5f79c30d26c2e121e235f8fe91e6dd2d52d94ab218b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\package.json",
+    "destination": "package.json",
+    "sha256": "41c767bf47978c6009ee2d8b5a9ebe069671b8ce76ed6b8c8ce09e988de6e113",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\package-lock.json",
+    "destination": "package-lock.json",
+    "sha256": "882359ce79d62ccf6aaa9d2ce8a8171fa12ef41e1d892593185c6046d873439e",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tsconfig.json",
+    "destination": "tsconfig.json",
+    "sha256": "fd5721d3d38f472ecf374381c46430ef91c0875550cd5cd99ffd68cdeb66a640",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tsconfig.server.json",
+    "destination": "tsconfig.server.json",
+    "sha256": "9a6992d1335f949231ebd822b5103e9fd286742ff52b2845a2829c12b446a72a",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\vite.config.ts",
+    "destination": "vite.config.ts",
+    "sha256": "1b6b37de803013932dbd0e38f08577a2609fa3a691d382ba097921f6df29bcfa",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\vitest.config.ts",
+    "destination": "vitest.config.ts",
+    "sha256": "8214474f48c0cc420015dc6efa0bb588e59d09702e9f45e4b07c16387d24c9fe",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\.gitattributes",
+    "destination": ".gitattributes",
+    "sha256": "dffcca78a8d7616ab29da0a584c8ffe6ab9f8cb969e7ab492dd41b61767aa598",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\build-content.ts",
+    "destination": "scripts/build-content.ts",
+    "sha256": "2e94108963a81ca91e1ce114899daf3c01709b36aa08e3ff2eb9c3f7002a22d1",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\content-check.ts",
+    "destination": "scripts/content-check.ts",
+    "sha256": "35f3b3ff5b113d2cad19a11c5dfb8d1654c44e5cd46e50df36c4173b4188c55c",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\content-new.ts",
+    "destination": "scripts/content-new.ts",
+    "sha256": "ea889c119c0d37422acb8e69cb3a9e4fea495027c9f01746b8b4f93c89d58113",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\check-secrets.ts",
+    "destination": "scripts/check-secrets.ts",
+    "sha256": "99dd1a0af71acb339c49927dd3234f01ce8b3d3d51f7736ba04f86675e41223b",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\check-git-secrets.cjs",
+    "destination": "scripts/check-git-secrets.cjs",
+    "sha256": "6673fb0ae401a62644da4ac2050e4a640aa2eeffd668feabed96d51631b8e6c9",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\wordpress-convert.ts",
+    "destination": "scripts/wordpress-convert.ts",
+    "sha256": "bdfc7a0b31d2d6f0a0141eaa6bc08205a488e33e0573220eff6a591a0e465420",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\wordpress-export.php",
+    "destination": "scripts/wordpress-export.php",
+    "sha256": "760920366b07a0c182986eec191382411deb1c3aa2d801017eea07245972d5e6",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\migrate-wordpress.ts",
+    "destination": "scripts/migrate-wordpress.ts",
+    "sha256": "90dc9ec667f328f98d1ea9cdc08475bb6d3ba72c43c1247edf8bfe71489a3e07",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\verify-preservation.ts",
+    "destination": "scripts/verify-preservation.ts",
+    "sha256": "73cc50e9eb899ecc0648a9819ea1adeb035d829be2876fcbebaffd43f7b460d8",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\blog-link-audit.ts",
+    "destination": "scripts/blog-link-audit.ts",
+    "sha256": "e82fa70a36293cfd60c0f5c95b63ace906a1b9e5912a4d36f3bf6f2223e22b19",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\bootstrap-admin.ts",
+    "destination": "scripts/bootstrap-admin.ts",
+    "sha256": "60a2471e687a96d5fe9835d6ff9869778a7d6f34436b7b98647279eea6a79805",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\start-local.ps1",
+    "destination": "scripts/start-local.ps1",
+    "sha256": "fe8edf6c4a5ad650d50f1f89786a73ac7048a9650561c3aad0f4ab50f6829e49",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\generate-policies.ts",
+    "destination": "scripts/generate-policies.ts",
+    "sha256": "11c16d2669f3fcb06c40b173f360a448ad42da2a385ee0d4e4a5bafcff146b72",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\source-audit.py",
+    "destination": "scripts/source-audit.py",
+    "sha256": "380b9a9a7e0b6d95cb4f47cfe84054c5b4e5093e23a67bcab6cec1dea8df432f",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\fonts\\fonts.css",
+    "destination": "public/fonts/fonts.css",
+    "sha256": "b6aa828b36ac70da5751bb8a7d73678159fafce04846178ae829a2ea8d89872d",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\fonts\\manrope-latin.woff2",
+    "destination": "public/fonts/manrope-latin.woff2",
+    "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\brands\\amazon-available.png",
+    "destination": "public/brands/amazon-available.png",
+    "sha256": "8818bc18bdaa577e2bf8a966c446773201672d60106ae1f7976c0f23bb3e9d05",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\brands\\magalu.png",
+    "destination": "public/brands/magalu.png",
+    "sha256": "312897327a4704db98aef41a872662c230e2247d06ccb80c3dfa4c96c548b000",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\brands\\magalu.svg",
+    "destination": "public/brands/magalu.svg",
+    "sha256": "ba7d076c732b0f026ae9c7b8ebb351605c86b19ad36e2e07302be02c1ff320f1",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\brands\\mercado-livre.png",
+    "destination": "public/brands/mercado-livre.png",
+    "sha256": "662f1ab45b7e36b7961328b7f1efd70b82c0f44a1caf6529cb96d180c92c577f",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\brands\\mercado-livre.webp",
+    "destination": "public/brands/mercado-livre.webp",
+    "sha256": "297a20a57938d9b7e39116e5183643c8abc7eb7f0d8df23393a67b113def52d4",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\brands\\shopee.png",
+    "destination": "public/brands/shopee.png",
+    "sha256": "0339e3d230601bc9406e3b7859bec56742fa2fc797900124c8f9cdbe8aedbcbf",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\brands\\shopee.svg",
+    "destination": "public/brands/shopee.svg",
+    "sha256": "2dde75e9c73706cf10e895a04b4184957eae2b50932eb76cbf4d2c343f88feb8",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\public\\theme.js",
+    "destination": "public/theme.js",
+    "sha256": "ea90bc829681a37398994ca16614d25962e97e40b13ce3831612abbf4c7823e0",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tests\\wordpress-migration.test.ts",
+    "destination": "tests/wordpress-migration.test.ts",
+    "sha256": "b63fbea39ab1b403e7426baa59b080722911a070e50fef2180ee3c2899525e79",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tests\\admin-writer-lock.test.ts",
+    "destination": "tests/admin-writer-lock.test.ts",
+    "sha256": "7605f65d585132dc82dec53cb30bbc79507e94a3f3c280dd651d5d5cd5b411b0",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tests\\legacy-offers.test.ts",
+    "destination": "tests/legacy-offers.test.ts",
+    "sha256": "d55cbabd213039c6f757c0bbe671083e5de6b48235ff5e12cb365b0fe35dd6d8",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tests\\theme-bootstrap.test.ts",
+    "destination": "tests/theme-bootstrap.test.ts",
+    "sha256": "1a521755c1ea71c2564b10e7d521aced2f7c992145f4c8c2b8ec254d8da13799",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tests\\analytics-consent.test.tsx",
+    "destination": "tests/analytics-consent.test.tsx",
+    "sha256": "c940330194978961b7ac4e0ee31247c43760c066ae0d1c093f191064a29bef85",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\tests\\helpers\\comparison-worker.ts",
+    "destination": "tests/helpers/comparison-worker.ts",
+    "sha256": "8e44e7b58b60f160f108a7a06af8c3f94480afbe80f926f210cd6bf6cceb6b7c",
+    "retainedAfterAdaptation": false
+  },
+  {
+    "source": "D:\\GeekMusical.com.br\\Geek Musical 12x6.png",
+    "destination": "public/logo.png",
+    "sha256": "3fa383ccc8cbe9c40d4fe468f53d624c3864f398ff118431920725a71415bf1c",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\GeekMusical.com.br\\Geek Musical 512 512.png",
+    "destination": "public/favicon.png",
+    "sha256": "b72ac61895d08b8c95bfaa02d9a478cb536426da3c3765cd2a17788fb330a8ac",
+    "retainedAfterAdaptation": true
+  },
+  {
+    "source": "D:\\MagoDeCasa.com.br\\scripts\\wordpress-export.php",
+    "destination": "scripts/wordpress-export.php",
+    "sha256": "760920366b07a0c182986eec191382411deb1c3aa2d801017eea07245972d5e6",
+    "retainedAfterAdaptation": true
+  }
+]

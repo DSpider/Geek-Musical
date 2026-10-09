@@ -1,0 +1,2 @@
+/* A system font fallback keeps the application usable offline. */
+@font-face{font-family:Manrope;src:url('/fonts/manrope-latin.woff2') format('woff2');font-style:normal;font-weight:200 800;font-display:swap;}

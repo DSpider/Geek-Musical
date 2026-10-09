@@ -1,0 +1,62 @@
+{
+  "name": "geek-musical",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "tsx watch server/index.ts",
+    "start": "node dist/server/index.js --production",
+    "build": "tsc --noEmit && vite build && tsc -p tsconfig.server.json && tsx scripts/build-content.ts",
+    "typecheck": "tsc --noEmit",
+    "admin:migrate": "tsx server/admin/cli.ts migrate",
+    "admin:user": "tsx server/admin/cli.ts user",
+    "admin:content-init": "tsx server/admin/cli.ts content-init",
+    "test": "vitest run",
+    "check:secrets": "tsx scripts/check-secrets.ts",
+    "format": "prettier --write src server shared tests scripts/*.ts *.ts",
+    "lint": "prettier --check src server shared scripts/*.ts tests *.ts",
+    "content:validate": "tsx scripts/content-check.ts content",
+    "links:check": "tsx scripts/content-check.ts links",
+    "blog:audit": "tsx scripts/blog-link-audit.ts artifacts/blog-silos/audit.json --strict",
+    "seo:check": "tsx scripts/content-check.ts seo",
+    "content:new": "tsx scripts/content-new.ts",
+    "migration:import": "tsx scripts/migrate-wordpress.ts",
+    "migration:verify": "tsx scripts/verify-preservation.ts --preservation-only",
+    "admin:bootstrap": "tsx scripts/bootstrap-admin.ts"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "google-auth-library": "^11.1.0",
+    "helmet": "^8.3.0",
+    "lucide-react": "^1.49.0",
+    "marked": "^18.0.14",
+    "music-metadata": "^11.16.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.3",
+    "@types/express": "^5.0.6",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/supertest": "^7.2.1",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^30.1.1",
+    "prettier": "^3.9.9",
+    "supertest": "^7.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "environment": "development",
+  "isolation": "private socket; networking disabled; separate datadir; no application connection",
+  "tables": 104,
+  "publishedArticles": 149,
+  "pages": 8,
+  "mediaRecords": 1299,
+  "publishedStories": 96,
+  "scheduledStories": 10,
+  "memoryRows": 0,
+  "restoration": "/root/geekmusical-security/before-20261009T020310Z/restore-dev-20261009T023221Z",
+  "archiveSha256": "24e8121d4c6ce05526b09026066c05fed8308b5243845248b08b58ea50528fc5",
+  "serverStoppedAfterVerification": true
+}

@@ -1,0 +1,6 @@
+# Texto com finais de linha iguais em DEV Windows e releases Linux.
+* text=auto eol=lf
+*.service text eol=lf
+*.template text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf

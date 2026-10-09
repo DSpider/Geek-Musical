@@ -1,0 +1,2269 @@
+[
+  {
+    "id": "WP-POST-1005",
+    "path": "/tipos-de-baquetas/",
+    "format": "guide",
+    "bodySha256": "b35439d13fbf7ee74b1054129cc09cfff1f94c176839061a0c6f02741133dcd2",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "71319d87ed1ff37c7722058c79b1f8964ba8d0f975a8821d0eb0618c9bcdf0a7"
+  },
+  {
+    "id": "WP-POST-1027",
+    "path": "/melhor-monitor-de-audio/",
+    "format": "ranking",
+    "bodySha256": "a7270177d130ee3255dc5c690068fd3eeb003bdf0f8a54020a220cde0b7f8038",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1b7ff6f5c26743049a4505e0586e8b6c1d655579326de214992d8e066be2360e"
+  },
+  {
+    "id": "WP-POST-1060",
+    "path": "/melhores-interfaces-de-audio/",
+    "format": "ranking",
+    "bodySha256": "06e19bb27c49cb59dd439e63d0b21890a5d18b9c01024f239997f4c00f95b1ae",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "4bae438baddb19fa4e1f46512b05fd844ac77f809d9df0a9d714b2fade09b837"
+  },
+  {
+    "id": "WP-POST-1107",
+    "path": "/melhores-microfones-sem-fio/",
+    "format": "ranking",
+    "bodySha256": "3ee1f6e96fbd24245080bbdb9d81b05c919aa90eb67c649231c1b0d7795822ce",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "808f2b992d2d7eab39a6a9565de9a67feb54397cf4002414ca108a1f569c584c"
+  },
+  {
+    "id": "WP-POST-1134",
+    "path": "/melhores-marcas-de-violino/",
+    "format": "ranking",
+    "bodySha256": "9ec1a9404c1d842b178b16c80ba3cb714d7cbf97e50de07b33699840cd7e017c",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B088HDG2Z7?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B088HDG2Z7?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07J1X78XG?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07J1X78XG?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07S1D248T?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07S1D248T?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B009L842XI?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B009L842XI?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08QDTMGRM?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08QDTMGRM?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "0db222d0690802ea5b9a567b7f8bb2f8099e43f51378448b404296a3100d7aff"
+  },
+  {
+    "id": "WP-POST-1171",
+    "path": "/qual-o-melhor-teclado-de-entrada/",
+    "format": "ranking",
+    "bodySha256": "8f971e9350402ec7cc094b795be26eb6f236b55b30b7e5cace3890f128808af1",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07B2F33PR?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07B2F33PR?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0B571ZCXK?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0B571ZCXK?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0BLFPFW6H?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0BLFPFW6H?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "f4ca9d7160b06a2544c5c6eb8f78986b913aaa6e590f9f17ba1539850bfa369d"
+  },
+  {
+    "id": "WP-POST-1192",
+    "path": "/strinberg-sts-100/",
+    "format": "ranking",
+    "bodySha256": "01b0151a9bdefdf831a337f2c71e6c52f92cf7e37d12ee6334a607e96fa4b740",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07G1DS8XP?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07G1DS8XP?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07G2C9J1M?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07G2C9J1M?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07G1GSPZD?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07G1GSPZD?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07G1TPJSK?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07G1TPJSK?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0C9VQ1CT3?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0C9VQ1CT3?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3361cc07ab394a2e3b76e168bc264b340ebbd298d6d2beefbf750cb247a61952"
+  },
+  {
+    "id": "WP-POST-1217",
+    "path": "/melhor-mesa-de-som/",
+    "format": "ranking",
+    "bodySha256": "cb9abd3384603b4635e5a50c28c0463db416f2e9b41d18eee4d57781eeaa33aa",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "bee340ac795cc3abf7485f0df59f13b65dc22019a32ec7479ed80e4b4012501e"
+  },
+  {
+    "id": "WP-POST-1242",
+    "path": "/melhores-mesas-de-som/",
+    "format": "ranking",
+    "bodySha256": "53a4f55a591cf1b46b0033b06efb1d035e884a798fea5a99cc729694ed64637d",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "364a7294763c07f4bd08d3b4857b0ad9fb532732329ec78fd50bb5acbd1b8def"
+  },
+  {
+    "id": "WP-POST-1263",
+    "path": "/melhor-fone-de-ouvido-profissional/",
+    "format": "ranking",
+    "bodySha256": "18ece6ec582f1e37358732fe80b196f991dda5be264d75e0456c4afcd868ae28",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B002LBSEQS?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B002LBSEQS?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "cd7ce1adfe52a4500710473eb4f859d1b41e04a913f9ecf015a5f8e58c45c031"
+  },
+  {
+    "id": "WP-POST-1287",
+    "path": "/guitarra-ibanez-rg-350-dxz/",
+    "format": "review",
+    "bodySha256": "c1fb7e54069c27e5fe4b6df42eeb440031e9df6691f3e113b513d46485808b77",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08Y21K2NV?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08Y21K2NV?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08KHNNL17?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08KHNNL17?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "03de0444db4d516f6d7c65e09d398c9931ece308c49bde01b9a1d3c3b6027a92"
+  },
+  {
+    "id": "WP-POST-1335",
+    "path": "/melhores-violoes-profissionais/",
+    "format": "ranking",
+    "bodySha256": "5b7e4e01cb17a84a242e53d10b21d4dca05f4d9dd5fb745c9db699f9d0823c72",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "9552b56a01e3b2da1fb47188d9c6d3ebc9a40398de8f539b5ce49e58bfe571a1"
+  },
+  {
+    "id": "WP-POST-1354",
+    "path": "/samson-sr850-review/",
+    "format": "review",
+    "bodySha256": "794e175fbb67a9053e61a6f21ef7c5b2f4e1b393910cb8161506ff40729309ff",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B002LBSEQS?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B002LBSEQS?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0030M2MMY?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0030M2MMY?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "be36aed8ae150ca8dec21df75e7fa4701fac275d809d022bc159edee2617b2e9"
+  },
+  {
+    "id": "WP-POST-1372",
+    "path": "/melhores-pedaleiras-para-guitarra/",
+    "format": "ranking",
+    "bodySha256": "26410efe86085863b42f2628df419a9b91435ce3aaea6d3cecdb599f83cd4fbb",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "08feacee6f81476743342d3f88f034a334dc62895baf52303ef1ec2a121c0281"
+  },
+  {
+    "id": "WP-POST-1410",
+    "path": "/melhores-teclados-casio/",
+    "format": "ranking",
+    "bodySha256": "679c4fc5a12373031fc856befdbcfef92a1ed6187cee8280e4e751215e34644b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "c73b3b3aa995f9d0471a9aa07627ee7ee2b4d519c72c7988486757cc8b594ab0"
+  },
+  {
+    "id": "WP-POST-1428",
+    "path": "/violao-infantil/",
+    "format": "ranking",
+    "bodySha256": "73f84ebada72ce93152668b10a5e8a6bd84e2d3df58eaf7c1ec5d0a6afb1b1e2",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "599341fc340ecf6d3267c773deb081ded27ec6420f6fb135a94b41ea6dd9548a"
+  },
+  {
+    "id": "WP-POST-1443",
+    "path": "/melhor-piano-digital/",
+    "format": "ranking",
+    "bodySha256": "3a0e9ee15e5b1c12de6270e95918e1e64180abf9d305a8fa31cdc3b751eb48c8",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "6f8b34687804f7428ff624d74b16b2b6bae99c199fb18c9936f753faaec4c54b"
+  },
+  {
+    "id": "WP-POST-1471",
+    "path": "/melhores-pandeiros/",
+    "format": "ranking",
+    "bodySha256": "bc231cfb3ea0057abbf4d95b878d0ea8b5a581f84b082da802af10bcbad2e8ae",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "26b1b9b19162f9a9565a243f2f6bafd7ba0d4c08d1024a275c282cd27bae77ce"
+  },
+  {
+    "id": "WP-POST-1493",
+    "path": "/melhor-caixa-de-som-bluetooth/",
+    "format": "ranking",
+    "bodySha256": "96c7518856169d88377f4ff0d12807c716805ec4ec0932f5abb521eaf9356c5a",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "8a3738b9c68007e71bdc9852353f389e38cb6795b796e85c4e5d328286797584"
+  },
+  {
+    "id": "WP-POST-1520",
+    "path": "/violao-yamaha-silent-slg200s/",
+    "format": "review",
+    "bodySha256": "5ec7dabb4a27c2664a9ff064c5a1be756f26cf895c613eb54a4d18fe48996e80",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09VBGFYHC?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09VBGFYHC?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0858YD4BM?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0858YD4BM?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00XPHLFCW?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00XPHLFCW?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09VBG6NQ5?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09VBG6NQ5?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "7dbfee1a54de1f75ed3024e93a65d0553b21ce7181a943c393a18e3b1e3dc24f"
+  },
+  {
+    "id": "WP-POST-1608",
+    "path": "/baixo-tagima-millenium-5/",
+    "format": "review",
+    "bodySha256": "f7b753810948529a7b80c52cc116d4e950ad1dd3a3f8d250a46594f09bb822df",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08YM33PCB?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08YM33PCB?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09239BZJX?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09239BZJX?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "6b557684b18539a0e44f923cbf323eb9f03676870dcaf276fa281578ed9a552f"
+  },
+  {
+    "id": "WP-POST-1628",
+    "path": "/mesa-de-som-behringer-x32-compact/",
+    "format": "review",
+    "bodySha256": "b6863a65a76004e7c120400e423d4aac5465a9255ae25e22fb8ff5c024060481",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "812cdad6fd3adda4bb8106d617613a09930e6f9044fec1a7665d9c1874f0715f"
+  },
+  {
+    "id": "WP-POST-1646",
+    "path": "/caixa-de-som-amplificada-1000w/",
+    "format": "ranking",
+    "bodySha256": "af3e4506b8793bffce86a5b16cc62b2e4a53485aaef1ba70a29adc049195ef68",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "9deb481890b714bb276f99c43860f24b7e5bee46a67e76bba3eac0e4f6e726f1"
+  },
+  {
+    "id": "WP-POST-1691",
+    "path": "/melhor-mesa-de-som-digital/",
+    "format": "ranking",
+    "bodySha256": "ab0a28ecc724cea19e2a1b69de8497e951665a26e5fcd22339502e941caab25b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "878157bf184da0ebafce2505f5b672d543ab6bbf48fb5a033e5660cc7474287f"
+  },
+  {
+    "id": "WP-POST-1704",
+    "path": "/baixo-yamaha-trbx-505/",
+    "format": "review",
+    "bodySha256": "409e25505938b02c7b40f33ac0c2426da3ec089e0f60f7d67568db9d476df594",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B083JPSLFH?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B083JPSLFH?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00GEBZO9G?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00GEBZO9G?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00GEBZSEW?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00GEBZSEW?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "8f33137e086dcb595d30cf9778a5eccbe6bd0836bbaf412a5fcde876719d8ef7"
+  },
+  {
+    "id": "WP-POST-1729",
+    "path": "/melhores-marcas-de-flauta-transversal/",
+    "format": "ranking",
+    "bodySha256": "c8e5e112df29034e0824d0a4487136dccf87a5ec9266fe59222ea576ae66791c",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "ad110e900a914c18100fdd0d912bf9e173bd13b38a681192feef0626f3145926"
+  },
+  {
+    "id": "WP-POST-1750",
+    "path": "/violao-mais-caro-do-brasil/",
+    "format": "guide",
+    "bodySha256": "dfb4a15dfe43a3b60b96e10eef6aea4ae4bd7c7ff6aebdfd921f2537292736bc",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d462b1f80bf0d16b47b5effdf74a353ce98abb048c658721afc7cdeffcfd61a0"
+  },
+  {
+    "id": "WP-POST-1784",
+    "path": "/melhores-controladoras-dj/",
+    "format": "ranking",
+    "bodySha256": "dd6b9aca003e569a39fafd53cf3017444294ae3ba85dbccf7a59be88012ccf5c",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "e68d0cd815a1c9179de22faed74b8a80a6f710f99f79ecd8c7db0bf8cb2dfa97"
+  },
+  {
+    "id": "WP-POST-1801",
+    "path": "/melhores-pedais-de-guitarra/",
+    "format": "ranking",
+    "bodySha256": "58f985f08b4a839cd65ac854b3b536dddad7dfea270d82ec17b2aebf0cd48334",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "003e4cada0df4dc4b2ab588ebbfd0b00d60a586192cd4cbd44249b6dea07c053"
+  },
+  {
+    "id": "WP-POST-1823",
+    "path": "/violao-giannini-n14-e-bom/",
+    "format": "review",
+    "bodySha256": "09387be42451da0161611cb3518c293a508eb7aab2b37ae9f36f4d2ebd388a68",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09B474G88?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09B474G88?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "63c77cc6ff69e01156668fa7a0b152df3fc809871ce9de7ef8789e34b256285a"
+  },
+  {
+    "id": "WP-POST-1834",
+    "path": "/violao-folk-strinberg-sd201hc/",
+    "format": "review",
+    "bodySha256": "6971ec06655aaf427135c9598efd812bdce14d76170c75f691978bfe94f2788a",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09JCJCMPR?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09JCJCMPR?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3b6775c670548d94b2b01e32256e45a0bb0735d08cbf1ba6cf682b25e6ccf4e1"
+  },
+  {
+    "id": "WP-POST-1849",
+    "path": "/teclado-kurzweil-pc4/",
+    "format": "review",
+    "bodySha256": "2321b0109b0a730b2a1b76cd0e396b97db2c72f89897571f242b8394b2d21287",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "a1070b0e33263c59834bd635e898c0ab4a251d907b2162ce53113b5ec74a29e1"
+  },
+  {
+    "id": "WP-POST-1909",
+    "path": "/guitarra-fender-americana/",
+    "format": "review",
+    "bodySha256": "f108d3bb065cc373d9b2f175654004ce26be0e5656019e77632e25703bb76ee2",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08GL4DT9F?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08GL4DT9F?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "a011fed33d64e3ca54a0a5f26855eee1a3e3865f8035ae5b7cadf3f9d61bf2a9"
+  },
+  {
+    "id": "WP-POST-1927",
+    "path": "/microfone-hyperx-quadcast-s/",
+    "format": "review",
+    "bodySha256": "8d2df3feecc216ea0451633cee02f0bcb397f227f0b7e1c806bb91fd462d31e9",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1a3fc3fed43923dc6d83e0c228335770bd404c1b3f63f25f8391214e27a65ca0"
+  },
+  {
+    "id": "WP-POST-1956",
+    "path": "/melhores-microfones-dinamicos/",
+    "format": "ranking",
+    "bodySha256": "574809487fb8a5f410853c5becd8ad75c35b6364006d5fd1396b5a57d4cb93d7",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "295f00e548bca11e43fc2caceb3fddfe6e495317023e5a1052c2ae1b1faf2f29"
+  },
+  {
+    "id": "WP-POST-1986",
+    "path": "/melhores-marcas-de-saxofone/",
+    "format": "ranking",
+    "bodySha256": "9bcf87f4b0105a1e50b3155ba66bb55fcdd0b25b94547ead0086cba9b05f4e0d",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "a89fc564b1add03e818e8543063e8e5faf8363cfe94a8dce15f09651c24f2de6"
+  },
+  {
+    "id": "WP-POST-2012",
+    "path": "/teclado-roland-xps10/",
+    "format": "review",
+    "bodySha256": "bc6a11d84e3494b5fef71a7fc876fc6b2f6ea3e7b9860cb8023edb8e3d8d1940",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "e5d93aa7b8b0754ee7d274e42f367fd52e7b8c0e8251464e2fe13c8cec453261"
+  },
+  {
+    "id": "WP-POST-2037",
+    "path": "/melhores-captadores-de-guitarra/",
+    "format": "ranking",
+    "bodySha256": "fd77566400dc5c0a7ece68fe728b2f6c3456129b35cfe9d2420519751e08ad02",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "584a153b83651f3b4d590e3d0897a104b4096494da73b4e40a5dc30f1809978e"
+  },
+  {
+    "id": "WP-POST-2053",
+    "path": "/melhores-violoes-de-cordas-de-aco/",
+    "format": "ranking",
+    "bodySha256": "2f79dd20528ab261891b6c0290a10d5e1ebedff1d35d9a1ff0039774fba9e519",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "bceb23ebfc50e2e75eefa9d04e2d83caf2829e27682864454880ac15811571e2"
+  },
+  {
+    "id": "WP-POST-2109",
+    "path": "/melhor-violao-ate-1000-reais/",
+    "format": "ranking",
+    "bodySha256": "ceee874ecff94783496d53843c1d044afea1723369d866cbfa707cfc8ddb8380",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "97ba1539db775ad90eccacfa749e512c55808d6aa2c7872c9202cac5d00bb088"
+  },
+  {
+    "id": "WP-POST-2129",
+    "path": "/o-que-e-um-luthier/",
+    "format": "guide",
+    "bodySha256": "9b0f41a2889ec1ad3f3fd46b0b7c74b770ac8dee62416125b476f141522ca305",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "12a8cd646b325b47a4b6063753c165c54aaf97c2d852cae9562855de324ebfd6"
+  },
+  {
+    "id": "WP-POST-2157",
+    "path": "/melhor-teclado-musical-custo-beneficio/",
+    "format": "ranking",
+    "bodySha256": "1d9fecac1362efe7f950b15fff1b4d858fa5f140b5238c780ba9ceacaad2f56b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "8e750f1a68b4a1f8c49d2e768711bc7270e095a2293e6c68e400e9b001f27722"
+  },
+  {
+    "id": "WP-POST-2170",
+    "path": "/tudo-sobre-direct-box/",
+    "format": "ranking",
+    "bodySha256": "48e45194664e4fbf20c6bcddd7a1fcf3bd5df37d904bc386e60a4c2869a4b0d9",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B079C74WJB?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B079C74WJB?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B015OGAL30?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B015OGAL30?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07L9TFLZ7?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07L9TFLZ7?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B000CCSWQA?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B000CCSWQA?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07YYNSBRH?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07YYNSBRH?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B000KUA8GQ?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B000KUA8GQ?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B000CCN15M?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B000CCN15M?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "db75ebedb0b5e5db545f724740021ba8cdc10c436f457683b72ca7efc10221e4"
+  },
+  {
+    "id": "WP-POST-2209",
+    "path": "/teclado-yamaha-psr-e373/",
+    "format": "review",
+    "bodySha256": "60cd4b694c32f7fe995f0769841352581e70832f7a8c4170e62629b3d9524daf",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0D1Q73669?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0D1Q73669?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "19c349fb1ce82821eec3b3b8afdca8dc938c39b1e8d1a16dd61fba660f5d1fba"
+  },
+  {
+    "id": "WP-POST-2226",
+    "path": "/melhores-teclados-controladores/",
+    "format": "ranking",
+    "bodySha256": "27877a16ed0446008854d701f785ccb48c709a45b257edba9913b14d79a2f0e5",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B01BPSBU40?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B01BPSBU40?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B017VPNRMY?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B017VPNRMY?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0C62DNLSB?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0C62DNLSB?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07GH8WQ4Q?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07GH8WQ4Q?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0886ZPWC8?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0886ZPWC8?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B005M02VJG?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B005M02VJG?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "9b1603f11cd88846506ca85896a5b04b5deca951a126292f757ba1df44537cf9"
+  },
+  {
+    "id": "WP-POST-2248",
+    "path": "/melhores-produtos-para-limpeza-de-guitarra/",
+    "format": "ranking",
+    "bodySha256": "f7f23372461cde1ff3caca05b05d4dd8a563d6d7e20d61b388c196489e784e4f",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "94054c9294b0f667f5dff0df370292a1361e202ea8fa79dbec8114d0b2bc9b34"
+  },
+  {
+    "id": "WP-POST-2269",
+    "path": "/melhores-guitarristas-do-mundo/",
+    "format": "ranking",
+    "bodySha256": "93a88f4cc225c5eb655d2ac3652d330aaab98e2e463b0483c83849b31ba0940a",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "eeedd44a96c57f3d03ba0b963ee166bd135f0fc864b3b5f5abd2600bb4ba15f4"
+  },
+  {
+    "id": "WP-POST-2280",
+    "path": "/melhores-guitarras-custo-beneficio/",
+    "format": "ranking",
+    "bodySha256": "e1de0f851e42c92eb2a8d303fad19d1548a2308bf84af29c015c83332ff91fd1",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00IQCRJ8K?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00IQCRJ8K?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1af6bd832625ec7e221f0ef7e3d36742ce0066c2ab7407aa86d867c95b41c9fd"
+  },
+  {
+    "id": "WP-POST-2301",
+    "path": "/bateria-acustica/",
+    "format": "ranking",
+    "bodySha256": "3916929fc1b66aa0f59d28b6208384ba0897f97495caf19f77ccc4491953c0e4",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "b688630c7ba9d3267d239e53b64837c4cf98d5fba2eb96bb1fad688ae43697c6"
+  },
+  {
+    "id": "WP-POST-2365",
+    "path": "/melhor-fone-para-corrida/",
+    "format": "ranking",
+    "bodySha256": "f6991bc42f1ca4445400bbc43d95e3802cc4a14d6a71331b86b3cbd2c65af512",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "a812589f4347977b08d6b3f552f2ae0f58db81990b8b104c16a1baaceced1701"
+  },
+  {
+    "id": "WP-POST-2409",
+    "path": "/dicas-de-canto/",
+    "format": "tutorial",
+    "bodySha256": "c691ed8f2eca6d6b8a3bf51d709320bb3492af62ce67ebe6efdad5c2987e0951",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1234f950fea252ab2417b7e38dd25ce2d49a6e4e8c0606bec43e3b9b08c3d0ed"
+  },
+  {
+    "id": "WP-POST-2446",
+    "path": "/violao-michael-e-bom/",
+    "format": "review",
+    "bodySha256": "69c46d80bf2a332eb1c032a52e1179db14e0543ed7d9663a008ce8c1426d5566",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "9dc25e9a362bf71ef29dbee703c47eb23d3c6ea68d28ecba3aa837237b3bf2ab"
+  },
+  {
+    "id": "WP-POST-2478",
+    "path": "/violao-tagima-e-bom/",
+    "format": "review",
+    "bodySha256": "b2c5bdaad5cbe0a24968517046908fd9bdabd499388453bf80ec259a18e9f316",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "6c0bded188bad3c03420f8ee3e52d26f86c16d4a8e79dabba4e067d32b1ce4b8"
+  },
+  {
+    "id": "WP-POST-2495",
+    "path": "/microfones-para-podcast/",
+    "format": "ranking",
+    "bodySha256": "6be8294410c65916cb3d965c4fc85fb65c8d8aacfcc8547a85ea3352c961db43",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "cc82343f48d0d3422511a4f6dcc8d134bdc76752deed01883496b57918fba414"
+  },
+  {
+    "id": "WP-POST-2534",
+    "path": "/bateria-eletronica-roland/",
+    "format": "ranking",
+    "bodySha256": "c70de0aa20b34cdf12e272dd79f18f10d3982ca64fd4a6c04daa19c192e6beac",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "ab771509cb4f548daf472c8122ebd49c5f3169e9458b75264db744657dacfdfd"
+  },
+  {
+    "id": "WP-POST-2552",
+    "path": "/bateria-eletronica-yamaha/",
+    "format": "ranking",
+    "bodySha256": "0e058a53e967a50deac1ed161346cd836be3373695e1580bdeb39523cc3aba03",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "4fda785c1a81a94035f12aefafacba7f2d78a570c9fa0235a5fc7071c44d07e7"
+  },
+  {
+    "id": "WP-POST-2577",
+    "path": "/nord-stage-3/",
+    "format": "review",
+    "bodySha256": "767b6ab8beec837acda4ff6b3719cba605ffdd031b5bb01d262aca823f9320c0",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "b64ab47a02bb4a86650e821303d6688ef751eb9b1d424debe3ad41bb3143f504"
+  },
+  {
+    "id": "WP-POST-2749",
+    "path": "/braco-articulado-para-microfone/",
+    "format": "ranking",
+    "bodySha256": "610c99338bd257157d9f6ec0bc6f7551e02f0b35434b6d083fb57abd8bf81248",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3b3ae249af603ad9a5a3189acfedb4b9b6f0faf1b38e78123ecc6f0897dfabfa"
+  },
+  {
+    "id": "WP-POST-2777",
+    "path": "/melhor-amplificador-de-guitarra/",
+    "format": "ranking",
+    "bodySha256": "a6e7447a4dbf9f6990deda40e3bbf4dc62440074caa3f5c7532965ec6fe31c41",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "655cd27748a65724512311dca4a38cd0cc3c834c1b877e5146ec45901a9c2f76"
+  },
+  {
+    "id": "WP-POST-2814",
+    "path": "/saxofone-digital/",
+    "format": "ranking",
+    "bodySha256": "fa40c364a95390f8028d147add97b145c6769c459432698083215ef1716b806b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "09637648a3e33d08762edca5763b30bc220b4f65c728dd60cb48a726433c7180"
+  },
+  {
+    "id": "WP-POST-2837",
+    "path": "/violao-takamine-gd11-e-bom/",
+    "format": "review",
+    "bodySha256": "0255ca1795b9fe53cc2fe8c017c7706f4f25bcf462f61644eee1eed6966cd87c",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d6a6de967de44ec0f170fbf0ce34ab5cd0c1bad340858b47969a1a32cb957e1a"
+  },
+  {
+    "id": "WP-POST-2851",
+    "path": "/melhores-headphones-bluetooth/",
+    "format": "ranking",
+    "bodySha256": "e3e36f5a1a7fb8561f7ef5daf974243dfe3545556bbcb67351ae2919371b92ca",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "6d2aa0d57ed2050e49988984bd88ff9b0743b8770a4c29a1ccd15677f2d580b7"
+  },
+  {
+    "id": "WP-POST-2877",
+    "path": "/melhores-teclados-arranjadores/",
+    "format": "ranking",
+    "bodySha256": "6402e9fc8562e6df457c3b83de24e808f47401231a24b1556e37b77317a609e2",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "159b0bc5f14078db96b95af04eb0a124f8dc01d05d715b4bee5da367a546d9ea"
+  },
+  {
+    "id": "WP-POST-2900",
+    "path": "/violinos-para-iniciantes/",
+    "format": "ranking",
+    "bodySha256": "79b8ecda12702eef2d56ed997e0c94ce56295de07676e8d4519c176c66766b8d",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "67c619e818a8be01b651cdf49253fb2c3b364dc61b0f6fe4fb3b65406806aad2"
+  },
+  {
+    "id": "WP-POST-3046",
+    "path": "/violao-eletrico-profissional/",
+    "format": "ranking",
+    "bodySha256": "82fd51d2f469a520967e4332f1e471911117ef10361bf1b72af2eece8981a5da",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "e1dbbbd84a5ea3ec1895c13b5aba080a1cd820cdcf8c5db96ebeb84b68b617de"
+  },
+  {
+    "id": "WP-POST-3071",
+    "path": "/teclado-yamaha-psr-e473/",
+    "format": "review",
+    "bodySha256": "02193a40c0c777c4e81d0fac0fb747ce3785d5fc744ac5c37637ee2ba77130f6",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "125fe4c332a4ca3ceb10fed35bcd977cf91021201bcc878dfab0d3f6557d8d42"
+  },
+  {
+    "id": "WP-POST-3087",
+    "path": "/melhor-fone-com-cancelamento-de-ruido/",
+    "format": "ranking",
+    "bodySha256": "04943132140eecca3c0f3311b961f2f99a92447b233e0a52e37af84e2d3ef89c",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "991ee1ae12fc5d8d839cb805dc809fa7d4bb93e5e4a73e7b592d6cc5fba2b7fe"
+  },
+  {
+    "id": "WP-POST-3191",
+    "path": "/melhor-caixa-de-som-jbl/",
+    "format": "ranking",
+    "bodySha256": "606951c1324ccdc01c955d0b46839fe079dbd3e80b47161f554b57f3c3080e1a",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0B3XX8P9C?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0B3XX8P9C?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d0a2aa8c3da79b1f1902d307715834ecdcc52b8b16559ebfa4069b7e585aae4e"
+  },
+  {
+    "id": "WP-POST-3219",
+    "path": "/melhor-pad-eletronico/",
+    "format": "ranking",
+    "bodySha256": "4a34c36245d9f51f28f2db67f7277e5e21188d011c04d5c4b683f90dfe269949",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "ac686f54c9a90c4815369c483d865ea33d4275481d6034535ae5518a8c62d104"
+  },
+  {
+    "id": "WP-POST-3247",
+    "path": "/pratos-de-bateria/",
+    "format": "ranking",
+    "bodySha256": "e20cb66541f6b3f894776b043ff401adce1aa5cd97a6730de1809ebe4192a96b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "a9cc3a580b1c44eedd38c1a5387b2d7381e7200c67433642e0ca44bfed4ac177"
+  },
+  {
+    "id": "WP-POST-3286",
+    "path": "/caixa-de-som-pulse-800w/",
+    "format": "review",
+    "bodySha256": "4bdf8fa10db6a618e8532145d9bbe5f9827ae5eaceb33c66f447ea314de65fcd",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0BGYNKXTV?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0BGYNKXTV?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "b586285b9cd9d770b6a1834c8f134aa2421a904e39f09c8f4eb5fc77a3fbf4f2"
+  },
+  {
+    "id": "WP-POST-3313",
+    "path": "/melhor-soundbar/",
+    "format": "ranking",
+    "bodySha256": "9c8795eeba05e3e921bdb44d27b2b6ef7d4da5a1c642a4c6791fcda30e2929a4",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d69f0992cfa4cd5b625a0266f9572f40e8597bdace078c536aa0500d6a2b32f9"
+  },
+  {
+    "id": "WP-POST-3337",
+    "path": "/microfone-para-karaoke/",
+    "format": "ranking",
+    "bodySha256": "0bf1c25c293d7bda95bb69adbbab04422595a757fc08b346049f08f98e344a21",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "e95ca690ba4158cd91058aa7168aa4a448dec2cda587dc6eb854b41cf298d0dc"
+  },
+  {
+    "id": "WP-POST-3467",
+    "path": "/melhor-microfone-para-gravar-videos/",
+    "format": "ranking",
+    "bodySha256": "426fdc7a7e22dcdc0c344314b55912a2b64b03661b3ae9ee7ee4a7e9f1a44550",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "8d8e44408f01000ca3bb6bc27a6a52f5545b32c1e626c37200f985a0e75a1e52"
+  },
+  {
+    "id": "WP-POST-3685",
+    "path": "/violao-takamine/",
+    "format": "ranking",
+    "bodySha256": "45715aacdd1acc85c62e97cb6a7d635376658567676eb42f99f2bdb0105580f8",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "88dcf3195b59869dfaa9f4ad9b08010fda750faf35305be0e679e60055e44857"
+  },
+  {
+    "id": "WP-POST-3705",
+    "path": "/fone-de-ouvido-para-crianca/",
+    "format": "ranking",
+    "bodySha256": "3970bc9dc6077f11fbd8e292e95389b874317a6aebe3e77f2f9b66076ec2a795",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3f95e23880ba72eb73c4492466bba7610246721da242d72e34f3911d1862e325"
+  },
+  {
+    "id": "WP-POST-3749",
+    "path": "/repique-de-mao/",
+    "format": "ranking",
+    "bodySha256": "a28322c1e4c26ab537abe82882bd99f254e4ab5cfdff68298cb8664b22e545e1",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "47bf9e473dd6c8286c3f41746c910c1fada561284e63bf9181f1a4826171abb1"
+  },
+  {
+    "id": "WP-POST-3777",
+    "path": "/melhor-contrabaixo-5-cordas/",
+    "format": "ranking",
+    "bodySha256": "ee89fa553530e4f9f2167646f1d568ecba92fe521ab6d1422bf5f58621301212",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0002DV88I?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0002DV88I?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00HWIRU1A?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00HWIRU1A?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B06XXKRT2H?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B06XXKRT2H?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d24f4e136cd7770dd0840b351dd7c3fd714f7d8e39e6910a02d03fabc2b3fd8b"
+  },
+  {
+    "id": "WP-POST-3827",
+    "path": "/microfone-lelong-le-907/",
+    "format": "review",
+    "bodySha256": "830d0776904806ae673d71f7e8650cd8508208e4ce8b0330f68a25d1e50b39a9",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09NBC49VK?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09NBC49VK?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d90b52ce585dd11626c643aa85ebd28d77acb67097ecf2358e688661043a00ac"
+  },
+  {
+    "id": "WP-POST-3850",
+    "path": "/yamaha-montage-m8x/",
+    "format": "review",
+    "bodySha256": "5226d760131745eed162439cc339106c8cb4180dd22e402fac56ac045101184d",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "545bf1adfde3e6932ca2ed9b575ffa57e85acd361fbbf50be190f8db6dd43ad6"
+  },
+  {
+    "id": "WP-POST-3872",
+    "path": "/melhores-marcas-de-trompete/",
+    "format": "ranking",
+    "bodySha256": "404921a74f1fa093c2933273558911c72a7db106f7c14a4a8ff80c6828b2f5fa",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B007G3T4CE?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B007G3T4CE?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B076BFVG2K?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B076BFVG2K?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B076BJLYKX?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B076BJLYKX?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07CR4VCFB?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07CR4VCFB?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00A2KU5O4?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00A2KU5O4?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "8aa59bcdfa222be51345fc2cb59d3c8ffe43af1566b3a69552e8d310102faf53"
+  },
+  {
+    "id": "WP-POST-3899",
+    "path": "/guitarras-gibson/",
+    "format": "ranking",
+    "bodySha256": "ffeaa394240f4d6ecd0a020e71f7d3ac1422ec9ea1a1f5c6cfda280fa99f15f3",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07T7H7KXX?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07T7H7KXX?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "6ad2cd09fbdc746684df2d8bf54f62bf017eb24ee9e2e50af86d6467ce9cc9da"
+  },
+  {
+    "id": "WP-POST-3925",
+    "path": "/melhores-earbuds/",
+    "format": "ranking",
+    "bodySha256": "3a1155c7b55ddcc1e869bf925426194596ad618b5529c938dadb8492bace13dc",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0CHXRCG91?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0CHXRCG91?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0BHDMHHM9?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0BHDMHHM9?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0CQKHK626?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0CQKHK626?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0DVMQVVDY?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0DVMQVVDY?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "5987df61d3367e07548ce50de79029cda8360804309a60e065c5163b0973f167"
+  },
+  {
+    "id": "WP-POST-3945",
+    "path": "/melhores-caixas-de-som-bluetooth-a-prova-dagua/",
+    "format": "ranking",
+    "bodySha256": "0d6b6d6209bee33057c57235f415becddeafac6b02a49fbfc59041869afe0f82",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0B3XX8P9C?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0B3XX8P9C?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09HGVNLFK?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09HGVNLFK?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08FB2H6Y4?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08FB2H6Y4?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08MLBTBHC?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08MLBTBHC?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09FKWS793?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09FKWS793?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09ZGLW945?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09ZGLW945?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09WH9K3LL?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09WH9K3LL?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09NCG2YF1?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09NCG2YF1?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0BDN29T24?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0BDN29T24?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3957449743050fc827760510e0167bbd39ed4dddcf57d5bb7cb152091b82ea64"
+  },
+  {
+    "id": "WP-POST-3984",
+    "path": "/piano-roland-fp-10/",
+    "format": "review",
+    "bodySha256": "e54f3df0ab168c5ccfcd6323fc63fd1a3b47f31ad09a4a22a85d809eb271dfe1",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "4148a8ddcc9f58c255e6ed5353f1e4b4ee6c2e2fae6015ead3e161ec839f8120"
+  },
+  {
+    "id": "WP-POST-4002",
+    "path": "/melhores-aplicativos-de-musica/",
+    "format": "ranking",
+    "bodySha256": "22632d31bb4fcf2fbd1f0c24f7b3f930f0bb3e3744d0d13a73c1afdf3f1e911a",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "818afa507ccaa8074bf0c9f9fa60b94ecf9bfabfc827a06dd4dc3003876b8db3"
+  },
+  {
+    "id": "WP-POST-4028",
+    "path": "/fone-de-ouvido-kz/",
+    "format": "ranking",
+    "bodySha256": "5531ca808600d658b8999c56239d408902d54f5029126c09dae7869b2fec3c51",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0FMDTV2ZS?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0FMDTV2ZS?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07LF8J5K5?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07LF8J5K5?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09SYGJFPV?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09SYGJFPV?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0BG4GYZFW?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0BG4GYZFW?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0CTXSX5BD?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0CTXSX5BD?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "0ba4c786c90a1157d0d565171bacd07560a478a40e0f4e1bfdc89eec7a9bee76"
+  },
+  {
+    "id": "WP-POST-4050",
+    "path": "/violao-harmonics-e-bom/",
+    "format": "ranking",
+    "bodySha256": "77e56dbbb0a4430d0e6545d468bf2bfca20cc542be8e0d11fd7702af3e68475f",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B075XK99FF?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B075XK99FF?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0B3G3S653?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0B3G3S653?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B075XG3QKS?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B075XG3QKS?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "e96de110f4129c024864fb58579182588578624607d37b4632f2f523a487fdd9"
+  },
+  {
+    "id": "WP-POST-4074",
+    "path": "/qual-a-melhor-caixa-de-som-alexa/",
+    "format": "ranking",
+    "bodySha256": "43ce1384f1f7b952f413b58c7ec8760e2bd1d2c7c6b459ab732b720eb5d37f93",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1534fcb382a4a6134e6c7731ecf54c3a85838ff149fdde1eda5e8f17001e4f1d"
+  },
+  {
+    "id": "WP-POST-4143",
+    "path": "/guitarra-tagima-tg-510-e-boa/",
+    "format": "review",
+    "bodySha256": "a6a45381897f8c550b3f60fb5baad4115242dd7ecc2e5edbce96464092f97afa",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08R6KMLGT?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08R6KMLGT?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08VG7LCNB?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08VG7LCNB?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B08VG711WP?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B08VG711WP?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "354a5e3f10adfa0abe654cb5a4a0bafa182a09ca0b289c0e90307a4b382abd90"
+  },
+  {
+    "id": "WP-POST-4161",
+    "path": "/melhores-guitarras-profissionais/",
+    "format": "ranking",
+    "bodySha256": "ccd89078b2be48428745d54f6318bd5f9d50625e49ce60ce8b5a139b596e7abe",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00IQCRJ8K?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00IQCRJ8K?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07T47W1BS?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07T47W1BS?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07T47XFT4?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07T47XFT4?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07L2X481D?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07L2X481D?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "28dba78488d3550754b4d28e4bbd13f9536e4237c69ef9ad534c5a6b418b01d7"
+  },
+  {
+    "id": "WP-POST-4249",
+    "path": "/melhor-headset-custo-beneficio/",
+    "format": "ranking",
+    "bodySha256": "7f3d7ae953371c35ff34777669519cf8af5890612c4d06b75a6b4245aab32650",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "f354b73b32d8f446916caa9217df561311ca88ba46def9cbed0452e7e5368907"
+  },
+  {
+    "id": "WP-POST-4268",
+    "path": "/melhores-pianos-do-mundo/",
+    "format": "ranking",
+    "bodySha256": "8647a2864adad57ee6f0bf58d80f7a9df77b8835382865689f6576f75c91d65d",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "5eef5ddad83d315efb48bda472c1ee8df103997f9f913d33f2c3a2b97d09f19b"
+  },
+  {
+    "id": "WP-POST-4315",
+    "path": "/melhores-vitrolas-vintage/",
+    "format": "ranking",
+    "bodySha256": "9a050f3b020f291afb140e4c5dd13929c490c4062dd78b50de50d380cb7f0376",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "95370bf98c0bd2e82f003b9e970896b2301c71f50e148d8ed03ed81639653160"
+  },
+  {
+    "id": "WP-POST-4340",
+    "path": "/melhores-marcas-de-clarinete/",
+    "format": "ranking",
+    "bodySha256": "c9672d28d41d2495c87daf6681ad04f1d866582211bd71400bdec2706f6399ea",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "c17a423c2a37ed3a5a55c3cbb85465e6a31b6cf0b92b41072f4258f93497d0b0"
+  },
+  {
+    "id": "WP-POST-4384",
+    "path": "/guitarra-memphis-mg32-e-boa/",
+    "format": "review",
+    "bodySha256": "797f1f5857489f10e7dde4c0e7ce190d683e3f55f733076eb9c4673a82b54e1b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "9eb7a8e9427d0942b3f27753f3e2c4d30caf5062f4dfb6509662d23bc38d7ae5"
+  },
+  {
+    "id": "WP-POST-4396",
+    "path": "/melhor-microfone-de-lapela/",
+    "format": "ranking",
+    "bodySha256": "30e7d058a7d229ac4ae227deccbd99bf4ab801418de6c051d136e59fda6ba907",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "e9c46572514df21ff4aef2ff011d5dc7607c9f2d66d2183afdd31b6dffbc9827"
+  },
+  {
+    "id": "WP-POST-4475",
+    "path": "/melhores-sanfonas-ou-acordeons/",
+    "format": "ranking",
+    "bodySha256": "03bc744d824da81af91aa04018cb450fa25257692c5cfb646f1adced6d96e203",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "74599f6d1871558621fa9c0430ddaf2ef60c85e5f782f337b4bf24e186bef202"
+  },
+  {
+    "id": "WP-POST-4547",
+    "path": "/melhores-marcas-de-cavaquinho/",
+    "format": "ranking",
+    "bodySha256": "c969aa0f476c791d919d52daf027ac270229139ec74527d4d8ddb45eb9721904",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d5d5659d57d318c82bf66502ee14a8e15e728ab5da268a06b94254b382e20b83"
+  },
+  {
+    "id": "WP-POST-4578",
+    "path": "/violao-vogga-e-bom/",
+    "format": "ranking",
+    "bodySha256": "666c42ccbeb5142158062a8d79ac8fb92515d7d7600f4560bffae051401ef6ed",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "f76a4cde697382f343d9955073918ec0de506084e98c052940b130a315c5709d"
+  },
+  {
+    "id": "WP-POST-4596",
+    "path": "/guitarra-waldman-e-boa/",
+    "format": "ranking",
+    "bodySha256": "8149e2d4517c80f5aba19a7b566391a671b2af0fd79787db59a8f0b6917e10bd",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "89545fc03fa817fe418e782022fe06515f5e995a7568d2f53c0443d7df0e428c"
+  },
+  {
+    "id": "WP-POST-4637",
+    "path": "/microfone-dylan-e-bom/",
+    "format": "review",
+    "bodySha256": "7d00d1b59a3c05e9a5d0f451ede73e3e55bdf7a6f1259f9357a5c1d9c06185a4",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "83f4ac8bfe1d4fbc1be0150c8f971115fc4f200db59ea859b153c45a67052dd6"
+  },
+  {
+    "id": "WP-POST-4651",
+    "path": "/o-que-e-um-bandolim/",
+    "format": "ranking",
+    "bodySha256": "8b3ede34bb130f58b85f458f19c59f3874b3fa71119c79be8b41d1c46b9820f7",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "720d5b3eebc4a62d49e212ed18a72eaeeb49826ef980ef23e730f8c4b85bc575"
+  },
+  {
+    "id": "WP-POST-4667",
+    "path": "/melhores-cabos-p10/",
+    "format": "ranking",
+    "bodySha256": "2d2e71a8615df8d62b2594dc6339c95b8e9194006cf839809b46fdc4a898d802",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "b402632d4c3ae12bc3988701d497a728c2ec5ff1588e703ae570691a87e78033"
+  },
+  {
+    "id": "WP-POST-4683",
+    "path": "/melhores-violoes-de-nylon/",
+    "format": "ranking",
+    "bodySha256": "bfb8644b6e941e2d663c9eddd62000a9c99a355e50dfc6cec7f1032aa9804d6f",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "2130491bb4cea3198ef547579ed002675c36fb965f748af41e518b0b0d5f261b"
+  },
+  {
+    "id": "WP-POST-4707",
+    "path": "/transmissor-sem-fio-para-guitarra/",
+    "format": "ranking",
+    "bodySha256": "16c679f54f06b432db3b2e8bdc48a81d37c7ab05b7a1ee4fc56f29c39e891dcc",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "16f7669dc5e09eaf15d6956445decb131bb5b6f63fc5ce1bd7fe352f00319bb8"
+  },
+  {
+    "id": "WP-POST-4728",
+    "path": "/melhor-guitarra-7-cordas/",
+    "format": "review",
+    "bodySha256": "baf9cae10ce72af4e82b72e91fd47742dd1735faf39e3eacf68540a7ebdf8305",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "8ae1d4f81947b76a3d3d909b8e6f7e6c1bf7715dfeea54932037e6c6832b6f17"
+  },
+  {
+    "id": "WP-POST-4740",
+    "path": "/violao-waldman-e-bom/",
+    "format": "review",
+    "bodySha256": "f3f607e2e7400db03259e3b40d8f9e48de1ee52fd4471dd727fbf73ccbf0a4c1",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3f2b8ce9008f385a6ed70c45eabd3fa1d0a08a6ef03f3324840224e771304205"
+  },
+  {
+    "id": "WP-POST-4759",
+    "path": "/violao-strinberg-e-bom/",
+    "format": "review",
+    "bodySha256": "61265a3f3d49f21632be0f4af932ce3f984f28139be1607c48363642ace8c85a",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "cd75dcf7a677dd84f49b2375f88d86d22319259253169b92257749af1fd98182"
+  },
+  {
+    "id": "WP-POST-4761",
+    "path": "/violao-harmonics-gna-111-e-bom/",
+    "format": "review",
+    "bodySha256": "9f18d5eee25288befa14b5470fdb73e1d7999e1913710b14d9a3d6448391f0a0",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "6ca3676a3154adc9bac9fd25da50d2c3ac6ced04c5667b4e6f273e9d5472bae2"
+  },
+  {
+    "id": "WP-POST-4763",
+    "path": "/melhores-cordas-para-violao/",
+    "format": "ranking",
+    "bodySha256": "0c6729d555097b8aab1de6c47637f6f1abc91e635f850ba62f3f0e988ea6518e",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "fd9f73354ca72ef1c9b4ac6bbf3b14aceb25477884ed9bf7b196ee80e14f7295"
+  },
+  {
+    "id": "WP-POST-4766",
+    "path": "/melhores-marcas-de-teclado-musical/",
+    "format": "ranking",
+    "bodySha256": "9804e99423a85a9519d7a5d5e9946d8c8016442ea1c9c43519ae77e75532541d",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "0e9b1e78bd4da4ee8a549bf764036d9019afadb7ffe1f83eadbe335f34d12316"
+  },
+  {
+    "id": "WP-POST-4768",
+    "path": "/caixa-de-som-alok-e-boa/",
+    "format": "review",
+    "bodySha256": "1ac2d1ad9cc2d4bec2f63d4101c798e8c79c1541adeb5f636f61dd74c5a81d2c",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3bf6a2a08dfcb923534818d1a47a3e8d213a8710bfa63c615dc6aa5cbc9749a7"
+  },
+  {
+    "id": "WP-POST-4770",
+    "path": "/caixa-de-som-pulse-e-boa-as-12-melhores-com-analise-completa/",
+    "format": "review",
+    "bodySha256": "44c6ed9a36eb8033c983ba8184b70f56aecc00dc0c0f64f681be1a57f406e398",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "ddd3ff837a4deb383efa06bbf916bcfd63bb363362e005c951d8cac8c2eb915e"
+  },
+  {
+    "id": "WP-POST-4772",
+    "path": "/caixa-de-som-amvox-e-boa/",
+    "format": "review",
+    "bodySha256": "51cc53ea85c0b1732db21a84e79e21422e883bfb6d00d8da27cd30d18312389f",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "a14f4f558a44c01f125c28eedcf80f26e43e97eb2ac32ff8ecc60a7739652892"
+  },
+  {
+    "id": "WP-POST-4818",
+    "path": "/caixa-para-bateria-acustica/",
+    "format": "ranking",
+    "bodySha256": "470fa9890c818265dcb735b59372ce16eb9cff2651d6b8e63054004c47316cd3",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "0bde427e99b24847734dfff8c8fab31cee8955f0199bbe90cec6e999861994e9"
+  },
+  {
+    "id": "WP-POST-4892",
+    "path": "/fone-h-maston-e-bom/",
+    "format": "review",
+    "bodySha256": "3722dd915fd2e045742d8d1f204b21da65eb9c00bd5bf58082c3158c6ec9361f",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1cae990cc2aa6d92c5de5795c1e2ce051f8b0b24c25fe3de6158818f168c3b79"
+  },
+  {
+    "id": "WP-POST-4894",
+    "path": "/teclado-casio-ct-s200-e-bom/",
+    "format": "review",
+    "bodySha256": "707df82b93a030582e56d00ecf12097a9b0ec091e5c48c912798e73d28a0a221",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "421db6438c9ad5aa7de93630605783153d4fa1dc299f458dd19678f55bda043e"
+  },
+  {
+    "id": "WP-POST-4896",
+    "path": "/teclado-casio-ct-s300-e-bom/",
+    "format": "review",
+    "bodySha256": "b7f539f8798ebf2f10c5ec8c1a400f7b4776c2f11d917001942efe252ef81525",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07ZTRJDNG?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07ZTRJDNG?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "568e0222193471bd51d68d6b27ac07c13bbd20f3722a819d5ec35956eb2965fa"
+  },
+  {
+    "id": "WP-POST-4898",
+    "path": "/violao-eagle-e-bom/",
+    "format": "review",
+    "bodySha256": "79a19078f0c9b24b9c978f846e00e3d6ad986dbe228d6bd4af2520dff366968b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "bb45b2883e5de4d8e441128eacd01fe71eb9aad03d379cb49179a3c5ea087bfa"
+  },
+  {
+    "id": "WP-POST-4900",
+    "path": "/fone-edifier-e-bom/",
+    "format": "review",
+    "bodySha256": "070645247c37e080979704cf6070c089f287912fa1821c9a7fe8e87dd6070396",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "3bc28b17fba0e053eda38bfb231e629998dc9a0c38d6605be58f2c9c36b15daa"
+  },
+  {
+    "id": "WP-POST-4902",
+    "path": "/violao-hofma-e-bom/",
+    "format": "ranking",
+    "bodySha256": "491a77a46d09a4dd3a6caa858dc4ace70ade5def4775e9e950cf91b6bd74b2df",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d5c4d3ca886c030ff829aa21299984f66dbf0a3d0186fbd13b32b2584e344f1c"
+  },
+  {
+    "id": "WP-POST-4904",
+    "path": "/violao-rozini-e-bom/",
+    "format": "review",
+    "bodySha256": "b46b74976f0663edd6d1e5d35f51e34a7fc24b8c68aa242793937d0143b1b198",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "069dac64b6b36504bbf5a9a841b861acbcbd508e9b90e15a6ef83efea44dc10f"
+  },
+  {
+    "id": "WP-POST-5344",
+    "path": "/melhor-afinador-de-violao/",
+    "format": "ranking",
+    "bodySha256": "25d5f67f356c7662c1748593daff89f9f406d0761b01efcdd62b4f3f4301c466",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d2474b94c1603d6899e5531449194fb7f9651414b67b0758fcac4114b48e6a7e"
+  },
+  {
+    "id": "WP-POST-5453",
+    "path": "/teclado-casio-ctk-3500-e-bom/",
+    "format": "review",
+    "bodySha256": "91dbff2fb7b5e30d63a35079b5a8ca74b7b321ea4932bf89348e456170b7a900",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "87b16abf1ebff38f9f4d11449f1a63fd3cbc129434b3f82aebba9103461cd8a7"
+  },
+  {
+    "id": "WP-POST-5515",
+    "path": "/microfone-kadosh-k502m-e-bom/",
+    "format": "review",
+    "bodySha256": "27f2516fb6c024cddb2ac964c01d17c775b63b3662578e00fd45790bfc396cc5",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B07Y5P191T?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B07Y5P191T?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "bbbf2bd697e0c3b862bf7291bdba9a35923d6052d86f3663cd856a1c96dd4e5a"
+  },
+  {
+    "id": "WP-POST-5576",
+    "path": "/violao-memphis-e-bom/",
+    "format": "review",
+    "bodySha256": "c68c293c739a18b74efca132260843464f021cc3eca2f8ac747e26e1b423e6dd",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "9a46af604ff660f86d15076ea02c689b242ba83bcc84aa40d433ee80f852e6be"
+  },
+  {
+    "id": "WP-POST-5586",
+    "path": "/guitarra-phx-e-boa/",
+    "format": "review",
+    "bodySha256": "148366cdaa403a174de46c9c82f7d589ae388103485b3c57b3fe7ddb2c783e9b",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "6755ad2339ecef39c76c9dc58c6b9727bdb1c961da0074da76fd54ad8c400b70"
+  },
+  {
+    "id": "WP-POST-5610",
+    "path": "/fone-qcy-e-bom/",
+    "format": "review",
+    "bodySha256": "b8b06487e1fa1ba0035a83026260a99ba6b4f42e0e22b16305be0c242b1c46e0",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d1a13ea049c1df55f967ed84a318c9c6a416b073cd6bf29482249fcaea9e7623"
+  },
+  {
+    "id": "WP-POST-5624",
+    "path": "/teclado-concert-c300-e-bom/",
+    "format": "review",
+    "bodySha256": "99ef8d506bee6794d1e110f8bdf9b29395e5192781b2c1a61fb3cad22d91cd7c",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B09FTKDMW7?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B09FTKDMW7?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "fa5e5599aa4a3fe08d3c510b96646139804e6736d227d315bd2072ae5c64413e"
+  },
+  {
+    "id": "WP-POST-5645",
+    "path": "/ukulele-makanu-e-bom/",
+    "format": "review",
+    "bodySha256": "ab196e8e116a988753b0d7c20eead1af031fd8043d76cf503931e97a66389183",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1d3c3bdd12df777af8e92e4575a412b9d928b6eac5485baddcdc4c8a407a9f25"
+  },
+  {
+    "id": "WP-POST-5662",
+    "path": "/melhores-violoes-ate-3000-reais/",
+    "format": "ranking",
+    "bodySha256": "56667d9f5d42fe0f946ad1674187e8e41b1cbf12fc7b973c33592286c037e656",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "42b9e14580006a3e6129d8a5893232795982d6afb0bc592109f2186b4858f8d4"
+  },
+  {
+    "id": "WP-POST-5691",
+    "path": "/qual-instrumento-mais-facil-de-tocar/",
+    "format": "guide",
+    "bodySha256": "4f91c08b5820a855afd7cbfd42547fba9c73650688d7631043ebad9b972f2930",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "398c6062c5a131fd4058f3c2cfcccd647fafb909f64209287b7adfe85bb56b3f"
+  },
+  {
+    "id": "WP-POST-5699",
+    "path": "/qual-a-melhor-flauta-doce-para-iniciantes/",
+    "format": "ranking",
+    "bodySha256": "c298b38a482e8391756d52aaef2d3b686f6f76be51d52858f13c88f2cc374c1c",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "0324f132d21111220e719dafdafa10f00d04daf37b9aa9b186fbff00d8c608d6"
+  },
+  {
+    "id": "WP-POST-5716",
+    "path": "/qual-o-melhor-cajon/",
+    "format": "ranking",
+    "bodySha256": "491efbc61dd07e3cf99404fa79df454dbaa3677d063c95e74e852e8411ef8b49",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "0aed06f82b5918409edc8756caaa581ecaeca80ce9bcde89cb608b3216337f8d"
+  },
+  {
+    "id": "WP-POST-5749",
+    "path": "/melhor-violao-ate-500-reais/",
+    "format": "ranking",
+    "bodySha256": "ac0b71ed53d54df189c313969bb27cc68b919468c854c505317039b57a554009",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "71659630a59de6467fb292c74378188595b72b3a0176a25896e2975db9dc6502"
+  },
+  {
+    "id": "WP-POST-5757",
+    "path": "/guitarra-queens-e-boa/",
+    "format": "review",
+    "bodySha256": "bde43646069ace78429f949b2bd50732f4520e6cbd9db7cd604ed82f268de6a3",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B0BZDWB4VY?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B0BZDWB4VY?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "ebd2da446d6c25b3f8057f916816bbef09111acc168cf4df3057cea301a091ea"
+  },
+  {
+    "id": "WP-POST-634",
+    "path": "/melhores-guitarras-para-iniciantes/",
+    "format": "ranking",
+    "bodySha256": "22e45505ddba660133928a601ef0f9c079321861bfb81dcaab889b67de16697b",
+    "differences": [
+      {
+        "field": "affiliate-url",
+        "before": "https://www.amazon.com.br/dp/B00IQCRJ8K?tag=geekmusical-ce-20&linkCode=ogi&th=1&psc=1",
+        "after": "https://www.amazon.com.br/dp/B00IQCRJ8K?tag=geekmusical-20&linkCode=ogi&th=1&psc=1",
+        "reason": "Same ASIN and exact title returned by official Amazon API with geekmusical-20."
+      },
+      {
+        "field": "seoTitle",
+        "before": "As 7 Melhores Guitarras Para Iniciantes em",
+        "after": "As 7 Melhores Guitarras Para Iniciantes",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "5a82ac4bd1c2341ef2faba1ea2bb64d4d04641468f2f5f3aef9a3a9e25faf3c5"
+  },
+  {
+    "id": "WP-POST-670",
+    "path": "/melhores-baterias-eletronicas/",
+    "format": "ranking",
+    "bodySha256": "4dce8e7d2304db1c565a2d1fd74d58c7e94785d22bd00e1ae55bd592b1b0fb3b",
+    "differences": [
+      {
+        "field": "seoTitle",
+        "before": "Top 7 Melhores Baterias Eletrônicas em",
+        "after": "Top 7 Melhores Baterias Eletrônicas",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "cf708166054dd77d34f9bacf8de2b3a73374e6ec04f346bbe8e20360cca6a533"
+  },
+  {
+    "id": "WP-POST-708",
+    "path": "/melhores-baixos-para-iniciantes/",
+    "format": "ranking",
+    "bodySha256": "7113c8eb3efb2476f5bb0930db6a51891834e6969676205898caa21c5be23261",
+    "differences": [
+      {
+        "field": "seoTitle",
+        "before": "Os 6 Melhores Baixos Para Iniciantes Em",
+        "after": "Os 6 Melhores Baixos Para Iniciantes",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d08ba45a7d9d6398abb8d2d863638f45b8ddb8f0cc412e3b97ba78f851df5c9a"
+  },
+  {
+    "id": "WP-POST-730",
+    "path": "/melhores-violoes-para-iniciantes/",
+    "format": "ranking",
+    "bodySha256": "918c6d9e65fcfe757851cf80696b643cfef7f6d725b5ba8e1600ba4a62f809b9",
+    "differences": [
+      {
+        "field": "seoTitle",
+        "before": "Top 7 Melhores Violões Para Iniciantes Em",
+        "after": "Top 10 Melhores Violões Para Iniciantes",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "b84ab5ad85a3ce009b4d7a46fe354bbd2e72fe7f86252ac1992fda5c363fa2ec"
+  },
+  {
+    "id": "WP-POST-781",
+    "path": "/melhores-marcas-de-violao/",
+    "format": "ranking",
+    "bodySha256": "44f2d657bdf0051eef503e1c1716a162465f1bc8db6fbc3823ade789f2fd128d",
+    "differences": [
+      {
+        "field": "seoTitle",
+        "before": "As Melhores Marcas de Violão Em",
+        "after": "As Melhores Marcas de Violão Em 2025",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "0fde6fcf64009f7785beadf3140a6527e68671011f33280e90305f25a635a7ed"
+  },
+  {
+    "id": "WP-POST-817",
+    "path": "/melhor-ukulele-para-iniciantes/",
+    "format": "ranking",
+    "bodySha256": "2eadaa6df213e3bf108bfd82a7c754fed07cf9c565bd3359fb1fb0a5f83bbe8c",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "5d67f815279f0e4c9756f08d25591a86a0f16a69f0c137c0c04838d5dbb729b7"
+  },
+  {
+    "id": "WP-POST-849",
+    "path": "/melhores-teclados-para-iniciantes/",
+    "format": "ranking",
+    "bodySha256": "2668028b415d0b1760057af34018cdc8b805cf23e83e132306bd5d00bd8165bf",
+    "differences": [
+      {
+        "field": "seoTitle",
+        "before": "Top 6 Melhores Teclados Para Iniciantes Em",
+        "after": "Top 6 Melhores Teclados Para Iniciantes",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "957cee0a28c687255759dabee38dd96537d9c683fab06b4f1310275905cc00be"
+  },
+  {
+    "id": "WP-POST-875",
+    "path": "/melhores-gaitas/",
+    "format": "ranking",
+    "bodySha256": "b32edd06e1f1d7345474faefe3e41895ef3fc5b6e3f9c0aa75301bdaf5f938dc",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "d31b9155ce8011f67b8cb4cd75ed8f46556aa59719a64bde75f57b3faf019f54"
+  },
+  {
+    "id": "WP-POST-896",
+    "path": "/melhores-microfones-condensadores/",
+    "format": "ranking",
+    "bodySha256": "2f436a46c92083f580192ef307d2ccbbbe179c7b78639aaf4709c2c3494da9c8",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "ee1640a3955d3ef32b0f9cdbeaf5eaffd745e95c688308bb268e140532210bec"
+  },
+  {
+    "id": "WP-POST-922",
+    "path": "/melhores-microfones-para-igreja/",
+    "format": "ranking",
+    "bodySha256": "adbf186cc9a52bcebeeae280b084c92eeebcfbf9962c57c68d081a80c56151ef",
+    "differences": [
+      {
+        "field": "seoTitle",
+        "before": "Os 8 Melhores Microfones Para Igreja Em",
+        "after": "Os 8 Melhores Microfones Para Igreja",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "996aaf6a6232c4e1e6b6b09857074b02d10e787933ceab7cca5614c8f65a8194"
+  },
+  {
+    "id": "WP-POST-944",
+    "path": "/melhor-guitarra-do-mundo/",
+    "format": "ranking",
+    "bodySha256": "dd4eb4c0148e25ff7f2fe090aee4ce1541bd44834ebc124817d633f3dbb68b25",
+    "differences": [],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "c02a238fa47e1bdb22f10e4e97377be7a117998966bcf84199b48695dd51a1af"
+  },
+  {
+    "id": "WP-POST-967",
+    "path": "/melhores-caixas-de-som-amplificadas/",
+    "format": "ranking",
+    "bodySha256": "07ada49d9dfa0b61e5d7d291c334949024644c872f438be674595e5e201d10ff",
+    "differences": [
+      {
+        "field": "seoTitle",
+        "before": "As 10 Melhores Caixas de Som Amplificadas Em",
+        "after": "As 10 Melhores Caixas de Som Amplificadas Para 2025",
+        "reason": "Incomplete placeholder-based legacy metadata replaced with the preserved article title."
+      }
+    ],
+    "datesChanged": false,
+    "factualReview": "pending-primary-source-review",
+    "mediaReview": "original-URLs-and-files-preserved; model-and-credit-confirmation-pending",
+    "originalSourceHash": "1c30ce14aeeffaf3ea8397992298af15795fc9dc802354ee05cc728e23545d98"
+  }
+]
