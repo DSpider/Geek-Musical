@@ -38,7 +38,7 @@ proxy='''proxy_set_header Host $host;
     proxy_read_timeout 45s;
 '''
 node='proxy_pass http://127.0.0.1:3230;\n    '+proxy
-wordpress='proxy_pass http://127.0.0.1:8080;\n    '+proxy
+wordpress='client_max_body_size 64m;\n    proxy_pass http://127.0.0.1:8080;\n    '+proxy
 frontend='''server {
   listen 80;
   listen [::]:80;

@@ -68,8 +68,11 @@ run(['chown','-R','geek-musical-app:geek-musical-app',str(state)])
 # Files are readable for the isolated service; only state is writable.
 run(['chmod','-R','a+rX',str(release),str(runtime)])
 current=base/'current'
+switching = current.exists() and current.resolve()!=release
+if switching:
+ assert not (base/'traffic-state.json').exists(), 'Use a reviewed upgrade procedure after traffic cutover.'
+ current.unlink()
 if not current.exists():current.symlink_to(release,target_is_directory=True)
-else:assert current.resolve()==release
 unit='''[Unit]
 Description=Geek Musical editorial portal
 After=network.target
@@ -95,6 +98,7 @@ TimeoutStopSec=15
 WantedBy=multi-user.target
 '''
 pathlib.Path('/etc/systemd/system/geek-musical.service').write_text(unit);run(['systemctl','daemon-reload']);run(['systemctl','enable','--now','geek-musical'])
+if switching:run(['systemctl','restart','geek-musical'])
 for attempt in range(30):
  try:
   with urllib.request.urlopen('http://127.0.0.1:3230/api/health',timeout=2) as response:health=json.load(response)
