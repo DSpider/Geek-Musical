@@ -73,11 +73,11 @@ describe("rotina editorial", () => {
         "test",
         "CREATE_AUTHOR",
         "authors",
-        "AUTHOR-DANIEL-LIMA",
+        "AUTHOR-TEST-EDITORIAL",
         (state) =>
           state.registries.authors.push({
-            id: "AUTHOR-DANIEL-LIMA",
-            name: "Daniel Lima",
+            id: "AUTHOR-TEST-EDITORIAL",
+            name: "Autor da validação editorial",
             type: "Person",
             description: "Autor do Geek Musical.",
           }),
@@ -90,7 +90,7 @@ describe("rotina editorial", () => {
         new ContentRepository(path.join(root, "content"), db)
           .snapshot()
           .registries.authors.at(-1)?.name,
-      ).toBe("Daniel Lima");
+      ).toBe("Autor da validação editorial");
       expect(() =>
         repo.commit(
           "0".repeat(64),

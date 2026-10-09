@@ -6,6 +6,7 @@ import { JSDOM } from "jsdom";
 import { postInputSchema } from "../shared/admin.js";
 import { editorialProductSchema } from "../shared/content.js";
 import { assertConsumerArticle } from "../server/content/editorial-policy.js";
+import { postUrl } from "../server/content/catalog.js";
 import {
   eligibleSlot,
   lockedRun,
@@ -82,12 +83,16 @@ export class EditorialAdminClient {
     return this.request("/auth/session");
   }
 }
-export async function publicCheck(origin: string, post: any) {
+export async function publicCheck(
+  origin: string,
+  post: any,
+  articlePath: string,
+) {
   const health = await fetch(origin + "/api/health");
   const healthBody = await health.json();
   if (!health.ok || !healthBody.ok || healthBody.site !== "Geek Musical")
     throw new Error("Saúde inválida.");
-  const url = origin + "/" + post.slug + "/";
+  const url = origin + articlePath;
   const response = await fetch(url, { cache: "no-store" });
   if (response.status !== 200) throw new Error("Artigo não retornou 200.");
   const doc = new JSDOM(await response.text()).window.document;
@@ -95,7 +100,7 @@ export async function publicCheck(origin: string, post: any) {
     .querySelector('link[rel="canonical"]')
     ?.getAttribute("href");
   if (
-    canonical !== routineSite + "/" + post.slug + "/" ||
+    canonical !== routineSite + articlePath ||
     doc.querySelectorAll("h1").length !== 1 ||
     doc.querySelector("h1")?.textContent !== post.title
   )
@@ -131,7 +136,7 @@ export async function publicCheck(origin: string, post: any) {
   const sitemap = await fetch(origin + "/post-sitemap.xml");
   if (
     !sitemap.ok ||
-    !(await sitemap.text()).includes(routineSite + "/" + post.slug + "/")
+    !(await sitemap.text()).includes(routineSite + articlePath)
   )
     throw new Error("Artigo ausente do sitemap.");
   return {
@@ -184,7 +189,7 @@ async function operator() {
       console.log(
         JSON.stringify({
           alreadyComplete: true,
-          url: routineSite + "/" + post.slug + "/",
+          url: (run.events.at(-1)?.detail as any)?.url,
           hash: run.packageHash,
         }),
       );
@@ -281,7 +286,12 @@ async function operator() {
         revision: fresh.revision,
       });
     }
-    const check = await publicCheck(origin, post);
+    const currentCatalog = await client.request("/posts/new");
+    const check = await publicCheck(
+      origin,
+      post,
+      postUrl(post, currentCatalog.registries),
+    );
     writePrivate(path.join(folder, command + "-http.private.json"), check);
     recordStage(
       run,

@@ -19,7 +19,7 @@ import {
 
 const mode = process.argv[2] || "content";
 const source = readSourceContent();
-const catalog = new ContentCatalog(source.registries, source.posts, true);
+const catalog = new ContentCatalog(source.registries, source.posts, false);
 const legacy = readLegacyManifest("content");
 if (mode === "content") {
   console.log(
@@ -33,7 +33,7 @@ if (mode === "content") {
     trustProxy: false,
     port: 3230,
     environment: "development",
-    editorialPreview: true,
+    editorialPreview: false,
   };
   const app = createApp(web);
   mountLegacyMedia(app, "content", legacy);

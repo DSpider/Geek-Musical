@@ -388,8 +388,8 @@ describe("Geek Musical: regras editoriais e segurança", () => {
       .send({
         revision: before.body.revision,
         author: {
-          id: "AUTHOR-DANIEL-LIMA",
-          name: "Daniel Lima",
+          id: "AUTHOR-TEST-EDITORIAL",
+          name: "Autor da validação editorial",
           type: "Person",
           description: "Autor do Geek Musical.",
         },
