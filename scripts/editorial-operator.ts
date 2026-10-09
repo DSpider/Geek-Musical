@@ -134,11 +134,14 @@ export async function publicCheck(
       throw new Error("Imagem indisponível.");
   }
   const sitemap = await fetch(origin + "/post-sitemap.xml");
+  const sitemapText = await sitemap.text();
   if (
     !sitemap.ok ||
-    !(await sitemap.text()).includes(routineSite + articlePath)
+    (origin === routineSite
+      ? !sitemapText.includes(routineSite + articlePath)
+      : /<loc>/.test(sitemapText))
   )
-    throw new Error("Artigo ausente do sitemap.");
+    throw new Error("Sitemap incompatível com o ambiente.");
   return {
     url,
     status: 200,
@@ -146,7 +149,7 @@ export async function publicCheck(
     health: healthBody,
     schema: true,
     images: true,
-    sitemap: true,
+    sitemap: origin === routineSite ? "published" : "empty-dev-noindex",
   };
 }
 async function operator() {

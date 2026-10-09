@@ -108,9 +108,10 @@ export function editorialPage(
       (id) => catalog.resolvePost(id),
       (id) => catalog.resolveProduct(id),
     );
-    const alert = post.id.startsWith("AUTO-")
-      ? ""
-      : renderToStaticMarkup(<BlogOfferAlert />);
+    const alert =
+      post.origin?.system === "wordpress" && !post.id.startsWith("AUTO-")
+        ? renderToStaticMarkup(<BlogOfferAlert />)
+        : "";
     const firstHeading = markdown.html.search(/<h2\b/);
     const articleHtml =
       firstHeading < 0
