@@ -2,7 +2,7 @@
 
 Checkpoint de 09/10/2026. O portal independente está operacional em **https://www.geekmusical.com.br**, com WordPress preservado para Stories, mídia original, Contato e recursos legados. A implantação técnica e os ajustes visuais estão comprovados; a revisão factual integral do acervo ainda possui pendências descritas abaixo.
 
-Atualização posterior em 09/10/2026: o [Editor da Home com grades predefinidas](admin/home-editor-checkpoint.md) foi entregue em DEV e PROD na release `ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea`, com 72 testes aprovados, backup verificado e preservação do estado. O registro abaixo descreve a migração inicial; o checkpoint vinculado registra a release atual e sua conferência.
+Atualização posterior em 09/10/2026: o [Editor da Home com grades predefinidas](admin/home-editor-checkpoint.md) foi entregue em DEV e PROD na release `ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea`. Em seguida, o [bloco de categorias foi movido para depois dos artigos](admin/home-order-checkpoint.md) na release `d22c7b117e972c5ea272d458be2a9714b672cc0b`, com 72 testes aprovados, backup verificado e preservação do estado. O registro abaixo descreve a migração inicial; os checkpoints vinculados registram as atualizações e suas conferências.
 
 ## Release e administração na migração inicial
 

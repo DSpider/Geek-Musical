@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync, writeFileSync } from "node:fs";
 import dotenv from "dotenv";
 import { JSDOM } from "jsdom";
+import type { HomeGridContent } from "../shared/home-editor.js";
 import {
   ContentCatalog,
   readSourceContent,
@@ -103,17 +104,43 @@ const routeChecks = await parallel(inventory, async (route) => {
     assert.equal(doc.querySelector('img[src$="/Magalu.png"]'), null);
   }
   if (route.path === "/") {
-    const grids = JSON.parse(
+    const grids: HomeGridContent[] = JSON.parse(
       doc.querySelector("#gm-home-layout")?.textContent || "null",
     );
+    assert.ok(Array.isArray(grids) && grids.length <= 8);
+    assert.equal(new Set(grids.map((g) => g.id)).size, grids.length);
+    for (const grid of grids) {
+      assert.ok(
+        Number.isInteger(grid.columns) &&
+          grid.columns >= 1 &&
+          grid.columns <= 4,
+      );
+      assert.ok(
+        Number.isInteger(grid.rows) && grid.rows >= 1 && grid.rows <= 6,
+      );
+      assert.ok(grid.cards.length <= grid.columns * grid.rows);
+      assert.equal(
+        new Set(grid.cards.map((card) => card.id)).size,
+        grid.cards.length,
+      );
+    }
     assert.deepEqual(
-      grids.map((g: { cards: unknown[] }) => g.cards.length),
-      [9, 3],
+      Array.from(
+        doc.querySelectorAll(".home-posts h2"),
+        (heading) => heading.textContent,
+      ),
+      grids.filter((grid) => grid.cards.length).map((grid) => grid.title),
     );
-    assert.equal(
-      new Set(grids[0].cards.map((c: { id: string }) => c.id)).size,
-      9,
+    assert.deepEqual(
+      Array.from(doc.querySelectorAll(".home-post-card"), (card) =>
+        card.getAttribute("href"),
+      ),
+      grids.flatMap((grid) => grid.cards.map((card) => card.url)),
     );
+    const categories = doc.querySelector("#explorar");
+    assert.ok(categories);
+    for (const section of doc.querySelectorAll("main > .home-posts"))
+      assert.ok(section.compareDocumentPosition(categories) & 4);
     assert.equal(doc.documentElement.dataset.theme, "light");
   }
   return {
@@ -125,7 +152,7 @@ const routeChecks = await parallel(inventory, async (route) => {
   };
 });
 console.log(
-  `PASS: ${routeChecks.length} rotas públicas, títulos, canonicals, JSON-LD e Home 9+3.`,
+  `PASS: ${routeChecks.length} rotas públicas, títulos, canonicals, JSON-LD e grades salvas da Home.`,
 );
 const redirects = await parallel(
   legacy.routes as { path: string; destination: string; status: number }[],

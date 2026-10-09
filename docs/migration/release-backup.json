@@ -1,7 +1,7 @@
 {
-  "deployedCommit": "ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
-  "remoteGuard": "/root/geekmusical-security/release-20261009T131431Z",
-  "externalCopy": "D:\\GeekMusical-backups\\releases\\release-20261009T131431Z",
+  "deployedCommit": "d22c7b117e972c5ea272d458be2a9714b672cc0b",
+  "remoteGuard": "/root/geekmusical-security/release-20261009T133746Z",
+  "externalCopy": "D:\\GeekMusical-backups\\releases\\release-20261009T133746Z",
   "checksumsVerified": true,
   "sqliteIntegrity": "ok",
   "archiveMembers": 6835,
@@ -9,17 +9,17 @@
   "files": [
     {
       "file": "admin-before.private.sqlite",
-      "sha256": "cfd6b7eb7a9bcff76a4c99838be5e1c1c3f778e1d86207b8f24f6b4fbcafdf6e",
+      "sha256": "79f2971e6a9a1b3a0516b10c018e77d047c8326f1222106e952af80ca815bd39",
       "bytes": 2924544
     },
     {
       "file": "editorial-state.private.tar.gz",
-      "sha256": "f83e8f865e69b5298dbf5a701f32b51c56b43e8f783ed3a24f75cfc484c817ff",
-      "bytes": 165836549
+      "sha256": "f60884d408bf9cf736453f900890f176581d9ad7945a7d97324052155f8ae9c5",
+      "bytes": 165836592
     },
     {
       "file": "previous-release.json",
-      "sha256": "7456caeb1c713cf4d73ddb83d84af1860d466b981ad0b975835f0b274476eb93",
+      "sha256": "1f4ca383063ffd761870deb31584d349cde31bed29d88b7efb9cbad6a990b563",
       "bytes": 193
     }
   ]

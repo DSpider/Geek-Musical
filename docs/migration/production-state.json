@@ -37,6 +37,6 @@
     "guia-produto-production": "active",
     "mago-de-casa": "active"
   },
-  "currentRelease": "/opt/geek-musical/releases/ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
-  "lastCheckpoint": "../admin/home-editor-production.json"
+  "currentRelease": "/opt/geek-musical/releases/d22c7b117e972c5ea272d458be2a9714b672cc0b",
+  "lastCheckpoint": "../admin/home-order-production.json"
 }

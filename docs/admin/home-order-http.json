@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-09T13:38:32.670Z",
+  "reports": [
+    {
+      "origin": "http://127.0.0.1:3230",
+      "status": 200,
+      "cache": null,
+      "sectionTitles": [
+        "O que vocêestá procurando?",
+        "Destaques para sua jornada musical",
+        "Últimos artigos",
+        "A música começa pela sua curiosidade",
+        "Mais informação para a sua jornada musical"
+      ],
+      "categoriesAfterAllArticleGrids": true,
+      "articleCards": 12,
+      "categoryLinks": 26,
+      "health": {
+        "ok": true,
+        "site": "Geek Musical",
+        "environment": "development"
+      }
+    },
+    {
+      "origin": "https://www.geekmusical.com.br",
+      "status": 200,
+      "cache": "DYNAMIC",
+      "sectionTitles": [
+        "O que vocêestá procurando?",
+        "Últimos artigos",
+        "Destaques para sua jornada musical",
+        "A música começa pela sua curiosidade",
+        "Mais informação para a sua jornada musical"
+      ],
+      "categoriesAfterAllArticleGrids": true,
+      "articleCards": 12,
+      "categoryLinks": 26,
+      "health": {
+        "ok": true,
+        "site": "Geek Musical",
+        "environment": "production"
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "commit": "ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
+  "commit": "d22c7b117e972c5ea272d458be2a9714b672cc0b",
   "github": "https://github.com/DSpider/Geek-Musical.git",
-  "sourceArchiveSha256": "d8c1eb76644b7d519703ed83f4ff64a67b6ccc63ee4e122b6c9c74aa54e96c16",
-  "release": "/opt/geek-musical/releases/ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
+  "sourceArchiveSha256": "8b717fd035abe5c0ee89ee29a0f312e923831e379ce0fbcda4fea64025e2d3cf",
+  "release": "/opt/geek-musical/releases/d22c7b117e972c5ea272d458be2a9714b672cc0b",
   "runtime": "v22.23.1",
   "health": {
     "ok": true,
@@ -12,7 +12,7 @@
   "state": "/var/lib/geek-musical",
   "environment": "production",
   "trafficCutOver": true,
-  "previousRelease": "/opt/geek-musical/releases/eb44faf28ba198c8bc339530928a9a254f6d8017",
-  "upgradeGuard": "/root/geekmusical-security/release-20261009T131431Z",
+  "previousRelease": "/opt/geek-musical/releases/ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
+  "upgradeGuard": "/root/geekmusical-security/release-20261009T133746Z",
   "adminStatePreserved": true
 }

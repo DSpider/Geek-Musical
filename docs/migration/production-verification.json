@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-09T13:17:13.868Z",
-  "deployedCommit": "ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
+  "checkedAt": "2026-10-09T13:41:37.704Z",
+  "deployedCommit": "d22c7b117e972c5ea272d458be2a9714b672cc0b",
   "routes": [
     {
       "path": "/contato/",
@@ -42,7 +42,7 @@
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/",
       "cache": "DYNAMIC",
-      "bytes": 55400
+      "bytes": 55322
     },
     {
       "path": "/blog/",
@@ -4752,72 +4752,72 @@
     {
       "base": "http://127.0.0.1:3230",
       "sample": 0,
-      "headersMs": 569.7,
-      "totalMs": 570.7,
+      "headersMs": 174.2,
+      "totalMs": 177.8,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 1,
-      "headersMs": 132.4,
-      "totalMs": 133.4,
+      "headersMs": 111.9,
+      "totalMs": 112.9,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 2,
-      "headersMs": 127.1,
-      "totalMs": 127.8,
+      "headersMs": 103,
+      "totalMs": 104.1,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 3,
-      "headersMs": 115.1,
-      "totalMs": 115.6,
+      "headersMs": 99.9,
+      "totalMs": 101,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 4,
-      "headersMs": 110.9,
-      "totalMs": 111.7,
+      "headersMs": 149.3,
+      "totalMs": 150,
       "htmlBytes": 54921
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 0,
-      "headersMs": 201,
-      "totalMs": 208.2,
-      "htmlBytes": 55379
+      "headersMs": 176.4,
+      "totalMs": 179.8,
+      "htmlBytes": 55301
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 1,
-      "headersMs": 191.2,
-      "totalMs": 199.2,
-      "htmlBytes": 55379
+      "headersMs": 171,
+      "totalMs": 175.1,
+      "htmlBytes": 55301
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 2,
-      "headersMs": 188.5,
-      "totalMs": 195.8,
-      "htmlBytes": 55379
+      "headersMs": 175.9,
+      "totalMs": 181.5,
+      "htmlBytes": 55301
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 3,
-      "headersMs": 195.3,
-      "totalMs": 201.4,
-      "htmlBytes": 55379
+      "headersMs": 167.1,
+      "totalMs": 169.6,
+      "htmlBytes": 55301
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 4,
-      "headersMs": 182.1,
-      "totalMs": 191.1,
-      "htmlBytes": 55379
+      "headersMs": 189.5,
+      "totalMs": 192.4,
+      "htmlBytes": 55301
     }
   ],
   "measurementScope": "Cinco amostras locais e HTTP público até cabeçalhos/conclusão; não são Core Web Vitals de campo.",
