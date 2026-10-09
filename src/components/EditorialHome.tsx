@@ -42,6 +42,7 @@ export function EditorialHome({
             Explore nossos artigos <ArrowUpRight size={18} />
           </a>
         </section>
+        <HomeBlogGrids grids={grids} />
         <section
           className="musical-categories page-width"
           id="explorar"
@@ -72,7 +73,6 @@ export function EditorialHome({
             ))}
           </nav>
         </section>
-        <HomeBlogGrids grids={grids} />
         <section className="musical-about page-width">
           <span className="eyebrow">GEEK MUSICAL</span>
           <h2>Mais informação para a sua jornada musical</h2>
