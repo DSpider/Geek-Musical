@@ -1,0 +1,4836 @@
+{
+  "checkedAt": "2026-10-09T04:09:06.793Z",
+  "deployedCommit": "eb44faf28ba198c8bc339530928a9a254f6d8017",
+  "routes": [
+    {
+      "path": "/contato/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/contato/",
+      "cache": "DYNAMIC",
+      "bytes": 150114
+    },
+    {
+      "path": "/politica-editorial/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/politica-editorial/",
+      "cache": "DYNAMIC",
+      "bytes": 11118
+    },
+    {
+      "path": "/politica-de-cookies/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/politica-de-cookies/",
+      "cache": "DYNAMIC",
+      "bytes": 10667
+    },
+    {
+      "path": "/transparencia-afiliados/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/transparencia-afiliados/",
+      "cache": "DYNAMIC",
+      "bytes": 10450
+    },
+    {
+      "path": "/affiliate-disclosure/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/affiliate-disclosure/",
+      "cache": "DYNAMIC",
+      "bytes": 10707
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/",
+      "cache": "DYNAMIC",
+      "bytes": 55396
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/",
+      "cache": "DYNAMIC",
+      "bytes": 18973
+    },
+    {
+      "path": "/mapa-do-site/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/mapa-do-site/",
+      "cache": "DYNAMIC",
+      "bytes": 34705
+    },
+    {
+      "path": "/politica-de-privacidade/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/politica-de-privacidade/",
+      "cache": "DYNAMIC",
+      "bytes": 14302
+    },
+    {
+      "path": "/termos-de-uso/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/termos-de-uso/",
+      "cache": "DYNAMIC",
+      "bytes": 15277
+    },
+    {
+      "path": "/sobre/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/sobre/",
+      "cache": "DYNAMIC",
+      "bytes": 11254
+    },
+    {
+      "path": "/blog/baixos/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/baixos/",
+      "cache": "DYNAMIC",
+      "bytes": 14327
+    },
+    {
+      "path": "/blog/bandolim/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/bandolim/",
+      "cache": "DYNAMIC",
+      "bytes": 12856
+    },
+    {
+      "path": "/blog/baterias/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/baterias/",
+      "cache": "DYNAMIC",
+      "bytes": 16348
+    },
+    {
+      "path": "/blog/cabos-e-acessorios/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/cabos-e-acessorios/",
+      "cache": "DYNAMIC",
+      "bytes": 13029
+    },
+    {
+      "path": "/blog/caixas-de-som/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/caixas-de-som/",
+      "cache": "DYNAMIC",
+      "bytes": 18839
+    },
+    {
+      "path": "/blog/canto/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/canto/",
+      "cache": "DYNAMIC",
+      "bytes": 12831
+    },
+    {
+      "path": "/blog/curiosidades/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/curiosidades/",
+      "cache": "DYNAMIC",
+      "bytes": 15111
+    },
+    {
+      "path": "/blog/direct-box/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/direct-box/",
+      "cache": "DYNAMIC",
+      "bytes": 12907
+    },
+    {
+      "path": "/blog/dj/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/dj/",
+      "cache": "DYNAMIC",
+      "bytes": 12734
+    },
+    {
+      "path": "/blog/flautas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/flautas/",
+      "cache": "DYNAMIC",
+      "bytes": 15065
+    },
+    {
+      "path": "/blog/fones/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/fones/",
+      "cache": "DYNAMIC",
+      "bytes": 18362
+    },
+    {
+      "path": "/blog/gaitas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/gaitas/",
+      "cache": "DYNAMIC",
+      "bytes": 12969
+    },
+    {
+      "path": "/blog/guitarras/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/guitarras/",
+      "cache": "DYNAMIC",
+      "bytes": 18641
+    },
+    {
+      "path": "/blog/interface-de-audio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/interface-de-audio/",
+      "cache": "DYNAMIC",
+      "bytes": 13087
+    },
+    {
+      "path": "/blog/mesa-de-som/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/mesa-de-som/",
+      "cache": "DYNAMIC",
+      "bytes": 14391
+    },
+    {
+      "path": "/blog/microfones/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/microfones/",
+      "cache": "DYNAMIC",
+      "bytes": 18593
+    },
+    {
+      "path": "/blog/pandeiros/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/pandeiros/",
+      "cache": "DYNAMIC",
+      "bytes": 12848
+    },
+    {
+      "path": "/blog/percussao/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/percussao/",
+      "cache": "DYNAMIC",
+      "bytes": 13352
+    },
+    {
+      "path": "/blog/review/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/review/",
+      "cache": "DYNAMIC",
+      "bytes": 18450
+    },
+    {
+      "path": "/blog/sanfonas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/sanfonas/",
+      "cache": "DYNAMIC",
+      "bytes": 12892
+    },
+    {
+      "path": "/blog/saxofone/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/saxofone/",
+      "cache": "DYNAMIC",
+      "bytes": 13360
+    },
+    {
+      "path": "/blog/teclados/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/teclados/",
+      "cache": "DYNAMIC",
+      "bytes": 18570
+    },
+    {
+      "path": "/blog/ukulele/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/ukulele/",
+      "cache": "DYNAMIC",
+      "bytes": 13526
+    },
+    {
+      "path": "/blog/violao/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/violao/",
+      "cache": "DYNAMIC",
+      "bytes": 18612
+    },
+    {
+      "path": "/blog/violinos/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/violinos/",
+      "cache": "DYNAMIC",
+      "bytes": 13344
+    },
+    {
+      "path": "/blog/vitrolas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/vitrolas/",
+      "cache": "DYNAMIC",
+      "bytes": 12866
+    },
+    {
+      "path": "/melhores-teclados-controladores/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-teclados-controladores/",
+      "cache": "DYNAMIC",
+      "bytes": 55747
+    },
+    {
+      "path": "/teclado-yamaha-psr-e373/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-yamaha-psr-e373/",
+      "cache": "DYNAMIC",
+      "bytes": 29074
+    },
+    {
+      "path": "/melhores-guitarras-profissionais/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-guitarras-profissionais/",
+      "cache": "DYNAMIC",
+      "bytes": 39446
+    },
+    {
+      "path": "/tudo-sobre-direct-box/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/tudo-sobre-direct-box/",
+      "cache": "DYNAMIC",
+      "bytes": 55664
+    },
+    {
+      "path": "/guitarra-tagima-tg-510-e-boa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarra-tagima-tg-510-e-boa/",
+      "cache": "DYNAMIC",
+      "bytes": 30876
+    },
+    {
+      "path": "/qual-a-melhor-caixa-de-som-alexa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/qual-a-melhor-caixa-de-som-alexa/",
+      "cache": "DYNAMIC",
+      "bytes": 54159
+    },
+    {
+      "path": "/violao-harmonics-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-harmonics-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 33142
+    },
+    {
+      "path": "/melhores-aplicativos-de-musica/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-aplicativos-de-musica/",
+      "cache": "DYNAMIC",
+      "bytes": 25038
+    },
+    {
+      "path": "/piano-roland-fp-10/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/piano-roland-fp-10/",
+      "cache": "DYNAMIC",
+      "bytes": 26702
+    },
+    {
+      "path": "/samson-sr850-review/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/samson-sr850-review/",
+      "cache": "DYNAMIC",
+      "bytes": 29718
+    },
+    {
+      "path": "/violao-yamaha-silent-slg200s/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-yamaha-silent-slg200s/",
+      "cache": "DYNAMIC",
+      "bytes": 33726
+    },
+    {
+      "path": "/baixo-tagima-millenium-5/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/baixo-tagima-millenium-5/",
+      "cache": "DYNAMIC",
+      "bytes": 27497
+    },
+    {
+      "path": "/mesa-de-som-behringer-x32-compact/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/mesa-de-som-behringer-x32-compact/",
+      "cache": "DYNAMIC",
+      "bytes": 30397
+    },
+    {
+      "path": "/baixo-yamaha-trbx-505/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/baixo-yamaha-trbx-505/",
+      "cache": "DYNAMIC",
+      "bytes": 31975
+    },
+    {
+      "path": "/strinberg-sts-100/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/strinberg-sts-100/",
+      "cache": "DYNAMIC",
+      "bytes": 35766
+    },
+    {
+      "path": "/guitarra-ibanez-rg-350-dxz/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarra-ibanez-rg-350-dxz/",
+      "cache": "DYNAMIC",
+      "bytes": 32585
+    },
+    {
+      "path": "/melhores-caixas-de-som-bluetooth-a-prova-dagua/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-caixas-de-som-bluetooth-a-prova-dagua/",
+      "cache": "DYNAMIC",
+      "bytes": 61854
+    },
+    {
+      "path": "/yamaha-montage-m8x/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/yamaha-montage-m8x/",
+      "cache": "DYNAMIC",
+      "bytes": 28824
+    },
+    {
+      "path": "/melhores-earbuds/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-earbuds/",
+      "cache": "DYNAMIC",
+      "bytes": 48538
+    },
+    {
+      "path": "/guitarras-gibson/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarras-gibson/",
+      "cache": "DYNAMIC",
+      "bytes": 32955
+    },
+    {
+      "path": "/melhores-marcas-de-violino/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-violino/",
+      "cache": "DYNAMIC",
+      "bytes": 49410
+    },
+    {
+      "path": "/qual-o-melhor-teclado-de-entrada/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/qual-o-melhor-teclado-de-entrada/",
+      "cache": "DYNAMIC",
+      "bytes": 33865
+    },
+    {
+      "path": "/melhores-marcas-de-trompete/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-trompete/",
+      "cache": "DYNAMIC",
+      "bytes": 49617
+    },
+    {
+      "path": "/melhor-contrabaixo-5-cordas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-contrabaixo-5-cordas/",
+      "cache": "DYNAMIC",
+      "bytes": 38698
+    },
+    {
+      "path": "/fone-de-ouvido-kz/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/fone-de-ouvido-kz/",
+      "cache": "DYNAMIC",
+      "bytes": 49820
+    },
+    {
+      "path": "/repique-de-mao/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/repique-de-mao/",
+      "cache": "DYNAMIC",
+      "bytes": 41979
+    },
+    {
+      "path": "/fone-de-ouvido-para-crianca/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/fone-de-ouvido-para-crianca/",
+      "cache": "DYNAMIC",
+      "bytes": 48329
+    },
+    {
+      "path": "/tipos-de-baquetas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/tipos-de-baquetas/",
+      "cache": "DYNAMIC",
+      "bytes": 31098
+    },
+    {
+      "path": "/melhor-mesa-de-som/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-mesa-de-som/",
+      "cache": "DYNAMIC",
+      "bytes": 30659
+    },
+    {
+      "path": "/melhores-mesas-de-som/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-mesas-de-som/",
+      "cache": "DYNAMIC",
+      "bytes": 65550
+    },
+    {
+      "path": "/melhores-pedaleiras-para-guitarra/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-pedaleiras-para-guitarra/",
+      "cache": "DYNAMIC",
+      "bytes": 61972
+    },
+    {
+      "path": "/melhores-teclados-casio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-teclados-casio/",
+      "cache": "DYNAMIC",
+      "bytes": 63647
+    },
+    {
+      "path": "/melhor-piano-digital/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-piano-digital/",
+      "cache": "DYNAMIC",
+      "bytes": 64476
+    },
+    {
+      "path": "/melhor-caixa-de-som-bluetooth/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-caixa-de-som-bluetooth/",
+      "cache": "DYNAMIC",
+      "bytes": 62010
+    },
+    {
+      "path": "/melhores-marcas-de-flauta-transversal/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-flauta-transversal/",
+      "cache": "DYNAMIC",
+      "bytes": 45879
+    },
+    {
+      "path": "/melhores-controladoras-dj/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-controladoras-dj/",
+      "cache": "DYNAMIC",
+      "bytes": 51318
+    },
+    {
+      "path": "/melhores-pedais-de-guitarra/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-pedais-de-guitarra/",
+      "cache": "DYNAMIC",
+      "bytes": 60313
+    },
+    {
+      "path": "/teclado-kurzweil-pc4/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-kurzweil-pc4/",
+      "cache": "DYNAMIC",
+      "bytes": 26536
+    },
+    {
+      "path": "/melhores-marcas-de-saxofone/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-saxofone/",
+      "cache": "DYNAMIC",
+      "bytes": 50511
+    },
+    {
+      "path": "/melhor-violao-ate-1000-reais/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-violao-ate-1000-reais/",
+      "cache": "DYNAMIC",
+      "bytes": 48933
+    },
+    {
+      "path": "/melhores-produtos-para-limpeza-de-guitarra/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-produtos-para-limpeza-de-guitarra/",
+      "cache": "DYNAMIC",
+      "bytes": 30668
+    },
+    {
+      "path": "/bateria-acustica/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/bateria-acustica/",
+      "cache": "DYNAMIC",
+      "bytes": 46238
+    },
+    {
+      "path": "/violao-michael-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-michael-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 36295
+    },
+    {
+      "path": "/violao-tagima-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-tagima-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 40988
+    },
+    {
+      "path": "/bateria-eletronica-yamaha/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/bateria-eletronica-yamaha/",
+      "cache": "DYNAMIC",
+      "bytes": 32824
+    },
+    {
+      "path": "/violao-takamine-gd11-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-takamine-gd11-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 25457
+    },
+    {
+      "path": "/melhores-headphones-bluetooth/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-headphones-bluetooth/",
+      "cache": "DYNAMIC",
+      "bytes": 57698
+    },
+    {
+      "path": "/violao-eletrico-profissional/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-eletrico-profissional/",
+      "cache": "DYNAMIC",
+      "bytes": 50837
+    },
+    {
+      "path": "/melhores-baterias-eletronicas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-baterias-eletronicas/",
+      "cache": "DYNAMIC",
+      "bytes": 53210
+    },
+    {
+      "path": "/melhores-gaitas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-gaitas/",
+      "cache": "DYNAMIC",
+      "bytes": 48665
+    },
+    {
+      "path": "/melhores-microfones-condensadores/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-microfones-condensadores/",
+      "cache": "DYNAMIC",
+      "bytes": 53572
+    },
+    {
+      "path": "/melhor-guitarra-do-mundo/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-guitarra-do-mundo/",
+      "cache": "DYNAMIC",
+      "bytes": 49114
+    },
+    {
+      "path": "/braco-articulado-para-microfone/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/braco-articulado-para-microfone/",
+      "cache": "DYNAMIC",
+      "bytes": 41292
+    },
+    {
+      "path": "/teclado-yamaha-psr-e473/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-yamaha-psr-e473/",
+      "cache": "DYNAMIC",
+      "bytes": 25767
+    },
+    {
+      "path": "/pratos-de-bateria/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/pratos-de-bateria/",
+      "cache": "DYNAMIC",
+      "bytes": 46790
+    },
+    {
+      "path": "/microfone-lelong-le-907/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/microfone-lelong-le-907/",
+      "cache": "DYNAMIC",
+      "bytes": 24490
+    },
+    {
+      "path": "/melhor-headset-custo-beneficio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-headset-custo-beneficio/",
+      "cache": "DYNAMIC",
+      "bytes": 40285
+    },
+    {
+      "path": "/melhores-vitrolas-vintage/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-vitrolas-vintage/",
+      "cache": "DYNAMIC",
+      "bytes": 44056
+    },
+    {
+      "path": "/melhores-marcas-de-clarinete/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-clarinete/",
+      "cache": "DYNAMIC",
+      "bytes": 37965
+    },
+    {
+      "path": "/guitarra-memphis-mg32-e-boa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarra-memphis-mg32-e-boa/",
+      "cache": "DYNAMIC",
+      "bytes": 25867
+    },
+    {
+      "path": "/melhor-microfone-de-lapela/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-microfone-de-lapela/",
+      "cache": "DYNAMIC",
+      "bytes": 54368
+    },
+    {
+      "path": "/melhores-sanfonas-ou-acordeons/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-sanfonas-ou-acordeons/",
+      "cache": "DYNAMIC",
+      "bytes": 50487
+    },
+    {
+      "path": "/melhores-marcas-de-cavaquinho/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-cavaquinho/",
+      "cache": "DYNAMIC",
+      "bytes": 57630
+    },
+    {
+      "path": "/violao-vogga-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-vogga-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 54052
+    },
+    {
+      "path": "/guitarra-waldman-e-boa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarra-waldman-e-boa/",
+      "cache": "DYNAMIC",
+      "bytes": 49136
+    },
+    {
+      "path": "/microfone-dylan-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/microfone-dylan-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 50857
+    },
+    {
+      "path": "/o-que-e-um-bandolim/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/o-que-e-um-bandolim/",
+      "cache": "DYNAMIC",
+      "bytes": 48155
+    },
+    {
+      "path": "/melhores-cabos-p10/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-cabos-p10/",
+      "cache": "DYNAMIC",
+      "bytes": 54895
+    },
+    {
+      "path": "/melhores-violoes-de-nylon/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-violoes-de-nylon/",
+      "cache": "DYNAMIC",
+      "bytes": 61639
+    },
+    {
+      "path": "/transmissor-sem-fio-para-guitarra/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/transmissor-sem-fio-para-guitarra/",
+      "cache": "DYNAMIC",
+      "bytes": 62274
+    },
+    {
+      "path": "/melhor-guitarra-7-cordas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-guitarra-7-cordas/",
+      "cache": "DYNAMIC",
+      "bytes": 41614
+    },
+    {
+      "path": "/violao-waldman-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-waldman-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 38783
+    },
+    {
+      "path": "/violao-strinberg-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-strinberg-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 78601
+    },
+    {
+      "path": "/violao-harmonics-gna-111-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-harmonics-gna-111-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 29969
+    },
+    {
+      "path": "/melhores-cordas-para-violao/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-cordas-para-violao/",
+      "cache": "DYNAMIC",
+      "bytes": 61838
+    },
+    {
+      "path": "/melhores-marcas-de-teclado-musical/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-teclado-musical/",
+      "cache": "DYNAMIC",
+      "bytes": 39578
+    },
+    {
+      "path": "/caixa-de-som-alok-e-boa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/caixa-de-som-alok-e-boa/",
+      "cache": "DYNAMIC",
+      "bytes": 56048
+    },
+    {
+      "path": "/caixa-de-som-pulse-e-boa-as-12-melhores-com-analise-completa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/caixa-de-som-pulse-e-boa-as-12-melhores-com-analise-completa/",
+      "cache": "DYNAMIC",
+      "bytes": 76891
+    },
+    {
+      "path": "/caixa-de-som-amvox-e-boa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/caixa-de-som-amvox-e-boa/",
+      "cache": "DYNAMIC",
+      "bytes": 58555
+    },
+    {
+      "path": "/caixa-para-bateria-acustica/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/caixa-para-bateria-acustica/",
+      "cache": "DYNAMIC",
+      "bytes": 63510
+    },
+    {
+      "path": "/fone-h-maston-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/fone-h-maston-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 53887
+    },
+    {
+      "path": "/teclado-casio-ct-s200-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-casio-ct-s200-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 30784
+    },
+    {
+      "path": "/violao-takamine/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-takamine/",
+      "cache": "DYNAMIC",
+      "bytes": 47974
+    },
+    {
+      "path": "/violao-hofma-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-hofma-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 54639
+    },
+    {
+      "path": "/melhores-violoes-ate-3000-reais/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-violoes-ate-3000-reais/",
+      "cache": "DYNAMIC",
+      "bytes": 57553
+    },
+    {
+      "path": "/guitarra-queens-e-boa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarra-queens-e-boa/",
+      "cache": "DYNAMIC",
+      "bytes": 33885
+    },
+    {
+      "path": "/melhor-violao-ate-500-reais/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-violao-ate-500-reais/",
+      "cache": "DYNAMIC",
+      "bytes": 55933
+    },
+    {
+      "path": "/qual-a-melhor-flauta-doce-para-iniciantes/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/qual-a-melhor-flauta-doce-para-iniciantes/",
+      "cache": "DYNAMIC",
+      "bytes": 48749
+    },
+    {
+      "path": "/violao-folk-strinberg-sd201hc/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-folk-strinberg-sd201hc/",
+      "cache": "DYNAMIC",
+      "bytes": 27844
+    },
+    {
+      "path": "/violinos-para-iniciantes/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violinos-para-iniciantes/",
+      "cache": "DYNAMIC",
+      "bytes": 49610
+    },
+    {
+      "path": "/melhor-caixa-de-som-jbl/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-caixa-de-som-jbl/",
+      "cache": "DYNAMIC",
+      "bytes": 77319
+    },
+    {
+      "path": "/violao-memphis-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-memphis-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 58093
+    },
+    {
+      "path": "/guitarra-phx-e-boa/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarra-phx-e-boa/",
+      "cache": "DYNAMIC",
+      "bytes": 46794
+    },
+    {
+      "path": "/qual-instrumento-mais-facil-de-tocar/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/qual-instrumento-mais-facil-de-tocar/",
+      "cache": "DYNAMIC",
+      "bytes": 26614
+    },
+    {
+      "path": "/qual-o-melhor-cajon/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/qual-o-melhor-cajon/",
+      "cache": "DYNAMIC",
+      "bytes": 42193
+    },
+    {
+      "path": "/melhores-violoes-para-iniciantes/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-violoes-para-iniciantes/",
+      "cache": "DYNAMIC",
+      "bytes": 83207
+    },
+    {
+      "path": "/melhor-ukulele-para-iniciantes/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-ukulele-para-iniciantes/",
+      "cache": "DYNAMIC",
+      "bytes": 70322
+    },
+    {
+      "path": "/melhor-soundbar/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-soundbar/",
+      "cache": "DYNAMIC",
+      "bytes": 56702
+    },
+    {
+      "path": "/teclado-concert-c300-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-concert-c300-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 32154
+    },
+    {
+      "path": "/ukulele-makanu-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/ukulele-makanu-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 26056
+    },
+    {
+      "path": "/melhor-microfone-para-gravar-videos/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-microfone-para-gravar-videos/",
+      "cache": "DYNAMIC",
+      "bytes": 58198
+    },
+    {
+      "path": "/microfone-para-karaoke/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/microfone-para-karaoke/",
+      "cache": "DYNAMIC",
+      "bytes": 53718
+    },
+    {
+      "path": "/fone-qcy-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/fone-qcy-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 69662
+    },
+    {
+      "path": "/melhores-teclados-arranjadores/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-teclados-arranjadores/",
+      "cache": "DYNAMIC",
+      "bytes": 61280
+    },
+    {
+      "path": "/saxofone-digital/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/saxofone-digital/",
+      "cache": "DYNAMIC",
+      "bytes": 38240
+    },
+    {
+      "path": "/caixa-de-som-pulse-800w/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/caixa-de-som-pulse-800w/",
+      "cache": "DYNAMIC",
+      "bytes": 26499
+    },
+    {
+      "path": "/caixa-de-som-amplificada-1000w/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/caixa-de-som-amplificada-1000w/",
+      "cache": "DYNAMIC",
+      "bytes": 42854
+    },
+    {
+      "path": "/melhores-violoes-de-cordas-de-aco/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-violoes-de-cordas-de-aco/",
+      "cache": "DYNAMIC",
+      "bytes": 79356
+    },
+    {
+      "path": "/melhor-teclado-musical-custo-beneficio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-teclado-musical-custo-beneficio/",
+      "cache": "DYNAMIC",
+      "bytes": 66038
+    },
+    {
+      "path": "/melhores-guitarras-custo-beneficio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-guitarras-custo-beneficio/",
+      "cache": "DYNAMIC",
+      "bytes": 69072
+    },
+    {
+      "path": "/melhor-fone-para-corrida/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-fone-para-corrida/",
+      "cache": "DYNAMIC",
+      "bytes": 62602
+    },
+    {
+      "path": "/microfones-para-podcast/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/microfones-para-podcast/",
+      "cache": "DYNAMIC",
+      "bytes": 69101
+    },
+    {
+      "path": "/bateria-eletronica-roland/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/bateria-eletronica-roland/",
+      "cache": "DYNAMIC",
+      "bytes": 33180
+    },
+    {
+      "path": "/melhor-amplificador-de-guitarra/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-amplificador-de-guitarra/",
+      "cache": "DYNAMIC",
+      "bytes": 70603
+    },
+    {
+      "path": "/fone-edifier-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/fone-edifier-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 62910
+    },
+    {
+      "path": "/violao-rozini-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-rozini-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 57236
+    },
+    {
+      "path": "/teclado-casio-ctk-3500-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-casio-ctk-3500-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 31836
+    },
+    {
+      "path": "/violao-giannini-n14-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-giannini-n14-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 29806
+    },
+    {
+      "path": "/o-que-e-um-luthier/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/o-que-e-um-luthier/",
+      "cache": "DYNAMIC",
+      "bytes": 26244
+    },
+    {
+      "path": "/melhores-caixas-de-som-amplificadas/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-caixas-de-som-amplificadas/",
+      "cache": "DYNAMIC",
+      "bytes": 78737
+    },
+    {
+      "path": "/microfone-kadosh-k502m-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/microfone-kadosh-k502m-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 31029
+    },
+    {
+      "path": "/melhores-microfones-para-igreja/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-microfones-para-igreja/",
+      "cache": "DYNAMIC",
+      "bytes": 47333
+    },
+    {
+      "path": "/melhores-interfaces-de-audio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-interfaces-de-audio/",
+      "cache": "DYNAMIC",
+      "bytes": 66142
+    },
+    {
+      "path": "/melhor-fone-de-ouvido-profissional/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-fone-de-ouvido-profissional/",
+      "cache": "DYNAMIC",
+      "bytes": 76894
+    },
+    {
+      "path": "/melhor-mesa-de-som-digital/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-mesa-de-som-digital/",
+      "cache": "DYNAMIC",
+      "bytes": 54917
+    },
+    {
+      "path": "/melhor-pad-eletronico/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-pad-eletronico/",
+      "cache": "DYNAMIC",
+      "bytes": 52680
+    },
+    {
+      "path": "/melhores-guitarras-para-iniciantes/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-guitarras-para-iniciantes/",
+      "cache": "DYNAMIC",
+      "bytes": 66345
+    },
+    {
+      "path": "/melhores-violoes-profissionais/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-violoes-profissionais/",
+      "cache": "DYNAMIC",
+      "bytes": 59011
+    },
+    {
+      "path": "/melhor-monitor-de-audio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-monitor-de-audio/",
+      "cache": "DYNAMIC",
+      "bytes": 60170
+    },
+    {
+      "path": "/melhores-captadores-de-guitarra/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-captadores-de-guitarra/",
+      "cache": "DYNAMIC",
+      "bytes": 38433
+    },
+    {
+      "path": "/teclado-roland-xps10/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-roland-xps10/",
+      "cache": "DYNAMIC",
+      "bytes": 29582
+    },
+    {
+      "path": "/melhores-microfones-sem-fio/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-microfones-sem-fio/",
+      "cache": "DYNAMIC",
+      "bytes": 66187
+    },
+    {
+      "path": "/melhores-microfones-dinamicos/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-microfones-dinamicos/",
+      "cache": "DYNAMIC",
+      "bytes": 68510
+    },
+    {
+      "path": "/violao-infantil/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-infantil/",
+      "cache": "DYNAMIC",
+      "bytes": 46816
+    },
+    {
+      "path": "/guitarra-fender-americana/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/guitarra-fender-americana/",
+      "cache": "DYNAMIC",
+      "bytes": 26773
+    },
+    {
+      "path": "/melhores-marcas-de-violao/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-violao/",
+      "cache": "DYNAMIC",
+      "bytes": 49565
+    },
+    {
+      "path": "/microfone-hyperx-quadcast-s/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/microfone-hyperx-quadcast-s/",
+      "cache": "DYNAMIC",
+      "bytes": 24552
+    },
+    {
+      "path": "/teclado-casio-ct-s300-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/teclado-casio-ct-s300-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 32158
+    },
+    {
+      "path": "/melhores-baixos-para-iniciantes/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-baixos-para-iniciantes/",
+      "cache": "DYNAMIC",
+      "bytes": 59334
+    },
+    {
+      "path": "/melhores-teclados-para-iniciantes/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-teclados-para-iniciantes/",
+      "cache": "DYNAMIC",
+      "bytes": 63797
+    },
+    {
+      "path": "/melhor-afinador-de-violao/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-afinador-de-violao/",
+      "cache": "DYNAMIC",
+      "bytes": 59786
+    },
+    {
+      "path": "/violao-eagle-e-bom/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-eagle-e-bom/",
+      "cache": "DYNAMIC",
+      "bytes": 39446
+    },
+    {
+      "path": "/violao-mais-caro-do-brasil/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/violao-mais-caro-do-brasil/",
+      "cache": "DYNAMIC",
+      "bytes": 27229
+    },
+    {
+      "path": "/melhor-fone-com-cancelamento-de-ruido/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhor-fone-com-cancelamento-de-ruido/",
+      "cache": "DYNAMIC",
+      "bytes": 58068
+    },
+    {
+      "path": "/nord-stage-3/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/nord-stage-3/",
+      "cache": "DYNAMIC",
+      "bytes": 25632
+    },
+    {
+      "path": "/melhores-pandeiros/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-pandeiros/",
+      "cache": "DYNAMIC",
+      "bytes": 53346
+    },
+    {
+      "path": "/melhores-pianos-do-mundo/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-pianos-do-mundo/",
+      "cache": "DYNAMIC",
+      "bytes": 34979
+    },
+    {
+      "path": "/dicas-de-canto/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/dicas-de-canto/",
+      "cache": "DYNAMIC",
+      "bytes": 24402
+    },
+    {
+      "path": "/melhores-guitarristas-do-mundo/",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/melhores-guitarristas-do-mundo/",
+      "cache": "DYNAMIC",
+      "bytes": 25977
+    },
+    {
+      "path": "/blog/?page=2",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=2",
+      "cache": "DYNAMIC",
+      "bytes": 18813
+    },
+    {
+      "path": "/blog/?page=3",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=3",
+      "cache": "DYNAMIC",
+      "bytes": 18378
+    },
+    {
+      "path": "/blog/?page=4",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=4",
+      "cache": "DYNAMIC",
+      "bytes": 18607
+    },
+    {
+      "path": "/blog/?page=5",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=5",
+      "cache": "DYNAMIC",
+      "bytes": 18738
+    },
+    {
+      "path": "/blog/?page=6",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=6",
+      "cache": "DYNAMIC",
+      "bytes": 18868
+    },
+    {
+      "path": "/blog/?page=7",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=7",
+      "cache": "DYNAMIC",
+      "bytes": 18952
+    },
+    {
+      "path": "/blog/?page=8",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=8",
+      "cache": "DYNAMIC",
+      "bytes": 18964
+    },
+    {
+      "path": "/blog/?page=9",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=9",
+      "cache": "DYNAMIC",
+      "bytes": 18817
+    },
+    {
+      "path": "/blog/?page=10",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=10",
+      "cache": "DYNAMIC",
+      "bytes": 18828
+    },
+    {
+      "path": "/blog/?page=11",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=11",
+      "cache": "DYNAMIC",
+      "bytes": 19014
+    },
+    {
+      "path": "/blog/?page=12",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=12",
+      "cache": "DYNAMIC",
+      "bytes": 18891
+    },
+    {
+      "path": "/blog/?page=13",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/?page=13",
+      "cache": "DYNAMIC",
+      "bytes": 15158
+    },
+    {
+      "path": "/blog/guitarras/?page=2",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/guitarras/?page=2",
+      "cache": "DYNAMIC",
+      "bytes": 17381
+    },
+    {
+      "path": "/blog/microfones/?page=2",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/microfones/?page=2",
+      "cache": "DYNAMIC",
+      "bytes": 13156
+    },
+    {
+      "path": "/blog/teclados/?page=2",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/teclados/?page=2",
+      "cache": "DYNAMIC",
+      "bytes": 16830
+    },
+    {
+      "path": "/blog/violao/?page=2",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/violao/?page=2",
+      "cache": "DYNAMIC",
+      "bytes": 18944
+    },
+    {
+      "path": "/blog/violao/?page=3",
+      "status": 200,
+      "canonical": "https://www.geekmusical.com.br/blog/violao/?page=3",
+      "cache": "DYNAMIC",
+      "bytes": 16240
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/baixos/",
+      "destination": "/blog/baixos/",
+      "status": 301
+    },
+    {
+      "path": "/bandolim/",
+      "destination": "/blog/bandolim/",
+      "status": 301
+    },
+    {
+      "path": "/baterias/",
+      "destination": "/blog/baterias/",
+      "status": 301
+    },
+    {
+      "path": "/cabos-e-acessorios/",
+      "destination": "/blog/cabos-e-acessorios/",
+      "status": 301
+    },
+    {
+      "path": "/caixas-de-som/",
+      "destination": "/blog/caixas-de-som/",
+      "status": 301
+    },
+    {
+      "path": "/canto/",
+      "destination": "/blog/canto/",
+      "status": 301
+    },
+    {
+      "path": "/curiosidades/",
+      "destination": "/blog/curiosidades/",
+      "status": 301
+    },
+    {
+      "path": "/direct-box/",
+      "destination": "/blog/direct-box/",
+      "status": 301
+    },
+    {
+      "path": "/dj/",
+      "destination": "/blog/dj/",
+      "status": 301
+    },
+    {
+      "path": "/flautas/",
+      "destination": "/blog/flautas/",
+      "status": 301
+    },
+    {
+      "path": "/fones/",
+      "destination": "/blog/fones/",
+      "status": 301
+    },
+    {
+      "path": "/gaitas/",
+      "destination": "/blog/gaitas/",
+      "status": 301
+    },
+    {
+      "path": "/guitarras/",
+      "destination": "/blog/guitarras/",
+      "status": 301
+    },
+    {
+      "path": "/interface-de-audio/",
+      "destination": "/blog/interface-de-audio/",
+      "status": 301
+    },
+    {
+      "path": "/mesa-de-som/",
+      "destination": "/blog/mesa-de-som/",
+      "status": 301
+    },
+    {
+      "path": "/microfones/",
+      "destination": "/blog/microfones/",
+      "status": 301
+    },
+    {
+      "path": "/pandeiros/",
+      "destination": "/blog/pandeiros/",
+      "status": 301
+    },
+    {
+      "path": "/percussao/",
+      "destination": "/blog/percussao/",
+      "status": 301
+    },
+    {
+      "path": "/review/",
+      "destination": "/blog/review/",
+      "status": 301
+    },
+    {
+      "path": "/sanfonas/",
+      "destination": "/blog/sanfonas/",
+      "status": 301
+    },
+    {
+      "path": "/saxofone/",
+      "destination": "/blog/saxofone/",
+      "status": 301
+    },
+    {
+      "path": "/teclados/",
+      "destination": "/blog/teclados/",
+      "status": 301
+    },
+    {
+      "path": "/ukulele/",
+      "destination": "/blog/ukulele/",
+      "status": 301
+    },
+    {
+      "path": "/violao/",
+      "destination": "/blog/violao/",
+      "status": 301
+    },
+    {
+      "path": "/violinos/",
+      "destination": "/blog/violinos/",
+      "status": 301
+    },
+    {
+      "path": "/vitrolas/",
+      "destination": "/blog/vitrolas/",
+      "status": 301
+    }
+  ],
+  "sitemaps": [
+    {
+      "path": "/sitemap.xml",
+      "entries": 5
+    },
+    {
+      "path": "/sitemap_index.xml",
+      "entries": 5
+    },
+    {
+      "path": "/post-sitemap.xml",
+      "entries": 149
+    },
+    {
+      "path": "/page-sitemap.xml",
+      "entries": 11
+    },
+    {
+      "path": "/category-sitemap.xml",
+      "entries": 26
+    },
+    {
+      "path": "/sitemaps/posts.xml",
+      "entries": 149
+    },
+    {
+      "path": "/sitemaps/pages.xml",
+      "entries": 11
+    },
+    {
+      "path": "/sitemaps/categories.xml",
+      "entries": 26
+    },
+    {
+      "path": "/web-story-sitemap.xml",
+      "entries": 97
+    },
+    {
+      "path": "/author-sitemap.xml",
+      "entries": 2
+    }
+  ],
+  "stories": [
+    {
+      "path": "/web-stories/as-melhores-marcas-de-cavaquinho/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-microfone-de-lapela/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/guitarra-memphis-mg32-e-boa/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/caixa-de-som-alexa/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-marcas-de-clarinete/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-vitrolas-vintage/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-pianos-do-mundo/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-headset-custo-beneficio/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/guitarra-tagima-tg-510/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-guitarras-profissionais/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/piano-roland-fp-10/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-harmonics-e-bom/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-earbuds/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-caixas-de-som-bluetooth-a-prova-dagua/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/fone-de-ouvido-kz/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-pad-eletronico/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/guitarras-gibson/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-contrabaixo-5-cordas/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-marcas-de-trompete/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/yamaha-montage-m8x/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/microfone-lelong-le-907/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/monitor-de-audio-edifier-s880db/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/repique-de-mao/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/fone-de-ouvido-para-crianca/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-takamine/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-microfone-para-gravar-videos/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/guitarra-rock-academy/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-headphones-bluetooth/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/baixo-tagima-millenium-5/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-microfones-dinamicos/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/teclado-roland-xps10/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/microfone-para-karaoke/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-soundbar/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/caixa-de-som-pulse-800w/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/pratos-de-bateria/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-caixa-de-som-jbl/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/teclado-yamaha-psr-e473/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-eletrico-profissional/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/saxofone-digital/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/nord-stage-3/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/braco-articulado-para-microfone/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-tagima-e-bom/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/bateria-eletronica-yamaha/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/bateria-eletronica-roland/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/microfones-para-podcast/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violinos-para-iniciantes/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-michael-e-bom/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-teclados-arranjadores/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-fone-para-corrida/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/bateria-acustica/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-guitarras-custo-beneficio/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/os-7-melhores-teclados-controladores-midi/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/teclado-yamaha-psr-e373/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/tudo-sobre-direct-box/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/fone-de-ouvido-por-conducao-ossea/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-violao-ate-1000-reais/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-violoes-de-cordas-de-aco/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/o-que-e-captador-de-guitarra/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/review-microfone-hyperx-quadcast-s-519p0aa/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/review-guitarra-fender-americana-professional-2/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/teclado-kurzweil-pc4/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-pedais-de-guitarra/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-giannini-n14bk/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-controladoras-dj/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/baixo-yamaha-trbx-505/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/mesa-de-som-digital/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/mesa-de-som-behringer-x32-compact/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-yamaha-silent-slg200s/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-caixa-de-som-bluetooth/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/violao-infantil/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-teclados-casio/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-pedaleiras-para-guitarra/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/samson-sr850-review/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/ofertas-da-semana-violoes/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-violoes-profissionais/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/bateria-eletronica-8-motivos/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/guitarra-ibanez-rg-350-dxz/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-mesas-de-som/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/strinberg-sts-100/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-mesa-de-som/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-violinos/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-microfones-sem-fio/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-interfaces-de-audio/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-monitor-de-audio/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-caixas-de-som-amplificadas/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-marcas-de-violao/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-microfones-para-igreja/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-microfones-condensadores/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-gaitas/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-teclados-para-iniciantes/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-ukulele-para-iniciantes/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-violoes-para-iniciantes/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-baixos-para-iniciantes/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-baterias-eletronicas/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhor-fone-de-ouvido-profissional/",
+      "status": 200
+    },
+    {
+      "path": "/web-stories/melhores-guitarras-para-iniciantes/",
+      "status": 200
+    }
+  ],
+  "media": [
+    {
+      "path": "/wp-content/uploads/2024/02/Tipos-de-Baqueta-2-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/3-tipos-de-baquetas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Tipos-de-Baqueta-2.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Tipos-de-Baqueta-1.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Magalu.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Tipos-de-Baquetas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Monitor-de-Audio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Interfaces-de-Audio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Microfones-Sem-Fio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Violinos.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Casio-CTX-5000.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Roland-E-X50.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Yamaha-PSR-E473.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhor-Teclado-de-Entrada.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Strinberg-STS-100.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/AZM-16FX-3.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/AZM-16FX.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/AZM-16FX-2.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/AZM-16FX-3-300x112.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/ML.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhor-Mesa-de-Som-AZM-16FX.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-LE-709-Lelong.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-REC4-Lexsen.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-SX602FX-Soundcraft.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-MG12XUK-Yamaha.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-M6-Lexsen.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-Som-Nag-7DSP.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-MX-4BT.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-Compacta-Soundvoice-MC4-BT.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-Behringer-Xenyx-X2442USB.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Mesa-de-som-Yamaha-MG16XU.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Mesas-de-Som-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhor-Fone-de-Ouvido-Profissional.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ibanez-RG-350-DXZ-Braco.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ibanez-RG-350-DXZ-Corpo.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ibanez-RG-350-DXZ-Costas.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ibanez-RG-350-DXZ-2.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Review-Ibanez-RG-350-DXZ.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Violoes-Profissionais.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Samson-SR850-Lado.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Samson-SR850-Interno.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Samson-SR850-1.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Samson-SR850-Review.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Boss-GT-1-300x147.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Zoom-G3XN--300x173.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Mooer-GE150.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Valeton-GP-100.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Mooer-GE200-300x185.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Boss-Me-80-300x150.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Zoom-A1X-Four.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Zoom-G5n-300x141.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Line-6-Helix-LT-300x157.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Melhores-Pedaleiras-Para-Guitarra-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Musical-CT-S195-300x125.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Musical-Tone-Ct-S200Rdc2-Br-300x85.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Musical-CASIOTONE-CT-S100C2-300x84.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Musical-CTK-3500-300x100.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Musical-CASIOTONE-CT-S300C2-BR-300x86.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Musical-LK-S250-300x84.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Musical-Casiotone-Ct-s1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Casio-CT-X5000.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Casio-CTK-1550-300x100.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Teclado-Casio-MZ-X500.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Melhores-Teclados-Casio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Infantil.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Piano-Digital-Yamaha-P-45-88-Teclas-300x68.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Piano-Digital-Casio-Stage-Cdp-s110-Preto-88-Teclas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Piano-Digital-Yamaha-P-45B-300x161.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Piano-Digital-Compacto-Yamaha-P125B-1-300x174.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Piano-Digital-Casio-CDP-S160-300x54.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Yamaha-YDP145-Arius-Series-Digital-Console-Piano.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Alesis-Recital-%E2%80%93-Piano-Digital-com-88-Teclas-300x91.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Piano-Casio-Privia-PX770-88-Teclas-Digital.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Yamaha-YDP165-Arius-Series-Piano.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Piano-Digital-ARIUS-Yamaha-YDP-103R.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Melhores-Pianos-Digitais.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-TA-5210-70-%E2%80%93-Remo-300x181.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Amazon.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-TP-300-%E2%80%93-Torelli-300x163.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-Light-82LT-%E2%80%93-Contemporanea.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-Acrilico-12-polegadas-%E2%80%93-PHX.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-10-Tp301-%E2%80%93-Torelli.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-TP-308-%E2%80%93-Torelli.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-Radiante-TA-4108-48-%E2%80%93-Remo.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pandeiro-Formica-Black-%E2%80%93-Contemporanea.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Melhores-Pandeiros.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/JBL-PartyBox-110.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/JBL-Charge-5-300x133.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/JBL-Flip-6.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/JBL-Flip-Essential-2-300x142.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Mondial-CM-700.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Mondial-CM-400.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/JBL-PartyBox-Encore.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Echo-Dot-5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/JBL-Go-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Mondial-Connect-Power-II-CM-550.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pulse-SP509.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/JBL-Boombox-3-300x162.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Melhor-Caixa-de-Som-Bluetooth.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Yamaha-Silent-SLG200s-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Yamaha-Silent-SLG200s-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Yamaha-Silent-SLG200s-4.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Review-Violao-Yamaha-Silent-SLG200s.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Tagima-Millenium-5-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Tagima-Millenium-5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Baixo-Tagima-Millenium-5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Behringer-X32-COMPACT.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Behringer-X32-COMPACT-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Behringer-X32-COMPACT-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Mesa-De-Som-Behringer-X32.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Caixa-de-Som-Amplificada-1000w.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Mesa-de-Som-Digital.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Baixo-Yamaha-TRBX-505-Marrom-Frente.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Baixo-Yamaha-TRBX-505-Costas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Baixo-Yamaha-TRBX-505-Marrom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Baixo-Yamaha-TRBX-505-Marrom-Costas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Baixo-Yamaha-TRBX-505.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Flauta-Transversal-Soprano-C-YFL-212-300x25.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Flauta-Transversal-Harmonics-C-HFL-5237S.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Flauta-Transversal-Mingzhe-16-Furos-300x263.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Flauta-Vogga-VSFL702N-300x23.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Flauta-Transversal-Estudante-C-YFL-222-300x189.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Melhores-Marcas-de-Flauta-Transversal.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Takamine-The-60th-CTF2N-Frente.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Takamine-The-60th-CTF2N-Case.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Takamine-The-60th-CTF2N-Costas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Takamine-The-60th-CTF2N-Detalhes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Takamine-The-60th-CTF2N-Cordas-768x398.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Mais-Caro-do-Brasil.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Controladora-DJ-Denon-PRIME-GO-7-HD-300x178.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Controladora-DJ-Numark-Party-Mix-Light-Show-300x193.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Controladora-DJ-Hercules-Starlight-300x149.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pioneer-Novo-controlador-de-DJ-XDJ-XZ-300x110.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pioneer-DJ-Controlador-portatil-de-2-canais-DDJ-SR2-300x181.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pioneer-Controlador-inteligente-DJ-de-2-canais-DDJ-200-300x98.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Pioneer-DJ-Controlador-DJ-DDJ-FLX10-de-4-decks-300x168.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Melhores-Controladoras-DJ.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Ibanez-Tube-Screamer-TS808.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Boss-BD-2-Blues-Driver.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Boss-DS-1-Distortion.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Electro-Harmonix-Big-Muff-Pi.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Dunlop-Fuzz-Face-300x280.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Dunlop-Cry-Baby-300x229.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Boss-CE-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/MXR-M234-Analog-Chorus.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/MXR-Phase-90.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Boss-DD-8-Digital-Delay.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Melhores-Pedais-de-Guitarra.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Giannini-N14-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Giannini-N14-3-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Giannini-N14-5-293x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Giannini-N14-1-279x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-GIANNINI-N14-3-115x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/cropped-Violao-GIANNINI-N14-Review-225x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Giannini-N14-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Folk-Strinberg-SD201HC-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Folk-Strinberg-SD201HC-4.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Folk-Strinberg-SD201HC.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/03/Violao-Folk-Strinberg-SD201HC-Review.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Kurzweil-PC4-Detalhe-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Kurzweil-PC4-Detalhe.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Kurzweil-PC4-2-768x427.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Kurzweil-PC4-300x98.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Kurzweil.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Fender-Guitarra-eletrica-American-Professional-II-Stratocaster-detalhe-768x424.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Fender-Guitarra-eletrica-American-Professional-II-Stratocaster-Corpo-768x441.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Fender-Guitarra-eletrica-American-Professional-II-Stratocaster-Corpo-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Fender-Guitarra-eletrica-American-Professional-II-Stratocaster-Costas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Fender-Guitarra-eletrica-American-Professional-II-Stratocaster-Review.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Microfone-HyperX-QuadCast-S-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Microfone-HyperX-QuadCast-S-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Microfone-HyperX-QuadCast-S-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Microfone-HyperX-QuadCast-S-5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Microfone-HyperX-QuadCast-S-4.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Microfone-HyperX-QuadCast-S.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Microfones-Dinamicos.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Saxofone-ALTO-EB-YAS-26-Yamaha.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Yamaha-YAS-280-Alto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Sax-Eagle-SA-501-Eagle.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Sax-Eagle-Bb-SP-502-Eagle-300x298.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Saxofone-Tenor-TS-200-New-York.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Saxofone-Alto-AS-200-Laqueado-New-York.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Melhores-Marcas-de-Saxofone.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Sintetizador-Roland-Xps10-Kit.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Sintetizador-Roland-Xps10-Lateral-768x281.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Sintetizador-Roland-Xps10-768x187.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Teclado-Roland-Xps10.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Captador-de-Guitarra.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Melhores-Violoes-de-Cordas-de-Aco.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-VMF361-Michael.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-Nylon-C40MII-%E2%80%93-Yamaha.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-Aco-Dallas-EQ-%E2%80%93-Tagima-300x115.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-Nylon-AC-39-%E2%80%93-Memphis.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-Aco-GDC-1-CEQ-%E2%80%93-Giannini.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-Nylon-VMY340-NA-%E2%80%93-Michael.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-Start-N-14-Giannini.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-GS-11-Harmonics.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Melhor-Violao-Ate-1000-Reais.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Luthier-2-768x768.jpeg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Luthier-1-768x768.jpeg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/O-que-e-um-luthier.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Melhor-Teclado-Musical-Custo-Beneficio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Tudo-Sobre-Direct-Box.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Teclado-Yamaha-PSR-E373-Frente.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Teclado-Yamaha-PSR-E373-Lateral.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/PSR-E373.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Teclado-Yamaha-PSR-E373-Cima.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Teclado-Yamaha-PSR-E373-E-Bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Melhores-Teclados-Controladores.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Flanela-de-Microfibra.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Polidor-de-Instrumentos.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Limpador-de-Cordas-300x212.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Oleo-para-Escala.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Kit-de-Ferramentas-para-Manutencao-300x285.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Melhores-Produtos-para-Limpeza-de-Guitarra.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Tocando-guitarra.jpeg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Melhores-Guitarristas-do-Mundo.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Melhores-Guitarras-Custo-Beneficio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Bateria-Acustica-Michael-Trinity-DMT222-GT-300x251.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Bateria-Acustica-Michael-Trinity-DMT220-GT-300x216.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Bateria-Acustica-Nagano-Onix-Smart-Amarelo-BGL-22-300x290.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Bateria-Acustica-Vogga-VPD924-300x248.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Bateria-Acustica-2T-Cromada-Preto-com-Banco-NY-F1RST-300x226.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Bateria-Acustica-Nagano-GARAGE-ROCK-22-GVS-300x256.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Bateria-Acustica.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Fone-Para-Corrida.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Cantora-Dicas-de-Canto.jpeg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Homem-Cantando-Dicas-de-Canto-768x439.jpeg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Dicas-de-Canto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Violao-Eletrico-Folk-Galaxy-VM925DT-Michael.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Violao-Eletrico-Michael-VMA320.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Violao-Nylon-VM15NY-%E2%80%93-Michael.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Violao-Eletrico-Michael-Folk-VMF400-AS.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Violao-Michael-E-Bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Violao-Tagima-Memphis-MD18.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Violao-Tagima-Dallas.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Violao-Tagima-Vegas.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/04/Tagima-Violao-TW-29-EQ-NTS.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Violao-Tagima-Memphis-AC39.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/05/Violao-Tagima-E-Bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Microfones-Para-Podcast.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Bateria-Eletronica-Roland.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Bateria-Eletronica-Yamaha-DTX452k.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Bateria-Eletronica-DTP-63X-DMR6-Yamaha-300x258.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Bateria-Eletronica-DTP-62X-DMR6-Yamaha-300x268.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Bateria-Eletronica-DD75-300x176.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Bateria-Eletronica-Yamaha.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/HP-keybed.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Songlist-1-400x298-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Organ-Drawbars-angled-710x200-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/HA-keybed.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Pianoheader.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Nord-Stage-3-Traseira-768x90.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Nord-Stage-3-300x86.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Nord-Stage-3-Review.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Braco-de-microfone-SUNMON-para-HyperX-QuadCast-SoloCast-Blue-Yeti-Fifine-AM8-296x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/RODE-PSA1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Thronmax-S3-Zoom-Boom-Arm.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Samson-MBA38.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Radic-Pedestal-Articulado-para-Microfone.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Armer-Mic-arm.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Trust-Gaming-GXT253-Emita.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Melhor-Braco-Articulado-Para-Microfone.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Amplificador-de-Guitarra.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Saxofone-Digital.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Takamine-GD11-MCE.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Takamine-GD11-MCE-Det-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Takamine-GD11-MCE-Det-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Takamine-GD11-MCE-Det-2-768x473.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Takamine-GD11-MCE-119x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Takamine-GD11-MCE-Det-4.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Violao-Takamine-GD11-MCE.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Headphone-Sony-WH-1000XM4-Prata-sem-fio-Bluetooth-e-com-Noise-Cancelling_cancelamento-de-Ruido-_-WH-1000XM4SMUC.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/AirPods-Max-Cinzento-sideral-271x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Fone-de-ouvido-sem-fio-Sennheiser-Momentum-4-%E2%80%93-Fone-de-ouvido-Bluetooth-para_chamadas-cristalinas-com-cancelamento-de-ruido-adaptavel_-vida-util-da-bateria_de-60h_-design-leve-dobr.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/JBL_-Fone-de-Ouvido-Over-Ear_-770NC_-Bluetooth-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/JBL_-Fone-de-Ouvido-On-ear_-Tune-520BT-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Fone-de-Ouvido-JBL_-Headphone-Bluetooth_-Tune-720BT-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Edifier-FONE-de-Ouvido-Com-Cancelamento-de-Ruido-W820NB-Bluetooth-5_0-OVER-EAR-_PRETO-Pequeno_-W820NB-BK.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/HyperX-Cloudx-Flight-Wireless-Xbox-One_-Verde_-Padrao.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Fone-de-Ouvido-Soundcore-Anker-Life-Q35-com-Cancelamento-de-Ruido-Ativo_Bluetooth-com-LDAC-para-audio-de-alta-resolucao_-40-horas-de-musica_-Ajuste_Confortavel_-Chamadas-Nitidas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Headphone-Bluetooth-Joy-P2-Preto-Multilaser-%E2%80%93-PH308.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Melhores-Headphones-Bluetooth-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Teclados-Arranjadores.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/06/Violinos-Para-Iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletrico-Aco-Gsf-1D-Ceq-Bk.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletroacustico-Nylon-NTX1-Yamaha.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Shopee-2.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletroacustico-Flat-Cutaway-Nylon-NF-14.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletrico-Sf14-Ceq-Flat-Aco-%E2%80%93-Giannini.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletroacustico-AC-60-EQ-Classical-%E2%80%93-Tagima.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletrico-Aco-Cutaway-Gf1D-Ceq-Zw-%E2%80%93-Giannini.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletrico-ACTNAB1954-Ametista-%E2%80%93-Tonante.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletrico-GC5CE-NAT-Classico-Cortado-%E2%80%93-Takamine.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Violao-Eletrico-Profissional.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Teclado-Yamaha-PSR-E473-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Teclado-Yamaha-PSR-E473-5-768x461.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Teclado-Yamaha-PSR-E473-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Teclado-Yamaha-PSR-E473-300x98.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Review-Teclado-Yamaha-PSR-E473.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Fone-Com-Cancelamento-De-Ruido.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Melhor-Caixa-De-Som-JBL.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Pad-Eletronico.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Zildjian-300x261.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Sabian-300x201.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Paiste-300x193.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Bosphorus-300x214.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Istanbul.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Meinl.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Pratos-de-Bateria.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Caixa-De-Som-Pulse-800w.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Caixa-De-Som-Pulse-800w-4.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Caixa-De-Som-Pulse-800w-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Caixa-De-Som-Pulse-800w-Review.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Melhor-Soundbar.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/07/Microfone-Para-Karaoke.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Microfone-Para-Gravar-Videos.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Violao-Takamine.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Fone-De-Ouvido-Para-Crianca.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Repique-de-Mao.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Contrabaixo-5-Cordas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Microfone-LeLong-LE-907-4-293x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Microfone-LeLong-LE-907-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Microfone-LeLong-LE-907-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Microfone-LeLong-LE-907-2-300x278.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/08/Microfone-LeLong-LE-907.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Yamaha-Montage-M8X-768x244.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Yamaha-Montage-M8X-2-768x283.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Yamaha-Montage-M8X-3-768x367.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Yamaha-Montage-M8X-Review.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Melhores-Marcas-de-Trompete.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Guitarras-Gibson.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Melhores-Earbuds.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Melhores-Caixas-de-Som-Bluetooth-A-Prova-DAgua.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Roland-FP-10-1-768x313.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Roland-FP-10-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Roland-FP-10-5.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Roland-FP-10-4.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Roland-FP-10.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Spotify-e1725330064710-300x90.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Deezer-300x83.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Tidal-300x158.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Soundcloud-300x189.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Youtube-Music.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Napster-300x139.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Apple-Music-300x75.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Google-Play-Music.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Amazon-Prime-Music-300x152.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Audiomack-300x171.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Melhores-Aplicativos-De-Musica.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Fone-De-Ouvido-KZ.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Violao-Harmonics-E-Bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Caixa-de-Som-Alexa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Tagima-TG-510-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Tagima-TG-510.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Tagima-TG-510-Verde.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Tagima-TG-510.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Melhores-Guitarras-Profissionais.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/HyperX-Cloud-III-Black.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Havit-HV-H2232d.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/HyperX-CloudX-Stinger-Core-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Headset-Gamer-Logitech-G432-7.1-Dolby-Surround.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Headset-Sem-Fio-Logitech-Zone-Vibe-100-Com-Microfone.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Headset-Gamer-Sem-Fio-Logitech-G733-7.1-Dolby-Surround.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Headset-Gamer-Headphone-fone-de-ouvido-com-microfone-AOC-GH210.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Melhor-Headset.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Fritz-Dobbert-1-4-Cauda-Cs150-Acustico-Cs-150.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-De-Cauda-Stewart.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Acustico-Acacio-Sons-Hu-110-300x244.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Digital-Casio-Ap-710-300x265.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-Digital-Kawai-KDP120R-Rosewood-300x241.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Piano-De-Cauda-Kawai-Modelo-Novo-Gl-10.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/09/Melhores-Pianos-Do-Mundo.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Vitrola-Toca-Discos-K7-CD-USB-FM-e-Bluetooth-ObaVintage.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Victrola-Mini-System-Portatil-Bluetooth-Azul-Vsc-550Bt-300x260.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Raveo-Vitrola-Spazio-com-Toca-discos-de-3-velocidades.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Vitrola-Retro-Bluetooth-Pulse-Morrison-SP613.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Toca-Disco-Dallas-Ribeiro-e-Pavani-35.309-300x289.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Vitrola-Chrome-Light-Blue-com-USB-e-Bluetooth-Bivolt-300x256.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Vitrola-Retro-Record-Player-Bluetooth-Vermelha-V50-200-Blk-Vitrola-V50-200-Blk-300x290.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Vitrola-Chrome-Brown-com-Usb-e-Bluetooth-Bivolt-300x245.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Melhores-Vitrolas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Clarinete-Profissional-Chaves-Banhadas-Clarinete-Baixo-LOW-EBb-Afinacao-Clarinete-De-Tubo-Preto-ABS.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Clarinete-Bb-CL04N-Preto-Brilhante-EAGLE.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/StarQuest-Clarinete-SQ-CL250-Corpo-ABS-duravel-com-teclas-niqueladas-brilhantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Clarinete-Bb-YCL-255-Preto-YAMAHA-Yamaha-YCL-255-300x236.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Clarinete-Soprano-Bb-17-chaves-CL-200-com-Case-New-York-300x147.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Instrumento-Musical-Clarinete-Baixo-De-Madeira-Cocobolo-Low-C-Bb-Profissional-Com-Acessorios-Kerrey-300x217.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Clarinete-Baixo-De-Madeira-Cocobolo-Low-C-Bb-RTGHYTY-300x217.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Melhores-Marcas-de-Clarinete.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-Memphis-MG32-E-Boa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-Memphis-MG32-E-Boa-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-Memphis-MG32-E-Boa-300x298.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-Memphis-MG32-E-Boa-Analise.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Microfone-Lapela-sem-Fio-Xsw1-Me2-A-Sennheiser-300x200.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Microfone-de-Lapela-Shure-CVL.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Hollyland-Microfone-Lapela-Sem-Fio-Lark-M1-Anti-Ruido.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/BOYA-Microfone-de-lapela-sem-fio-para-iPhone-Lightning-300x261.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Sony-Microfone-compacto-estereo-lapela-ECMLV1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Microfone-RODE-SMARTLAV.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Microfone-de-Lapela-Audio-Technica-Atr3350is.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Shure-WL93-300x181.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Melhor-Microfone-de-Lapela.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Acordeon-Sanfona-Scandalli-Polifonica-120-Baixos-4-5-De-Voz-300x255.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Acordeon-Gaita-Sanfona-Hohner-Amica-Iii-72-Com-Estojo.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Acordeon-Roland-Eletrico-Fr1x-Sanfona-Fr-1x-Rd-Vermelho-300x216.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Acordeon-80-baixos-Benson-Bac80-7prd-vermelho-perola-300x229.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Acordeon-8-Baixos-21-Botoes-TA-821BS-Vermelho-Thommasi-300x226.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Acordeon-80-Baixos-37-Teclas-TA-8009-Preto-Thommasi-300x216.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Acordeon-48-baixos-BAC48-3PRD-Vermelho-Benson-300x220.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Melhores-Sanfonas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Cavaco-Rozini-Rc15-Atlp-Presenca-Brasil-Eletrico-Louro-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/CAVACO-GIANNINI-CS1-EQ-NS-IMBUIA-SERIE-RAIZ.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/CAVACO-ROZINI-RC10.AC_.F.I-ESTUDANTE-CX-LARGA-AC-FOSCO-IMBUIA.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Cavaquinho-Giannini-Goncalo-Alves-Eletroacustico-CS1-Goal-EQ-NS.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/CAVACO-ROZINI-ESTUDANTE-ACUSTICO-NATURAL-FOSCO-RC10ACF.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Tagima-Cavaquinho-Terra-Eletrico-Fosco-Com-Capa-TCV02-MH-Cavaco.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/CAVACO-GIANNINI-CS1-GOAL-NS-GONCALO-ALVES-ACUSTICO-NS-300x218.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/CAVACO-STRINBERG-CS-25E-MGS-ELETRICO.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Cavaco-Eletroacustico-Cs-14-Ep-Preto-GIANNINI.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Cavaco-Malibu-Acustico-CTMM-Mahogany-Fosco.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Melhores-Marcas-De-Cavaquinho.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCK370-BMF.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCE330-MF.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCE300-ACO-SH.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCA83-NT.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCA104N-BK.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCA101N-NT.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCA204N-BK-300x120.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/VIOLAO-VOGGA-VCE227NC-BL.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Violao-Vogga-E-Bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Waldman-Wgar220f.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Waldman-ST-111-Wh.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Eletrica-Waldman-Escudo-Gte100-Bbk-300x100.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Telecaster-Waldman-6-Cordas-Gte-300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Eletrica-Waldman-Street-39-Hard-Wood-22-Trastes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Waldman-Wig520-Twh.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Waldman-Super-Strato-Extravaganza-Wga-320f-300x104.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Waldman-Superstrato-7-Cordas-Wig527.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Guitarra-Waldman-E-Boa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/MICROFONE-SEM-FIO-DYLAN-D-8000S-MAO-DUPLO-DIGITAL-300x269.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Microfone-Sem-Fio-Duplo-Dylan-Udx-05-Bastao.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/MICROFONE-SEM-FIO-DYLAN-GX-1-MAO-DIGITAL-300x175.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Microfone-sem-fio-duplo-profissional-Dylan-D-9000-UHF-200-canais-300x235.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/MICROFONE-SEM-FIO-PROFISSIONAL-DYLAN-D9001.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Microfone-Sem-Fio-Duplo-UHF-Dylan-UDX-02-Multi-300x199.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Microfone-sem-fio-Duplo-UHF-Dylan-DW-602-300x186.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Microfone-Dinamico-C-Fio-Dylan-Smd-58-Plus-Com-Case.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Microfone-Dylan-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Vangoa-Instrumento-bandolim-estilo-A_-bandolim-acustico-instrumento-musical_solido-abeto-top-8-cordas-bandolim-para-iniciantes_-adultos_-adolescentes_marrom-escuro.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Donner-Conjunto-de-instrumentos-bandolim-preto-para-iniciantes-adultos-mogno_estilo-A-com-afinador_-corda_-bolsa-de-concerto_-palhetas-de-guitarra-DML-100B.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Vangoa-Instrumento-bandolins-estilo-F_-abeto-e-bordo-macicos_-29-livre_-escala-e_ponte-de-ebano.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Bandolim_-instrumento-musical-Kmise-estilo-A_-bandolim_-8-cordas_-abeto_instrumento-musical-com-cordas-de-afinador_-palitos-de-alca-de-gig-bag-para_adultos-iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Instrumento-Bandolim-Adultos-Bandolim-Estilo-F-Feito-A-Mao-Cabeca-De-Estoque_Braco-Mogno.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Chusui-Bandolim-A-Estilo-A-8-cordas-Basswood-Body-Engineer-Madeira-Fingerboard_Instrumento-de-corda-ajustavel-para-Benginners-com-Bolsa-de-Armazenamento.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/DOYING-Bandolim-A-Estilo-A-8-cordas-Basswood-Body-Engineer-Madeira-Fingerboard_Instrumento-de-corda-ajustavel-para-Benginners-com-Bolsa-de-Armazenamento.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/Kit-bandolim-instrumento-Bandolim-De-Madeira-Estilo-A-De-8-Cordas-Com-Corda-De_Aco-Jacaranda-Instrumento-De-Guitarra-AjustavelBlack.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/10/O-que-e-Um-Bandolim.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Deluxe-Series-Instrument-Cable_-Straight_Angle_-15-Black-Tweed.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-de-guitarra-de-6-metros-New-Bee-para-instrumento-eletrico_-cabo-AMP-1_4_reto-para-reto-para-guitarra-eletrica_-baixo_-bandolim-eletrico_-audio_profissional-angulo-direito.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-de-guitarra-10FT-angulo-reto-1_4-polegada-TS-a-reto-1_4-polegada-TS_guitarra-eletrica-e-baixo-cabo-de-audio-instrumento-profissional.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-KIRLIN-IWB-202BFGL-20_BR-6-metros-Premium-Plus_-jaqueta-de-tecido_preto_vermelho.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-Instrumental-Angled-Festival-Fender.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-Vox-9M-em-Espiral-VCC-90-Preto-300x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-P10-x-P10-Deluxe-Series-Fender-em-Tweed.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Original-Series-Instrument-Cable_-10_-Surf-Green.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-Custom-Series-Trancado-3.05M-em-Tecido-Tweed-DAddario-Pw-Bg-10Tw.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Cabo-trancado-Ernie-Ball-P06078_-reto_angular_-3-m_-rosa-neon.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Melhores-Cabos-P10.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Eletroacustico-Cordas-em-Nylon-CX-40-II-Natural-Yamaha.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Strinberg-Sl200c-Mgs-Flat-Nylon-Eletrico.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Acustico-Tagima-AC-39-NS-Memphis-Natural-Nylon.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Acustico-Classico-NYLON-GN-15-Natural-Giannini.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/VIOLAO-ELETROACUSTICO-MEMPHIS-AC-60.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Classico-Eletrico-Strinberg-Fs3c-Nylon-Mahogany-Satin.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Acustico-Estudo-Nylon-N-14N-Nat.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Eletrico-Nylon-Gnf3-Ceq-Ws-Satin.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Eletrico-Mini-Jumbo-Strinberg-Sa200c-Mgs.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Violao-Acustico-Classico-Nylon-C40MII-Natural-YAMAHA-Yamaha-C40MII.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Melhores-Violoes-de-Nylon.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/SWIFF-Sistema-eletronico-sem-fios-para-guitarra_-transmissor-sem-fios-de-para_guitarra_-re.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Sistema-de-guitarra-LEKATO_-receptor-e-transmissor-sem-fio-de-2_4-GHz_recarregavel_-com-4.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Xvive-Transmissor-E-Receptor-Sem-Fio-De-Guitarra-U2-Com-Sistema-Sem-Fio-De_Guitarra-2_4-Gh.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Pegar_-Romacci-Conjunto-receptor-transmissor-de-guitarra-sem-fio-A8-UHF-730-mhz_50-m-para.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/LEKATO-Sistema-de-guitarra-sem-fio-de-2_4-GHz_-6-canais_-transmissor-de-audio_recarregavel.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Westshell-1-chave-para-interruptor-sistema-de-guitarra-sem-fio-receptor_transmissor-de-gui.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/LEKATO-Sistema-de-guitarra-sem-fio-5_8-receptor-transmissor-de-guitarra-sem-fio_recarregav.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/KKcare-Conjunto-Receptor-Transmissor-Recarregavel-para-Guitarra-Sem-Fio-Sistema_de-Guitarr.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Sistema-de-guitarra-sem-fio-Receptor-transmissor-de-guitarra-sem-fio_recarregavel-48K-24bi.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/BOSS-Transmissor-e-receptor-do-sistema-de-guitarra-sem-fio-WL-20L-para-guitarra_acustica-o.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Transmissor-Sem-Fio-Para-Guitarra.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Ibanez-Guitarra-eletrica-GRG7221QATKS-GIO-RG-7str-Sunburst-preta-transparente.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-Cort-KX307-MS-_-Multi-Scale-_-7-Cordas-_-Open-Pore-Mahogany-OPM.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-7-Cordas-Ibanez-RG-MS7-BK-Multi-Escala.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-Ibanez-7-Cordas-RGD-7521PB-DSF.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Guitarra-eletrica-de-viagem-sem-cabeca-com-traste-de-7-cordas-com-chave-de-3_vias-1-volume.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Melhor-Guitarra-7-Cordas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/WALDMAN-Violao-Acustico-Nylon_-Natural_-3_4_-Class-One.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Acustico-com-Cordas-de-Nylon-CL-1-AM-Ambar-WALDMAN.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Acustico-Waldman-PPC-1-Classico-Cutaway-Nylon-Natural.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-de-Nylon-Acustico-Waldman-PPC-1-BK-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/VIOLAO-WALDMAN-ELETRO-ACUSTICO-ACO-DEX-441-DNB.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Waldman-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Sf200c-Mgs-Aco-Eletrico-Flat-Fino.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Sl200c-Mgs-Flat-Nylon-Eletrico-Mogno-Fosco.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Forest-Fs4d-Mgs-Folk.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-London-Le30c-N.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Eletrico-Mini-Jumbo-Strinberg-Sa200c-Mgs-Mogno-Fosco.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Folk-Eletrico-SD200-NS-Natural-Fosco-SD200C.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Vienna-Ve30c-N.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Eletroacustico-Aco-Berlin-BE30C-WH-Branco-Strinberg.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Classico-Eletrico-Strinberg-Fs3c-Nylon-Mahogany-Satin.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Diamond-DD1C-MGS-Folk-Capa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Classico-Sc35c-N-Natural.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-Sr200-Mgs-Eletrico-Mini-Folk.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Strinberg-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/violao-harmonics-gna-111-e-bom%E2%80%8B-capa-256x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/violao-harmonics-gna-111-e-bom%E2%80%8B-3-117x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/violao-harmonics-gna-111-e-bom%E2%80%8B-2-116x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/violao-harmonics-gna-111-e-bom%E2%80%8B-113x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Violao-Harmonics-gna-111-e-bom%E2%80%8B-Analise.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Encordoamento-Para-Violao-Nailon-Titanio-DAddario-Pro-Arte-Dynacore-EJ45TT.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Savarez-540R-NT-Alliance-Trebles-Classic-Basses-Accordeon-Acessorio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Augustine-Cordas-de-guitarra-Regal-de-nylon-de-cristal-de-alta-tensao-1_conjunto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Encordoamento-_011-Elixir-16027_-para-Violao-Aco_-Custom-Light-Phosphor-Bronze_Nanoweb.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Encordoamento-Para-Violao-Aco-Revestida-Phosphor-Bronze-_012-_053-DAddario-XT_XTAPB1253.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Encordoamento-Para-Violao-Aco-_011-_052-Com-Corda-Extra-PL011-DAddario-Bronze_85_15-EZ910.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Encordoamento-_011-Elixir-11027_-para-Violao-Aco_-Custom-Light-Bronze-80_20_Nanoweb.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Encordoamento-012-054-Ernie-Ball-P02146_-para-Violao-Aco_-Earthwood-Tensao_Media-Leve-Phos.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Melhores-Cordas-Para-Violao.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Yamaha-300x120.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/logo-roland-300x141.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/logo-korg-300x150.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/nord-300x147.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/logo-casio-300x150.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/logo-pianos-kawai.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/novation-vector-logo-300x167.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Alesis-300x59.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/kurzweil-logo-300x59.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Akai-300x189.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Melhores-Marcas-de-Teclado-Musical.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/WAAW-by-ALOK-Caixa-de-Som-INFINITE-200-Bluetooth_-Tipo-Torre_-4-Alto-Falantes_com-LEDs-Di.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/WAAW-by-ALOK-Caixa-de-Som-INFINITE-100-Bluetooth_-Tipo-Torre_-Ate-14h-de_Autonomia_-4-Alto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Bluetooth-WAAW-by-Alok-BOOM-100SB-Grande-e-Portatil-com-Alca-e-a_Prova-dAgua.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/WAAW-by-ALOK-Caixa-de-Som-HYPERBOOM-1000-Bluetooth_-A-Prova-DAgua_-Ate-12h-de_Autonomia_.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/WAAW-by-ALOK-Caixa-de-Som-US-200SB-DUO-Bluetooth-2-em-1_-Resistente-a-Agua_Acabamento-Met.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/WAAW_-Caixa-de-Som-Bluetooth-Portatil-10W-com-Entrada-para-Cartao-de-Memoria_micro-SD-IPX6.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/WAAW-by-ALOK-Caixa-de-Som-BOOM-200-Bluetooth_-com-3-Alto-Falantes_-Ate-12h-de_Autonomia_-T.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Portatil-Bluetooth-5W-WAAW-by-ALOK-ME-100SB-com-Entrada-para-Cartao_de-Memori.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-som-Alok-e-boa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Torre-Double-12-Pol_-2200W-Pulse-SP500.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Torre-PulseBox-Double-8-Pol-1100W-Pulse-SP510.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Torre-Storm-8Pol_-1000w-Rms-Bt_Fm_P10-Pulse-SP509.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-De-Som-Torre-Double-12-Pol-2300w-Bluetooth-Pulse-SP508.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Torre-Pulse-Double-10-Pol_-1800W-RMS-BT-LED-SP507.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Xplosion-3-100W-BT_USB_AUX_TWS-Pulse-SP620.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/PULSE-Caixa-de-Som-Xplode-3-300W-Bluetooth-SP606_-Cor_-preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Pulse-Box-2-Double-6_5-700W-RMS-BT_AUX_USB_SD_TWS_MIC-SP513.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Pulse-Xplosion-2-550W-Bluetooth-Pulse-SP607.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Bluetooth-Pulsebox-1_000W-de-pot%EF%BF%BDncia-Sp359.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-som-Pulse-Wave-II-Bluetooth-20w-Preta-SP355.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Torre-Flamebox-DJ-5000W-RMS-Pulse-SP512.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-som-Pulse-e-boa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Amvox-Caixa-de-Som-Amplificada-ACA-1000-New-X-SFM-1000W-RMS_-Bluetooth_Amplificador-Dig.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Amvox-Caixa-Amplificada-Party-Vox-Prime.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Amvox-Caixa-de-Som-Amplificada-ACA-255-Hit-250W-RMS_-Bluetooth_-Radio-FM_-USB.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Amvox-Caixa-de-Som-Amplificada-ACA-600-Bagvox-Red-600W-RMS_-Bluetooth_Equalizador_-USB_.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Acustica-Bluetooth-550W-Amvox-ACA550-Strondo-II.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Amvox-Caixa-de-Som-Amplificada-ACA-480-Viper-II-480W-RMS_-Bluetooth_Equalizador_-Radio.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Amvox-Caixa-de-Som-Amplificada-ACA-221-Gigante-II-220W-RMS_-Bluetooth_-Radio_FM_-USB_-Pr.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Amvox-Caixa-de-Som-Amplificada-ACA-1300-New-X-SFM-1300W-RMS_-Bluetooth_Equalizador_-USB.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Caixa-de-Som-Amvox-e-boa%E2%80%8B.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-Tama-Star-Maple-14x6-5-Grand-Aqua-Blue-Made-In-Japan-300x208.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Ludwig-LB417KT-BLACK-BEAUTY-Caixa-de-bateria.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-Para-Bateria-Tama-Aw455-14x5-50th-Ltd-300x180.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/CAIXA-Nagano-BIG-BEAT-EBS.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-Tama-Star-Walnut-14x65-Garnet-Japanese-Sen-Burst-300x210.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-Tama-Starphonic-Bubinga-Matte-Natural-Cordia-14x6-1-300x189.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-Bateria-8X14-10-Afinacoes-Canoa-Dupla-Madeira-Verniz.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-MPX-Series-Maple-14_-x-8_-MPML-4800C-NL-Mapex.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-Bateria-14x8-Polegadas-Com-10-Afinacoes-Spanking-300x213.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-De-Bateria-Em-Aco-14x8-Metallic-Torelli-Tcm-41-300x192.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/11/Caixa-para-Bateria-Acustica.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-de-Ouvido-Bluetooth-Fone-Sem-Fio-com-Microfone-Fone-Bluetooth_Esportivo-para-iPhone-Samsung-Android-Tela-de-LED-RS-51-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-de-Ouvido-Bluetooth-Fone-Sem-Fio-Gamer-Fone-Esportivo-com_Microfone-Cancelamento-de-Ruido-Ativo-Tela-LED-RS-29-PERTO.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-Conducao-Aerea-Fone-de-Ouvido-Bluetooth-para-Corrida-Fone_Cancelamento-com-Microfone-a-Prova-Dagua-RS-64-PRETO.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-De-Ouvido-Sem-Fio-Tws-Fone-Bluetooth-5_3-com-Microfone-Caixa-de_metal-Liga-De-Zinco-Tipo-C-Cancelamento-de-Ruidos-Rs-13-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-de-Ouvido-Bluetooth-5_3-Headset-Sem-Fio-Headphone-Gamer-com-Fio-e_Microfone-com-Cancelamento-de-Ruido-SN07-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-de-Ouvido-Headset-Sem-Fio-Headphone-Gamer-Cancelamento-de-Ruido_Bluetooth-5_3-com-Fio-E-Microfone-SN28-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-de-Ouvido-Bluetooth-Fone-Sem-Fio-5_3-Tws-Intra-auricular-com_Microfone-e-Luz-Led-Display-IPX5-Esportivos-Rs-32-BRANCO.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/HMASTON-Fone-de-Ouvido-Bluetooth-Headset-Sem-Fio-Headphone-com-Microfone-Luzes_RGB-Gamer-com-Cartao-TF-Inserivel-E-Necessaria-Compra-Adicional-SN23-Preto.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/12/Fone-H-Maston-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S200-e-bom-768x293.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S200-e-bom-3.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S200-e-bom-2-768x216.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S200-e-bom-300x114.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S200-e-bom-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S300-e-bom-1-768x215.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S300-e-bom-2-768x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Teclado-Casio-CT-S300-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Violao-Eagle-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/01/Fone-Edifier-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Violao-Hofma-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Violao-Rozini-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Melhor-Afinador-de-Violao.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Teclado-Casio-CTK-3500-1-768x365.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Teclado-Casio-CTK-3500-4-768x512.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Teclado-Casio-CTK-3500-3-768x551.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Teclado-Casio-CTK-3500-2-768x750.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/02/Teclado-Casio-CTK-3500-e-bom%E2%80%8B.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/kadosh-k502m-1-768x552.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/kadosh-k502m-2-125x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/kadosh-k502m-3-768x306.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/kadosh-k502m-4-768x232.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Microfone-Kadosh-k502m-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Violao-Memphis-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Guitarra-PHX-e-boa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Fone-QCY-e-bom%E2%80%8B.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Teclado-Musical-Concert-C-300-6-768x431.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Teclado-Musical-Concert-C-300-1-768x388.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Teclado-Musical-Concert-C-300-5-768x512.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Teclado-Musical-Concert-C-300-3-768x462.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Teclado-Musical-Concert-C-300-4-768x503.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Teclado-Musical-Concert-C-300-2-300x243.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Teclado-Concert-C300-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Ukulele-Makanu-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Ukulele-Makanu-e-bom-3-300x255.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Ukulele-Makanu-e-bom-2.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/03/Ukulele-Makanu-e-bom.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/09/Melhores-violoes-ate-3000-reais.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ukulele-UKS-21-NS-Soprano-Natural-Giannini.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gaita-Hering-Vintage-Harp-1020C-SHG.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Qual-instrumento-mais-facil-de-tocar.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Qual-a-melhor-flauta-doce-para-iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/04/Qual-o-melhor-cajon.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/05/Melhor-violao-ate-500-reais.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/05/Guitarra-Eletrica-Queens-ST-Vermelha-5-768x303.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/05/Guitarra-Eletrica-Queens-ST-Vermelha-2-768x448.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/05/Guitarra-Eletrica-Queens-ST-Vermelha-4-106x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/05/Guitarra-Eletrica-Queens-ST-Vermelha-3-768x512.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/05/Guitarra-Eletrica-Queens-ST-Vermelha-1-103x300.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2025/05/Guitarra-Queens-e-boa.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Guitarras-Para-Iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Bateria-Eletronica-X-pro-Ed2-Orange-Laranja-Choke.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Bateria-Eletronica-Carlsbro-CSD100-Black-300x291.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Bateria-Eletronica-XPRO-ED10.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Bateria-Eletronica-XPRO-ED100-300x292.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Bateria-Eletronica-Behringer-XD8USB.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Bateria-Eletronica-Profissional-Turbo-7-Pad-Skd120-Pgs-Tdx16.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Baterias-Eletronicas-1.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Baixos-Para-Iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Violoes-Para-Iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Fender.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/cf-martin-co-300x113.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Taylor-Guitars.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Violao-Yamaha-Acustico-Folk-Aco-F310.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gibson-300x193.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/cordoba-300x104.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Marcas-de-Violao.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhor-Ukulele-Para-Iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Teclados-Para-Iniciantes.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gaita-de-Bocas-Harmonica-Hering-Easy-Blues-4420c.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gaita-Hohner-Special-560PBXC-300x147.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gaita-Diatonica-Deluxe-Fender-300x195.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Harmonica-Diatonica-Hohner-Marine-Band.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gaita-Cromatica-Hering-Vintage-40-300x98.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gaita-Cromatica-East-Top.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gaita-Stone-Orleans-Harmonicas.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Gaitas.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/AKG-P420-Perception.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Audio-Technica-AT4047-SV-Cardioide.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Audio-Technica-AT2035-Cardioide.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Behringer-B-2-PRO-Cardioide.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Shure-BETA-91A-Tipo-Boundary-Half-Cardioide.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/AKG-Ultra-HD-Lyra-C44-USB.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Behringer-Par-de-Microfones-Condensadores-C-2.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Microfone-E614-Sennheiser.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Microfones-Condensadores.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhores-Microfones-Para-Igreja.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Fender-Stratocaster-SSS.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Gibson-Les-Paul.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Fender-Telecaster.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ibanez-RG-Prestige.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ibanez-GB10EM-300x108.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Ibanez-AS53-TF-300x119.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Epiphone-Les-Paul-Special-Slash.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Tagima-T850-Telecaster-Sunburst.png",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/Melhor-Guitarra-do-Mundo.jpg",
+      "status": 200
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/As-10-Melhores-Caixas-de-Som-Amplificadas.jpg",
+      "status": 200
+    }
+  ],
+  "security": {
+    "unauthenticatedPrivateApiDenied": true,
+    "productionLoginVerified": true,
+    "hostCookieSecureHttpOnlyStrict": true,
+    "privateResponsesNotCached": true
+  },
+  "measurements": [
+    {
+      "base": "http://127.0.0.1:3230",
+      "sample": 0,
+      "headersMs": 166.2,
+      "totalMs": 167.1,
+      "htmlBytes": 54921
+    },
+    {
+      "base": "http://127.0.0.1:3230",
+      "sample": 1,
+      "headersMs": 100.6,
+      "totalMs": 101.3,
+      "htmlBytes": 54921
+    },
+    {
+      "base": "http://127.0.0.1:3230",
+      "sample": 2,
+      "headersMs": 91.7,
+      "totalMs": 92.4,
+      "htmlBytes": 54921
+    },
+    {
+      "base": "http://127.0.0.1:3230",
+      "sample": 3,
+      "headersMs": 97.3,
+      "totalMs": 98,
+      "htmlBytes": 54921
+    },
+    {
+      "base": "http://127.0.0.1:3230",
+      "sample": 4,
+      "headersMs": 91.8,
+      "totalMs": 93,
+      "htmlBytes": 54921
+    },
+    {
+      "base": "https://www.geekmusical.com.br",
+      "sample": 0,
+      "headersMs": 215.5,
+      "totalMs": 219.6,
+      "htmlBytes": 55375
+    },
+    {
+      "base": "https://www.geekmusical.com.br",
+      "sample": 1,
+      "headersMs": 236.5,
+      "totalMs": 239.1,
+      "htmlBytes": 55375
+    },
+    {
+      "base": "https://www.geekmusical.com.br",
+      "sample": 2,
+      "headersMs": 216.6,
+      "totalMs": 224.7,
+      "htmlBytes": 55375
+    },
+    {
+      "base": "https://www.geekmusical.com.br",
+      "sample": 3,
+      "headersMs": 185.1,
+      "totalMs": 188.7,
+      "htmlBytes": 55375
+    },
+    {
+      "base": "https://www.geekmusical.com.br",
+      "sample": 4,
+      "headersMs": 169.5,
+      "totalMs": 172.3,
+      "htmlBytes": 55375
+    }
+  ],
+  "measurementScope": "Cinco amostras locais e HTTP público até cabeçalhos/conclusão; não são Core Web Vitals de campo.",
+  "otherSites": [
+    {
+      "url": "https://guiaproduto.com.br/api/health",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.magodecasa.com.br/api/health",
+      "status": 200,
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "deployedCommit": "eb44faf28ba198c8bc339530928a9a254f6d8017",
+  "remoteGuard": "/root/geekmusical-security/release-20261009T040317Z",
+  "externalCopy": "D:\\GeekMusical-backups\\releases\\release-20261009T040317Z",
+  "checksumsVerified": true,
+  "sqliteIntegrity": "ok",
+  "archiveMembers": 6835,
+  "localAccess": "Current owner, Administrators and SYSTEM only; Windows ACL verified",
+  "files": [
+    {
+      "file": "admin-before.private.sqlite",
+      "sha256": "e9f310ea41d655c8e607805ae463a991db260f7f12e0bc6b612ee9ffe0cb4d12",
+      "bytes": 2924544
+    },
+    {
+      "file": "editorial-state.private.tar.gz",
+      "sha256": "b649ed53cdcfa1889a1176a541079109fdfcfd92ade48dd86bad87aa9d785089",
+      "bytes": 165836514
+    },
+    {
+      "file": "previous-release.json",
+      "sha256": "54a5dc51d79c11761ad82f6d75c7344afd92219417edd0f4f37a4686c88c830d",
+      "bytes": 193
+    }
+  ]
+}

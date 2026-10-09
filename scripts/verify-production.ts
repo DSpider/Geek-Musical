@@ -157,9 +157,9 @@ const sitemaps = await parallel(
   },
 );
 const storyXml = sitemaps.find((s) => s.path === "/web-story-sitemap.xml")!.xml;
-const storyUrls = [...storyXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(
-  (m) => m[1],
-);
+const storyUrls = [...storyXml.matchAll(/<loc>([^<]+)<\/loc>/g)]
+  .map((m) => m[1])
+  .filter((url) => new URL(url).pathname !== "/web-stories/");
 assert.equal(storyUrls.length, 96);
 const stories = await parallel(storyUrls, async (url) => {
   const response = await get(url);
@@ -272,8 +272,8 @@ const otherSites = await parallel(
   async (url) => {
     const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
     assert.equal(response.status, 200, url);
-    const health = (await response.json()) as { ok: boolean };
-    assert.equal(health.ok, true, url);
+    const health = (await response.json()) as { status: string };
+    assert.equal(health.status, "ok", url);
     return { url, status: response.status, ok: true };
   },
 );
