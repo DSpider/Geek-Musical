@@ -103,7 +103,8 @@ for attempt in range(30):
 else:raise RuntimeError('Prepared service health failed.')
 manifest={'commit':SHA,'github':REPO,'sourceArchiveSha256':DIGEST,'release':str(release),'runtime':runtime_version,'health':health,'state':str(state),'environment':'production','trafficCutOver':False}
 (base/'prepared-release.json').write_text(json.dumps(manifest,indent=2));print(json.dumps(manifest));log.close()
-""".replace('SHA',repr(sha)).replace('REPO',repr(repo)).replace('DIGEST',repr(source_digest))
+"""
+remote=re.sub(r'\bSHA\b',repr(sha),remote).replace('REPO',repr(repo)).replace('DIGEST',repr(source_digest))
 p=subprocess.run(ssh+['python3','-'],input=remote.encode(),capture_output=True,timeout=1800)
 (artifacts/'prepare-output.private.log').write_bytes(p.stdout+p.stderr)
 if p.returncode:raise SystemExit('Release preparation failed; private diagnostic saved.')

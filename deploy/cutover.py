@@ -109,7 +109,8 @@ except Exception:
  raise
 result={'commit':SHA,'guard':str(guard),'vhost':str(vhost),'beforeSha256':hashlib.sha256(before.encode()).hexdigest(),'afterSha256':hashlib.sha256(after.encode()).hexdigest(),'rollbackTrafficRehearsed':True,'adminStateNotRestoredOrReset':True,'otherVhostsUnchanged':True,'otherServicePidsUnchanged':True,'legacyStoriesAndContactVerified':True,'active':'node','completedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
 (base/'traffic-state.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))
-""".replace('SHA',repr(sha))
+"""
+remote=re.sub(r'\bSHA\b',repr(sha),remote)
 p=subprocess.run(ssh+['python3','-'],input=remote.encode(),capture_output=True,timeout=900)
 out=root/'artifacts/deploy';out.mkdir(exist_ok=True,parents=True);(out/'cutover.private.log').write_bytes(p.stdout+p.stderr)
 if p.returncode:raise SystemExit('Traffic cutover failed and was reverted. Private diagnostics saved.')
