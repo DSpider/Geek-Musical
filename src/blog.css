@@ -149,6 +149,12 @@
 .editorial-body .editorial-legacy-offers .editorial-offer {
   margin: 0;
 }
+.editorial-offers-compact {
+  margin-block: 12px 24px;
+}
+.editorial-offers-compact caption {
+  padding: 0;
+}
 .editorial-body .editorial-offers-note,
 .editorial-body .editorial-offers-empty {
   margin: 0;

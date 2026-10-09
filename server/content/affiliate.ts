@@ -14,7 +14,7 @@ export function legacyOffersTable(
   photo: string,
   rows: { store: AffiliateStore; action: string }[],
 ) {
-  return `<div class="editorial-product-offers editorial-legacy-offers"><table><caption>Onde encontrar ${escapeHtml(name)}<span class="editorial-product-photo">${photo}</span></caption><thead><tr><th scope="col">Loja</th><th scope="col">Oferta</th></tr></thead><tbody>${rows
+  return `<div class="editorial-product-offers editorial-legacy-offers${photo ? "" : " editorial-offers-compact"}"><table><caption${photo ? "" : ' class="sr-only"'}>Onde encontrar ${escapeHtml(name)}${photo ? `<span class="editorial-product-photo">${photo}</span>` : ""}</caption><thead><tr><th scope="col">Loja</th><th scope="col">Oferta</th></tr></thead><tbody>${rows
     .map(({ store, action }) => {
       const info = stores[store];
       return `<tr data-store="${store}"><th scope="row"><span class="editorial-shop"><span class="editorial-store-logo"><img src="${info.logo}" alt="" width="80" height="40" loading="lazy" decoding="async"></span><span>${info.name}</span></span></th><td>${action}</td></tr>`;
@@ -61,6 +61,7 @@ export function affiliateButton(
   label: string,
   plainLabel: string,
   store: AffiliateStore,
+  compact = false,
 ) {
   // A legacy tracking URL cannot establish the publisher, merchant or product.
   if (store === "awin") return label;
@@ -70,5 +71,5 @@ export function affiliateButton(
       plainLabel,
     );
   const title = generic ? info.name : info.name + ": " + plainLabel;
-  return `<span class="editorial-offer">${generic ? "" : `<span class="editorial-offer-name">${label}</span>`}<a class="editorial-price-button" href="${escapeHtml(href)}" target="_blank" rel="sponsored nofollow noopener noreferrer" data-affiliate-store="${store}" aria-label="Ver Preço na ${escapeHtml(title)} — abre em nova aba"><span class="editorial-store-logo"><img src="${info.logo}" alt="" width="${store === "amazon" ? 90 : 80}" height="${store === "amazon" ? 44 : 40}" loading="lazy" decoding="async"></span><span class="editorial-price-label">Ver Preço<span>${info.name}</span></span><span aria-hidden="true">↗</span></a></span>`;
+  return `<span class="editorial-offer">${generic ? "" : `<span class="editorial-offer-name">${label}</span>`}<a class="editorial-price-button" href="${escapeHtml(href)}" target="_blank" rel="sponsored nofollow noopener noreferrer" data-affiliate-store="${store}" aria-label="Ver Preço na ${escapeHtml(title)} — abre em nova aba">${compact ? "Ver preço" : `<span class="editorial-store-logo"><img src="${info.logo}" alt="" width="${store === "amazon" ? 90 : 80}" height="${store === "amazon" ? 44 : 40}" loading="lazy" decoding="async"></span><span class="editorial-price-label">Ver Preço<span>${info.name}</span></span>`}<span aria-hidden="true">↗</span></a></span>`;
 }

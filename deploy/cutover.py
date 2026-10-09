@@ -12,7 +12,7 @@ prepared=json.loads((base/'prepared-release.json').read_text());assert prepared[
 vhost=pathlib.Path('/etc/nginx/sites-enabled/www.geekmusical.com.br.conf')
 def run(args):
  p=subprocess.run(args,capture_output=True,timeout=90)
- if p.returncode:raise RuntimeError('Site operation failed: '+args[0])
+ if p.returncode:raise RuntimeError('Site operation failed: '+args[0]+' '+p.stderr.decode()[-1500:])
  return p.stdout.decode()
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 others={str(p):digest(p) for p in vhost.parent.glob('*') if p.is_file() and p!=vhost}
@@ -88,7 +88,11 @@ def apply(text):
  try:run(['nginx','-t']);run(['systemctl','reload','nginx'])
  except Exception:
   vhost.write_text(before);subprocess.run(['nginx','-t'],capture_output=True);subprocess.run(['systemctl','reload','nginx'],capture_output=True);raise
-def get(path):return run(['curl','--fail','--silent','--show-error','--max-time','45','--resolve','www.geekmusical.com.br:443:127.0.0.1','https://www.geekmusical.com.br'+path])
+def get(path):
+ # The origin intentionally accepts Cloudflare IPs only. Verify through that
+ # existing protection rather than changing the allowlist for a local probe.
+ fresh='gm_release_verify='+datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d%H%M%S%f')
+ return run(['curl','--fail','--silent','--show-error','--max-time','45','-H','Cache-Control: no-cache','https://www.geekmusical.com.br'+path+('?' if '?' not in path else '&')+fresh])
 try:
  apply(after)
  assert 'musical-hero-gradient' in get('/')

@@ -181,6 +181,7 @@ export function renderMarkdown(
   const renderer = new Renderer();
   const legacyTables = new Map<Token, (context: Renderer) => string>();
   const grouped = new Set<Token>();
+  const groupedOfferLinks = new Set<Token>();
   const affiliateStores = new Set<AffiliateStore>();
   renderer.html = ({ text }) => escapeHtml(text);
   renderer.image = ({ href, text }) => {
@@ -198,7 +199,8 @@ export function renderMarkdown(
     headings.push({ id, text: inlineText(tokens), depth });
     return `<h${depth} id="${id}">${this.parser.parseInline(tokens)}</h${depth}>\n`;
   };
-  renderer.link = function ({ href, tokens }: Tokens.Link) {
+  renderer.link = function (token: Tokens.Link) {
+    const { href, tokens } = token;
     const label = this.parser.parseInline(tokens);
     if (href.startsWith("offers:")) {
       return label;
@@ -228,7 +230,13 @@ export function renderMarkdown(
       if (state?.blocked || state?.stock === "out_of_stock")
         return `<span class="editorial-offers-empty">${label} — ${state.status === "product_incorrect" ? "link em revisão" : "oferta indisponível"}</span>`;
       return safeContentLink(href) && affiliateStore(href) === store
-        ? affiliateButton(href, label, inlineText(tokens), store)
+        ? affiliateButton(
+            href,
+            label,
+            inlineText(tokens),
+            store,
+            groupedOfferLinks.has(token),
+          )
         : label;
     }
     return destination
@@ -281,40 +289,50 @@ export function renderMarkdown(
         ? inline[0]
         : undefined;
     };
+    const offerRow = (index: number) => {
+      const logo = single(blocks[index], "image") as Tokens.Image | undefined;
+      const link = single(blocks[index + 1], "link") as Tokens.Link | undefined;
+      const media =
+        logo && post.media?.find((m) => logo.href === `media:${m.id}`);
+      const registered =
+        link && post.links?.find((l) => link.href === `link:${l.id}`);
+      const store = registered && affiliateStore(registered.url);
+      if (
+        !logo ||
+        !link ||
+        !media ||
+        !store ||
+        store === "awin" ||
+        !{
+          amazon: /(?:amazon)/i,
+          "mercado-livre": /(?:mercado|^ML(?:[-_.]|$))/i,
+          magalu: /(?:magalu|magazine)/i,
+          shopee: /(?:shopee)/i,
+        }[store].test(media.url.split("/").at(-1) || "") ||
+        !/^(?:ver pre[cç]os?|comprar(?: agora)?)$/i.test(
+          inlineText(link.tokens),
+        )
+      )
+        return undefined;
+      return { store, link };
+    };
     for (let i = 1; i < blocks.length; i++) {
       const heading = blocks[i - 1],
         image = single(blocks[i], "image") as Tokens.Image | undefined;
       if (heading.type !== "heading" || !image) continue;
+      const firstIsOffer = !!offerRow(i);
+      const photo = firstIsOffer ? "" : renderer.image.call(renderer, image);
+      if (!firstIsOffer && !photo.startsWith("<img ")) continue;
       const rows: { store: AffiliateStore; link: Tokens.Link }[] = [];
-      let end = i + 1;
+      let end = firstIsOffer ? i : i + 1;
       while (end + 1 < blocks.length) {
-        const logo = single(blocks[end], "image") as Tokens.Image | undefined;
-        const link = single(blocks[end + 1], "link") as Tokens.Link | undefined;
-        const media =
-          logo && post.media?.find((m) => logo.href === `media:${m.id}`);
-        const registered =
-          link && post.links?.find((l) => link.href === `link:${l.id}`);
-        const store = registered && affiliateStore(registered.url);
-        if (
-          !logo ||
-          !link ||
-          !media ||
-          !store ||
-          store === "awin" ||
-          !/(?:amazon|mercado|magalu|magazine|shopee|^ML(?:[-_.]|$))/i.test(
-            media.url.split("/").at(-1) || "",
-          ) ||
-          !/^(?:ver pre[cç]os?|comprar(?: agora)?)$/i.test(
-            inlineText(link.tokens),
-          )
-        )
-          break;
-        rows.push({ store, link });
+        const row = offerRow(end);
+        if (!row) break;
+        rows.push(row);
+        groupedOfferLinks.add(row.link);
         end += 2;
       }
       if (!rows.length) continue;
-      const photo = renderer.image.call(renderer, image);
-      if (!photo.startsWith("<img ")) continue;
       legacyTables.set(blocks[i], (context) =>
         legacyOffersTable(
           inlineText(heading.tokens || []),

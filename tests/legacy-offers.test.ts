@@ -7,6 +7,48 @@ import { editorialProductDestination } from "../server/content/affiliate-destina
 const post = readSourceContent().posts.find((p) => p.id === "WP-POST-730")!;
 afterEach(() => vi.unstubAllGlobals());
 describe("ofertas dos artigos importados", () => {
+  it("agrupa as marcas de baquetas sem repetir logos nem mudar os destinos", () => {
+    const article = readSourceContent().posts.find(
+      (p) => p.id === "WP-POST-1005",
+    )!;
+    const original = JSON.stringify(article);
+    const doc = JSDOM.fragment(renderMarkdown(article, () => undefined).html);
+    expect(doc.querySelectorAll(".editorial-offers-compact")).toHaveLength(8);
+    expect([...doc.querySelectorAll("h3")].map((h) => h.textContent)).toContain(
+      "Liverpool",
+    );
+    expect([...doc.querySelectorAll("h3")].map((h) => h.textContent)).toContain(
+      "C. Ibañez",
+    );
+    const offers = [...doc.querySelectorAll("a[data-affiliate-store]")];
+    expect(offers).toHaveLength(8);
+    for (const link of offers) {
+      expect(link.querySelector("img")).toBeNull();
+      expect(link.closest("tr")?.querySelectorAll("img")).toHaveLength(1);
+      expect(
+        article.links?.some((l) => l.url === link.getAttribute("href")),
+      ).toBe(true);
+      expect(link.getAttribute("rel")).toContain("sponsored");
+      expect(link.getAttribute("rel")).toContain("noopener noreferrer");
+    }
+    expect(doc.querySelector('img[src$="/Magalu.png"]')).toBeNull();
+    for (const media of article.media!.filter((m) => m.alt !== "Magalu")) {
+      if (article.body.includes(`media:${media.id}`))
+        expect(doc.querySelector(`img[src="${media.url}"]`)).not.toBeNull();
+    }
+    expect(JSON.stringify(article)).toBe(original);
+  });
+  it("preserva uma imagem editorial seguida de um CTA sem logo de loja", () => {
+    const article = structuredClone(
+      readSourceContent().posts.find((p) => p.id === "WP-POST-1005")!,
+    );
+    const media = article.media!.find((m) => m.alt === "Tipos de Baqueta")!;
+    article.body = `### Baqueta\n\n![Baqueta](media:${media.id})\n\n[Ver preços](link:${article.links![1].id})`;
+    const doc = JSDOM.fragment(renderMarkdown(article, () => undefined).html);
+    expect(doc.querySelector(`img[src="${media.url}"]`)).not.toBeNull();
+    expect(doc.querySelectorAll("a[data-affiliate-store]")).toHaveLength(1);
+    expect(doc.querySelector(".editorial-offers-compact")).toBeNull();
+  });
   it("preserva o conteúdo e marca os links comerciais do acervo musical", () => {
     const before = JSON.stringify(post);
     const doc = JSDOM.fragment(renderMarkdown(post, () => undefined).html);

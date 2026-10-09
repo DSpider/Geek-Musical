@@ -6,4 +6,6 @@ Tema escuro aprovado em 09/10/2026: cinza `#34343b` no fundo, `#414149` nos card
 
 Home: categorias com conteúdo, nove destaques manuais em 3×3 no desktop e três recentes por publicação original. Os cards mostram resumo real. Não completar vagas com artigos fictícios nem substituir destaques automaticamente.
 
+Ofertas importadas usam tabelas com loja e botão, seguindo os componentes dos outros portais. Quando o artigo traz somente logo da loja e CTA abaixo de um título, o renderer reúne o par em uma tabela compacta, com uma única logo por linha. Fotografias editoriais, texto e URLs permanecem preservados na fonte; a mudança ocorre apenas na apresentação.
+
 Conferir Home, blog, categoria, review, ranking, guia e tutorial em 320, 390, 768 e 1440 pixels, nos dois temas. Gravar dimensões reais, overflow e imagens, além de inspecionar capturas. Registrar medições locais sem tratá-las como Core Web Vitals de campo.
