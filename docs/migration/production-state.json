@@ -1,1 +1,42 @@
-{"integrity": "ok", "migrations": [{"id": "affiliates:001-evidence", "checksum": "15dbf947618cb739b0b71d70679ddf02ce565af26d920e6f5fc15bf3dd0450cb", "appliedAt": "2026-10-09T03:35:35.205Z"}, {"id": "analytics:001-data", "checksum": "bb4b6752e8b633816856e1418d9a5a2a1acce2fe6af82a5807805de56f1b211d", "appliedAt": "2026-10-09T03:35:35.202Z"}, {"id": "core:001", "checksum": "f02e5b70f63ac2ba56f86157601ef4ba75ad38693f0556ea32d109f89dff20e4", "appliedAt": "2026-10-09T03:35:35.183Z"}, {"id": "posts:001-offer-checks", "checksum": "9bbbcad4e3bf16bf4314e756605c738b69d6eafd4bd4db4e58785ea507ded848", "appliedAt": "2026-10-09T03:35:35.196Z"}, {"id": "posts:002-product-images", "checksum": "62246c35a0c6ddbac4ebee0b41db1767fef96ff041ad3041f4d09165b5cd8c7c", "appliedAt": "2026-10-09T03:35:35.194Z"}, {"id": "redirect:001", "checksum": "601581e6307ad44994aba5525f0b5708ef28dfee09c2f98e135b81320976250f", "appliedAt": "2026-10-09T03:35:35.199Z"}], "services": {"geek-musical": "active", "guia-produto-production": "active", "mago-de-casa": "active"}, "currentRelease": "/opt/geek-musical/releases/eb44faf28ba198c8bc339530928a9a254f6d8017"}
+{
+  "integrity": "ok",
+  "migrations": [
+    {
+      "id": "affiliates:001-evidence",
+      "checksum": "15dbf947618cb739b0b71d70679ddf02ce565af26d920e6f5fc15bf3dd0450cb",
+      "appliedAt": "2026-10-09T03:35:35.205Z"
+    },
+    {
+      "id": "analytics:001-data",
+      "checksum": "bb4b6752e8b633816856e1418d9a5a2a1acce2fe6af82a5807805de56f1b211d",
+      "appliedAt": "2026-10-09T03:35:35.202Z"
+    },
+    {
+      "id": "core:001",
+      "checksum": "f02e5b70f63ac2ba56f86157601ef4ba75ad38693f0556ea32d109f89dff20e4",
+      "appliedAt": "2026-10-09T03:35:35.183Z"
+    },
+    {
+      "id": "posts:001-offer-checks",
+      "checksum": "9bbbcad4e3bf16bf4314e756605c738b69d6eafd4bd4db4e58785ea507ded848",
+      "appliedAt": "2026-10-09T03:35:35.196Z"
+    },
+    {
+      "id": "posts:002-product-images",
+      "checksum": "62246c35a0c6ddbac4ebee0b41db1767fef96ff041ad3041f4d09165b5cd8c7c",
+      "appliedAt": "2026-10-09T03:35:35.194Z"
+    },
+    {
+      "id": "redirect:001",
+      "checksum": "601581e6307ad44994aba5525f0b5708ef28dfee09c2f98e135b81320976250f",
+      "appliedAt": "2026-10-09T03:35:35.199Z"
+    }
+  ],
+  "services": {
+    "geek-musical": "active",
+    "guia-produto-production": "active",
+    "mago-de-casa": "active"
+  },
+  "currentRelease": "/opt/geek-musical/releases/ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
+  "lastCheckpoint": "../admin/home-editor-production.json"
+}

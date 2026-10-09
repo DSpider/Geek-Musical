@@ -1,0 +1,25 @@
+{
+  "origin": "https://www.geekmusical.com.br",
+  "editorPath": "/gm-admin/home",
+  "authenticated": true,
+  "pluginVersion": "1.2.0",
+  "posts": 149,
+  "grids": [
+    {
+      "id": "destaques",
+      "mode": "manual"
+    },
+    {
+      "id": "recentes",
+      "mode": "latest"
+    }
+  ],
+  "adminNoStore": true,
+  "adminNoIndex": true,
+  "privateCacheHit": false,
+  "asset": "/assets/admin-20nNkgzZ.js",
+  "assetSha256": "b35b28816b6735964cad1c2dbcc42a836d7935f744f0028b7fe01604690268c0",
+  "assetMatchesValidatedBuild": true,
+  "predefinedModesVerified": true,
+  "productionHomeUntouched": true
+}

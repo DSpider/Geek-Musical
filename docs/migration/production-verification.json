@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-09T04:09:06.793Z",
-  "deployedCommit": "eb44faf28ba198c8bc339530928a9a254f6d8017",
+  "checkedAt": "2026-10-09T13:17:13.868Z",
+  "deployedCommit": "ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
   "routes": [
     {
       "path": "/contato/",
@@ -14,1414 +14,1414 @@
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/politica-editorial/",
       "cache": "DYNAMIC",
-      "bytes": 11118
+      "bytes": 11122
     },
     {
       "path": "/politica-de-cookies/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/politica-de-cookies/",
       "cache": "DYNAMIC",
-      "bytes": 10667
+      "bytes": 10671
     },
     {
       "path": "/transparencia-afiliados/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/transparencia-afiliados/",
       "cache": "DYNAMIC",
-      "bytes": 10450
+      "bytes": 10454
     },
     {
       "path": "/affiliate-disclosure/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/affiliate-disclosure/",
       "cache": "DYNAMIC",
-      "bytes": 10707
+      "bytes": 10711
     },
     {
       "path": "/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/",
       "cache": "DYNAMIC",
-      "bytes": 55396
+      "bytes": 55400
     },
     {
       "path": "/blog/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/",
       "cache": "DYNAMIC",
-      "bytes": 18973
+      "bytes": 18977
     },
     {
       "path": "/mapa-do-site/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/mapa-do-site/",
       "cache": "DYNAMIC",
-      "bytes": 34705
+      "bytes": 34709
     },
     {
       "path": "/politica-de-privacidade/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/politica-de-privacidade/",
       "cache": "DYNAMIC",
-      "bytes": 14302
+      "bytes": 14306
     },
     {
       "path": "/termos-de-uso/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/termos-de-uso/",
       "cache": "DYNAMIC",
-      "bytes": 15277
+      "bytes": 15281
     },
     {
       "path": "/sobre/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/sobre/",
       "cache": "DYNAMIC",
-      "bytes": 11254
+      "bytes": 11258
     },
     {
       "path": "/blog/baixos/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/baixos/",
       "cache": "DYNAMIC",
-      "bytes": 14327
+      "bytes": 14331
     },
     {
       "path": "/blog/bandolim/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/bandolim/",
       "cache": "DYNAMIC",
-      "bytes": 12856
+      "bytes": 12860
     },
     {
       "path": "/blog/baterias/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/baterias/",
       "cache": "DYNAMIC",
-      "bytes": 16348
+      "bytes": 16352
     },
     {
       "path": "/blog/cabos-e-acessorios/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/cabos-e-acessorios/",
       "cache": "DYNAMIC",
-      "bytes": 13029
+      "bytes": 13033
     },
     {
       "path": "/blog/caixas-de-som/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/caixas-de-som/",
       "cache": "DYNAMIC",
-      "bytes": 18839
+      "bytes": 18843
     },
     {
       "path": "/blog/canto/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/canto/",
       "cache": "DYNAMIC",
-      "bytes": 12831
+      "bytes": 12835
     },
     {
       "path": "/blog/curiosidades/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/curiosidades/",
       "cache": "DYNAMIC",
-      "bytes": 15111
+      "bytes": 15115
     },
     {
       "path": "/blog/direct-box/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/direct-box/",
       "cache": "DYNAMIC",
-      "bytes": 12907
+      "bytes": 12911
     },
     {
       "path": "/blog/dj/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/dj/",
       "cache": "DYNAMIC",
-      "bytes": 12734
+      "bytes": 12738
     },
     {
       "path": "/blog/flautas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/flautas/",
       "cache": "DYNAMIC",
-      "bytes": 15065
+      "bytes": 15069
     },
     {
       "path": "/blog/fones/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/fones/",
       "cache": "DYNAMIC",
-      "bytes": 18362
+      "bytes": 18366
     },
     {
       "path": "/blog/gaitas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/gaitas/",
       "cache": "DYNAMIC",
-      "bytes": 12969
+      "bytes": 12973
     },
     {
       "path": "/blog/guitarras/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/guitarras/",
       "cache": "DYNAMIC",
-      "bytes": 18641
+      "bytes": 18645
     },
     {
       "path": "/blog/interface-de-audio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/interface-de-audio/",
       "cache": "DYNAMIC",
-      "bytes": 13087
+      "bytes": 13091
     },
     {
       "path": "/blog/mesa-de-som/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/mesa-de-som/",
       "cache": "DYNAMIC",
-      "bytes": 14391
+      "bytes": 14395
     },
     {
       "path": "/blog/microfones/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/microfones/",
       "cache": "DYNAMIC",
-      "bytes": 18593
+      "bytes": 18597
     },
     {
       "path": "/blog/pandeiros/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/pandeiros/",
       "cache": "DYNAMIC",
-      "bytes": 12848
+      "bytes": 12852
     },
     {
       "path": "/blog/percussao/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/percussao/",
       "cache": "DYNAMIC",
-      "bytes": 13352
+      "bytes": 13356
     },
     {
       "path": "/blog/review/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/review/",
       "cache": "DYNAMIC",
-      "bytes": 18450
+      "bytes": 18454
     },
     {
       "path": "/blog/sanfonas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/sanfonas/",
       "cache": "DYNAMIC",
-      "bytes": 12892
+      "bytes": 12896
     },
     {
       "path": "/blog/saxofone/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/saxofone/",
       "cache": "DYNAMIC",
-      "bytes": 13360
+      "bytes": 13364
     },
     {
       "path": "/blog/teclados/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/teclados/",
       "cache": "DYNAMIC",
-      "bytes": 18570
+      "bytes": 18574
     },
     {
       "path": "/blog/ukulele/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/ukulele/",
       "cache": "DYNAMIC",
-      "bytes": 13526
+      "bytes": 13530
     },
     {
       "path": "/blog/violao/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/violao/",
       "cache": "DYNAMIC",
-      "bytes": 18612
+      "bytes": 18616
     },
     {
       "path": "/blog/violinos/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/violinos/",
       "cache": "DYNAMIC",
-      "bytes": 13344
+      "bytes": 13348
     },
     {
       "path": "/blog/vitrolas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/vitrolas/",
       "cache": "DYNAMIC",
-      "bytes": 12866
+      "bytes": 12870
     },
     {
       "path": "/melhores-teclados-controladores/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-teclados-controladores/",
       "cache": "DYNAMIC",
-      "bytes": 55747
+      "bytes": 55751
     },
     {
       "path": "/teclado-yamaha-psr-e373/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-yamaha-psr-e373/",
       "cache": "DYNAMIC",
-      "bytes": 29074
+      "bytes": 29078
     },
     {
       "path": "/melhores-guitarras-profissionais/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-guitarras-profissionais/",
       "cache": "DYNAMIC",
-      "bytes": 39446
+      "bytes": 39450
     },
     {
       "path": "/tudo-sobre-direct-box/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/tudo-sobre-direct-box/",
       "cache": "DYNAMIC",
-      "bytes": 55664
+      "bytes": 55668
     },
     {
       "path": "/guitarra-tagima-tg-510-e-boa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarra-tagima-tg-510-e-boa/",
       "cache": "DYNAMIC",
-      "bytes": 30876
+      "bytes": 30880
     },
     {
       "path": "/qual-a-melhor-caixa-de-som-alexa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/qual-a-melhor-caixa-de-som-alexa/",
       "cache": "DYNAMIC",
-      "bytes": 54159
+      "bytes": 54163
     },
     {
       "path": "/violao-harmonics-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-harmonics-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 33142
+      "bytes": 33146
     },
     {
       "path": "/melhores-aplicativos-de-musica/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-aplicativos-de-musica/",
       "cache": "DYNAMIC",
-      "bytes": 25038
+      "bytes": 25042
     },
     {
       "path": "/piano-roland-fp-10/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/piano-roland-fp-10/",
       "cache": "DYNAMIC",
-      "bytes": 26702
+      "bytes": 26706
     },
     {
       "path": "/samson-sr850-review/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/samson-sr850-review/",
       "cache": "DYNAMIC",
-      "bytes": 29718
+      "bytes": 29722
     },
     {
       "path": "/violao-yamaha-silent-slg200s/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-yamaha-silent-slg200s/",
       "cache": "DYNAMIC",
-      "bytes": 33726
+      "bytes": 33730
     },
     {
       "path": "/baixo-tagima-millenium-5/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/baixo-tagima-millenium-5/",
       "cache": "DYNAMIC",
-      "bytes": 27497
+      "bytes": 27501
     },
     {
       "path": "/mesa-de-som-behringer-x32-compact/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/mesa-de-som-behringer-x32-compact/",
       "cache": "DYNAMIC",
-      "bytes": 30397
+      "bytes": 30401
     },
     {
       "path": "/baixo-yamaha-trbx-505/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/baixo-yamaha-trbx-505/",
       "cache": "DYNAMIC",
-      "bytes": 31975
+      "bytes": 31979
     },
     {
       "path": "/strinberg-sts-100/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/strinberg-sts-100/",
       "cache": "DYNAMIC",
-      "bytes": 35766
+      "bytes": 35770
     },
     {
       "path": "/guitarra-ibanez-rg-350-dxz/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarra-ibanez-rg-350-dxz/",
       "cache": "DYNAMIC",
-      "bytes": 32585
+      "bytes": 32589
     },
     {
       "path": "/melhores-caixas-de-som-bluetooth-a-prova-dagua/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-caixas-de-som-bluetooth-a-prova-dagua/",
       "cache": "DYNAMIC",
-      "bytes": 61854
+      "bytes": 61858
     },
     {
       "path": "/yamaha-montage-m8x/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/yamaha-montage-m8x/",
       "cache": "DYNAMIC",
-      "bytes": 28824
+      "bytes": 28828
     },
     {
       "path": "/melhores-earbuds/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-earbuds/",
       "cache": "DYNAMIC",
-      "bytes": 48538
+      "bytes": 48542
     },
     {
       "path": "/guitarras-gibson/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarras-gibson/",
       "cache": "DYNAMIC",
-      "bytes": 32955
+      "bytes": 32959
     },
     {
       "path": "/melhores-marcas-de-violino/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-violino/",
       "cache": "DYNAMIC",
-      "bytes": 49410
+      "bytes": 49414
     },
     {
       "path": "/qual-o-melhor-teclado-de-entrada/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/qual-o-melhor-teclado-de-entrada/",
       "cache": "DYNAMIC",
-      "bytes": 33865
+      "bytes": 33869
     },
     {
       "path": "/melhores-marcas-de-trompete/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-trompete/",
       "cache": "DYNAMIC",
-      "bytes": 49617
+      "bytes": 49621
     },
     {
       "path": "/melhor-contrabaixo-5-cordas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-contrabaixo-5-cordas/",
       "cache": "DYNAMIC",
-      "bytes": 38698
+      "bytes": 38702
     },
     {
       "path": "/fone-de-ouvido-kz/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/fone-de-ouvido-kz/",
       "cache": "DYNAMIC",
-      "bytes": 49820
+      "bytes": 49824
     },
     {
       "path": "/repique-de-mao/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/repique-de-mao/",
       "cache": "DYNAMIC",
-      "bytes": 41979
+      "bytes": 41983
     },
     {
       "path": "/fone-de-ouvido-para-crianca/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/fone-de-ouvido-para-crianca/",
       "cache": "DYNAMIC",
-      "bytes": 48329
+      "bytes": 48333
     },
     {
       "path": "/tipos-de-baquetas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/tipos-de-baquetas/",
       "cache": "DYNAMIC",
-      "bytes": 31098
+      "bytes": 31102
     },
     {
       "path": "/melhor-mesa-de-som/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-mesa-de-som/",
       "cache": "DYNAMIC",
-      "bytes": 30659
+      "bytes": 30663
     },
     {
       "path": "/melhores-mesas-de-som/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-mesas-de-som/",
       "cache": "DYNAMIC",
-      "bytes": 65550
+      "bytes": 65554
     },
     {
       "path": "/melhores-pedaleiras-para-guitarra/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-pedaleiras-para-guitarra/",
       "cache": "DYNAMIC",
-      "bytes": 61972
+      "bytes": 61976
     },
     {
       "path": "/melhores-teclados-casio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-teclados-casio/",
       "cache": "DYNAMIC",
-      "bytes": 63647
+      "bytes": 63651
     },
     {
       "path": "/melhor-piano-digital/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-piano-digital/",
       "cache": "DYNAMIC",
-      "bytes": 64476
+      "bytes": 64480
     },
     {
       "path": "/melhor-caixa-de-som-bluetooth/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-caixa-de-som-bluetooth/",
       "cache": "DYNAMIC",
-      "bytes": 62010
+      "bytes": 62014
     },
     {
       "path": "/melhores-marcas-de-flauta-transversal/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-flauta-transversal/",
       "cache": "DYNAMIC",
-      "bytes": 45879
+      "bytes": 45883
     },
     {
       "path": "/melhores-controladoras-dj/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-controladoras-dj/",
       "cache": "DYNAMIC",
-      "bytes": 51318
+      "bytes": 51322
     },
     {
       "path": "/melhores-pedais-de-guitarra/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-pedais-de-guitarra/",
       "cache": "DYNAMIC",
-      "bytes": 60313
+      "bytes": 60317
     },
     {
       "path": "/teclado-kurzweil-pc4/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-kurzweil-pc4/",
       "cache": "DYNAMIC",
-      "bytes": 26536
+      "bytes": 26540
     },
     {
       "path": "/melhores-marcas-de-saxofone/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-saxofone/",
       "cache": "DYNAMIC",
-      "bytes": 50511
+      "bytes": 50515
     },
     {
       "path": "/melhor-violao-ate-1000-reais/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-violao-ate-1000-reais/",
       "cache": "DYNAMIC",
-      "bytes": 48933
+      "bytes": 48937
     },
     {
       "path": "/melhores-produtos-para-limpeza-de-guitarra/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-produtos-para-limpeza-de-guitarra/",
       "cache": "DYNAMIC",
-      "bytes": 30668
+      "bytes": 30672
     },
     {
       "path": "/bateria-acustica/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/bateria-acustica/",
       "cache": "DYNAMIC",
-      "bytes": 46238
+      "bytes": 46242
     },
     {
       "path": "/violao-michael-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-michael-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 36295
+      "bytes": 36299
     },
     {
       "path": "/violao-tagima-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-tagima-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 40988
+      "bytes": 40992
     },
     {
       "path": "/bateria-eletronica-yamaha/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/bateria-eletronica-yamaha/",
       "cache": "DYNAMIC",
-      "bytes": 32824
+      "bytes": 32828
     },
     {
       "path": "/violao-takamine-gd11-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-takamine-gd11-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 25457
+      "bytes": 25461
     },
     {
       "path": "/melhores-headphones-bluetooth/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-headphones-bluetooth/",
       "cache": "DYNAMIC",
-      "bytes": 57698
+      "bytes": 57702
     },
     {
       "path": "/violao-eletrico-profissional/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-eletrico-profissional/",
       "cache": "DYNAMIC",
-      "bytes": 50837
+      "bytes": 50841
     },
     {
       "path": "/melhores-baterias-eletronicas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-baterias-eletronicas/",
       "cache": "DYNAMIC",
-      "bytes": 53210
+      "bytes": 53214
     },
     {
       "path": "/melhores-gaitas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-gaitas/",
       "cache": "DYNAMIC",
-      "bytes": 48665
+      "bytes": 48669
     },
     {
       "path": "/melhores-microfones-condensadores/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-microfones-condensadores/",
       "cache": "DYNAMIC",
-      "bytes": 53572
+      "bytes": 53576
     },
     {
       "path": "/melhor-guitarra-do-mundo/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-guitarra-do-mundo/",
       "cache": "DYNAMIC",
-      "bytes": 49114
+      "bytes": 49118
     },
     {
       "path": "/braco-articulado-para-microfone/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/braco-articulado-para-microfone/",
       "cache": "DYNAMIC",
-      "bytes": 41292
+      "bytes": 41296
     },
     {
       "path": "/teclado-yamaha-psr-e473/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-yamaha-psr-e473/",
       "cache": "DYNAMIC",
-      "bytes": 25767
+      "bytes": 25771
     },
     {
       "path": "/pratos-de-bateria/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/pratos-de-bateria/",
       "cache": "DYNAMIC",
-      "bytes": 46790
+      "bytes": 46794
     },
     {
       "path": "/microfone-lelong-le-907/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/microfone-lelong-le-907/",
       "cache": "DYNAMIC",
-      "bytes": 24490
+      "bytes": 24494
     },
     {
       "path": "/melhor-headset-custo-beneficio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-headset-custo-beneficio/",
       "cache": "DYNAMIC",
-      "bytes": 40285
+      "bytes": 40289
     },
     {
       "path": "/melhores-vitrolas-vintage/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-vitrolas-vintage/",
       "cache": "DYNAMIC",
-      "bytes": 44056
+      "bytes": 44060
     },
     {
       "path": "/melhores-marcas-de-clarinete/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-clarinete/",
       "cache": "DYNAMIC",
-      "bytes": 37965
+      "bytes": 37969
     },
     {
       "path": "/guitarra-memphis-mg32-e-boa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarra-memphis-mg32-e-boa/",
       "cache": "DYNAMIC",
-      "bytes": 25867
+      "bytes": 25871
     },
     {
       "path": "/melhor-microfone-de-lapela/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-microfone-de-lapela/",
       "cache": "DYNAMIC",
-      "bytes": 54368
+      "bytes": 54372
     },
     {
       "path": "/melhores-sanfonas-ou-acordeons/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-sanfonas-ou-acordeons/",
       "cache": "DYNAMIC",
-      "bytes": 50487
+      "bytes": 50491
     },
     {
       "path": "/melhores-marcas-de-cavaquinho/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-cavaquinho/",
       "cache": "DYNAMIC",
-      "bytes": 57630
+      "bytes": 57634
     },
     {
       "path": "/violao-vogga-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-vogga-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 54052
+      "bytes": 54056
     },
     {
       "path": "/guitarra-waldman-e-boa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarra-waldman-e-boa/",
       "cache": "DYNAMIC",
-      "bytes": 49136
+      "bytes": 49140
     },
     {
       "path": "/microfone-dylan-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/microfone-dylan-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 50857
+      "bytes": 50861
     },
     {
       "path": "/o-que-e-um-bandolim/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/o-que-e-um-bandolim/",
       "cache": "DYNAMIC",
-      "bytes": 48155
+      "bytes": 48159
     },
     {
       "path": "/melhores-cabos-p10/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-cabos-p10/",
       "cache": "DYNAMIC",
-      "bytes": 54895
+      "bytes": 54899
     },
     {
       "path": "/melhores-violoes-de-nylon/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-violoes-de-nylon/",
       "cache": "DYNAMIC",
-      "bytes": 61639
+      "bytes": 61643
     },
     {
       "path": "/transmissor-sem-fio-para-guitarra/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/transmissor-sem-fio-para-guitarra/",
       "cache": "DYNAMIC",
-      "bytes": 62274
+      "bytes": 62278
     },
     {
       "path": "/melhor-guitarra-7-cordas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-guitarra-7-cordas/",
       "cache": "DYNAMIC",
-      "bytes": 41614
+      "bytes": 41618
     },
     {
       "path": "/violao-waldman-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-waldman-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 38783
+      "bytes": 38787
     },
     {
       "path": "/violao-strinberg-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-strinberg-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 78601
+      "bytes": 78605
     },
     {
       "path": "/violao-harmonics-gna-111-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-harmonics-gna-111-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 29969
+      "bytes": 29973
     },
     {
       "path": "/melhores-cordas-para-violao/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-cordas-para-violao/",
       "cache": "DYNAMIC",
-      "bytes": 61838
+      "bytes": 61842
     },
     {
       "path": "/melhores-marcas-de-teclado-musical/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-teclado-musical/",
       "cache": "DYNAMIC",
-      "bytes": 39578
+      "bytes": 39582
     },
     {
       "path": "/caixa-de-som-alok-e-boa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/caixa-de-som-alok-e-boa/",
       "cache": "DYNAMIC",
-      "bytes": 56048
+      "bytes": 56052
     },
     {
       "path": "/caixa-de-som-pulse-e-boa-as-12-melhores-com-analise-completa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/caixa-de-som-pulse-e-boa-as-12-melhores-com-analise-completa/",
       "cache": "DYNAMIC",
-      "bytes": 76891
+      "bytes": 76895
     },
     {
       "path": "/caixa-de-som-amvox-e-boa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/caixa-de-som-amvox-e-boa/",
       "cache": "DYNAMIC",
-      "bytes": 58555
+      "bytes": 58559
     },
     {
       "path": "/caixa-para-bateria-acustica/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/caixa-para-bateria-acustica/",
       "cache": "DYNAMIC",
-      "bytes": 63510
+      "bytes": 63514
     },
     {
       "path": "/fone-h-maston-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/fone-h-maston-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 53887
+      "bytes": 53891
     },
     {
       "path": "/teclado-casio-ct-s200-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-casio-ct-s200-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 30784
+      "bytes": 30788
     },
     {
       "path": "/violao-takamine/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-takamine/",
       "cache": "DYNAMIC",
-      "bytes": 47974
+      "bytes": 47978
     },
     {
       "path": "/violao-hofma-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-hofma-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 54639
+      "bytes": 54643
     },
     {
       "path": "/melhores-violoes-ate-3000-reais/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-violoes-ate-3000-reais/",
       "cache": "DYNAMIC",
-      "bytes": 57553
+      "bytes": 57557
     },
     {
       "path": "/guitarra-queens-e-boa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarra-queens-e-boa/",
       "cache": "DYNAMIC",
-      "bytes": 33885
+      "bytes": 33889
     },
     {
       "path": "/melhor-violao-ate-500-reais/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-violao-ate-500-reais/",
       "cache": "DYNAMIC",
-      "bytes": 55933
+      "bytes": 55937
     },
     {
       "path": "/qual-a-melhor-flauta-doce-para-iniciantes/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/qual-a-melhor-flauta-doce-para-iniciantes/",
       "cache": "DYNAMIC",
-      "bytes": 48749
+      "bytes": 48753
     },
     {
       "path": "/violao-folk-strinberg-sd201hc/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-folk-strinberg-sd201hc/",
       "cache": "DYNAMIC",
-      "bytes": 27844
+      "bytes": 27848
     },
     {
       "path": "/violinos-para-iniciantes/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violinos-para-iniciantes/",
       "cache": "DYNAMIC",
-      "bytes": 49610
+      "bytes": 49614
     },
     {
       "path": "/melhor-caixa-de-som-jbl/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-caixa-de-som-jbl/",
       "cache": "DYNAMIC",
-      "bytes": 77319
+      "bytes": 77323
     },
     {
       "path": "/violao-memphis-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-memphis-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 58093
+      "bytes": 58097
     },
     {
       "path": "/guitarra-phx-e-boa/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarra-phx-e-boa/",
       "cache": "DYNAMIC",
-      "bytes": 46794
+      "bytes": 46798
     },
     {
       "path": "/qual-instrumento-mais-facil-de-tocar/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/qual-instrumento-mais-facil-de-tocar/",
       "cache": "DYNAMIC",
-      "bytes": 26614
+      "bytes": 26618
     },
     {
       "path": "/qual-o-melhor-cajon/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/qual-o-melhor-cajon/",
       "cache": "DYNAMIC",
-      "bytes": 42193
+      "bytes": 42197
     },
     {
       "path": "/melhores-violoes-para-iniciantes/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-violoes-para-iniciantes/",
       "cache": "DYNAMIC",
-      "bytes": 83207
+      "bytes": 83211
     },
     {
       "path": "/melhor-ukulele-para-iniciantes/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-ukulele-para-iniciantes/",
       "cache": "DYNAMIC",
-      "bytes": 70322
+      "bytes": 70326
     },
     {
       "path": "/melhor-soundbar/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-soundbar/",
       "cache": "DYNAMIC",
-      "bytes": 56702
+      "bytes": 56706
     },
     {
       "path": "/teclado-concert-c300-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-concert-c300-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 32154
+      "bytes": 32158
     },
     {
       "path": "/ukulele-makanu-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/ukulele-makanu-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 26056
+      "bytes": 26060
     },
     {
       "path": "/melhor-microfone-para-gravar-videos/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-microfone-para-gravar-videos/",
       "cache": "DYNAMIC",
-      "bytes": 58198
+      "bytes": 58202
     },
     {
       "path": "/microfone-para-karaoke/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/microfone-para-karaoke/",
       "cache": "DYNAMIC",
-      "bytes": 53718
+      "bytes": 53722
     },
     {
       "path": "/fone-qcy-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/fone-qcy-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 69662
+      "bytes": 69666
     },
     {
       "path": "/melhores-teclados-arranjadores/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-teclados-arranjadores/",
       "cache": "DYNAMIC",
-      "bytes": 61280
+      "bytes": 61284
     },
     {
       "path": "/saxofone-digital/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/saxofone-digital/",
       "cache": "DYNAMIC",
-      "bytes": 38240
+      "bytes": 38244
     },
     {
       "path": "/caixa-de-som-pulse-800w/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/caixa-de-som-pulse-800w/",
       "cache": "DYNAMIC",
-      "bytes": 26499
+      "bytes": 26503
     },
     {
       "path": "/caixa-de-som-amplificada-1000w/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/caixa-de-som-amplificada-1000w/",
       "cache": "DYNAMIC",
-      "bytes": 42854
+      "bytes": 42858
     },
     {
       "path": "/melhores-violoes-de-cordas-de-aco/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-violoes-de-cordas-de-aco/",
       "cache": "DYNAMIC",
-      "bytes": 79356
+      "bytes": 79360
     },
     {
       "path": "/melhor-teclado-musical-custo-beneficio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-teclado-musical-custo-beneficio/",
       "cache": "DYNAMIC",
-      "bytes": 66038
+      "bytes": 66042
     },
     {
       "path": "/melhores-guitarras-custo-beneficio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-guitarras-custo-beneficio/",
       "cache": "DYNAMIC",
-      "bytes": 69072
+      "bytes": 69076
     },
     {
       "path": "/melhor-fone-para-corrida/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-fone-para-corrida/",
       "cache": "DYNAMIC",
-      "bytes": 62602
+      "bytes": 62606
     },
     {
       "path": "/microfones-para-podcast/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/microfones-para-podcast/",
       "cache": "DYNAMIC",
-      "bytes": 69101
+      "bytes": 69105
     },
     {
       "path": "/bateria-eletronica-roland/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/bateria-eletronica-roland/",
       "cache": "DYNAMIC",
-      "bytes": 33180
+      "bytes": 33184
     },
     {
       "path": "/melhor-amplificador-de-guitarra/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-amplificador-de-guitarra/",
       "cache": "DYNAMIC",
-      "bytes": 70603
+      "bytes": 70607
     },
     {
       "path": "/fone-edifier-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/fone-edifier-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 62910
+      "bytes": 62914
     },
     {
       "path": "/violao-rozini-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-rozini-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 57236
+      "bytes": 57240
     },
     {
       "path": "/teclado-casio-ctk-3500-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-casio-ctk-3500-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 31836
+      "bytes": 31840
     },
     {
       "path": "/violao-giannini-n14-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-giannini-n14-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 29806
+      "bytes": 29810
     },
     {
       "path": "/o-que-e-um-luthier/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/o-que-e-um-luthier/",
       "cache": "DYNAMIC",
-      "bytes": 26244
+      "bytes": 26248
     },
     {
       "path": "/melhores-caixas-de-som-amplificadas/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-caixas-de-som-amplificadas/",
       "cache": "DYNAMIC",
-      "bytes": 78737
+      "bytes": 78741
     },
     {
       "path": "/microfone-kadosh-k502m-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/microfone-kadosh-k502m-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 31029
+      "bytes": 31033
     },
     {
       "path": "/melhores-microfones-para-igreja/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-microfones-para-igreja/",
       "cache": "DYNAMIC",
-      "bytes": 47333
+      "bytes": 47337
     },
     {
       "path": "/melhores-interfaces-de-audio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-interfaces-de-audio/",
       "cache": "DYNAMIC",
-      "bytes": 66142
+      "bytes": 66146
     },
     {
       "path": "/melhor-fone-de-ouvido-profissional/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-fone-de-ouvido-profissional/",
       "cache": "DYNAMIC",
-      "bytes": 76894
+      "bytes": 76898
     },
     {
       "path": "/melhor-mesa-de-som-digital/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-mesa-de-som-digital/",
       "cache": "DYNAMIC",
-      "bytes": 54917
+      "bytes": 54921
     },
     {
       "path": "/melhor-pad-eletronico/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-pad-eletronico/",
       "cache": "DYNAMIC",
-      "bytes": 52680
+      "bytes": 52684
     },
     {
       "path": "/melhores-guitarras-para-iniciantes/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-guitarras-para-iniciantes/",
       "cache": "DYNAMIC",
-      "bytes": 66345
+      "bytes": 66349
     },
     {
       "path": "/melhores-violoes-profissionais/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-violoes-profissionais/",
       "cache": "DYNAMIC",
-      "bytes": 59011
+      "bytes": 59015
     },
     {
       "path": "/melhor-monitor-de-audio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-monitor-de-audio/",
       "cache": "DYNAMIC",
-      "bytes": 60170
+      "bytes": 60174
     },
     {
       "path": "/melhores-captadores-de-guitarra/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-captadores-de-guitarra/",
       "cache": "DYNAMIC",
-      "bytes": 38433
+      "bytes": 38437
     },
     {
       "path": "/teclado-roland-xps10/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-roland-xps10/",
       "cache": "DYNAMIC",
-      "bytes": 29582
+      "bytes": 29586
     },
     {
       "path": "/melhores-microfones-sem-fio/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-microfones-sem-fio/",
       "cache": "DYNAMIC",
-      "bytes": 66187
+      "bytes": 66191
     },
     {
       "path": "/melhores-microfones-dinamicos/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-microfones-dinamicos/",
       "cache": "DYNAMIC",
-      "bytes": 68510
+      "bytes": 68514
     },
     {
       "path": "/violao-infantil/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-infantil/",
       "cache": "DYNAMIC",
-      "bytes": 46816
+      "bytes": 46820
     },
     {
       "path": "/guitarra-fender-americana/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/guitarra-fender-americana/",
       "cache": "DYNAMIC",
-      "bytes": 26773
+      "bytes": 26777
     },
     {
       "path": "/melhores-marcas-de-violao/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-marcas-de-violao/",
       "cache": "DYNAMIC",
-      "bytes": 49565
+      "bytes": 49569
     },
     {
       "path": "/microfone-hyperx-quadcast-s/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/microfone-hyperx-quadcast-s/",
       "cache": "DYNAMIC",
-      "bytes": 24552
+      "bytes": 24556
     },
     {
       "path": "/teclado-casio-ct-s300-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/teclado-casio-ct-s300-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 32158
+      "bytes": 32162
     },
     {
       "path": "/melhores-baixos-para-iniciantes/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-baixos-para-iniciantes/",
       "cache": "DYNAMIC",
-      "bytes": 59334
+      "bytes": 59338
     },
     {
       "path": "/melhores-teclados-para-iniciantes/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-teclados-para-iniciantes/",
       "cache": "DYNAMIC",
-      "bytes": 63797
+      "bytes": 63801
     },
     {
       "path": "/melhor-afinador-de-violao/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-afinador-de-violao/",
       "cache": "DYNAMIC",
-      "bytes": 59786
+      "bytes": 59790
     },
     {
       "path": "/violao-eagle-e-bom/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-eagle-e-bom/",
       "cache": "DYNAMIC",
-      "bytes": 39446
+      "bytes": 39450
     },
     {
       "path": "/violao-mais-caro-do-brasil/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/violao-mais-caro-do-brasil/",
       "cache": "DYNAMIC",
-      "bytes": 27229
+      "bytes": 27233
     },
     {
       "path": "/melhor-fone-com-cancelamento-de-ruido/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhor-fone-com-cancelamento-de-ruido/",
       "cache": "DYNAMIC",
-      "bytes": 58068
+      "bytes": 58072
     },
     {
       "path": "/nord-stage-3/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/nord-stage-3/",
       "cache": "DYNAMIC",
-      "bytes": 25632
+      "bytes": 25636
     },
     {
       "path": "/melhores-pandeiros/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-pandeiros/",
       "cache": "DYNAMIC",
-      "bytes": 53346
+      "bytes": 53350
     },
     {
       "path": "/melhores-pianos-do-mundo/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-pianos-do-mundo/",
       "cache": "DYNAMIC",
-      "bytes": 34979
+      "bytes": 34983
     },
     {
       "path": "/dicas-de-canto/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/dicas-de-canto/",
       "cache": "DYNAMIC",
-      "bytes": 24402
+      "bytes": 24406
     },
     {
       "path": "/melhores-guitarristas-do-mundo/",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/melhores-guitarristas-do-mundo/",
       "cache": "DYNAMIC",
-      "bytes": 25977
+      "bytes": 25981
     },
     {
       "path": "/blog/?page=2",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=2",
       "cache": "DYNAMIC",
-      "bytes": 18813
+      "bytes": 18817
     },
     {
       "path": "/blog/?page=3",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=3",
       "cache": "DYNAMIC",
-      "bytes": 18378
+      "bytes": 18382
     },
     {
       "path": "/blog/?page=4",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=4",
       "cache": "DYNAMIC",
-      "bytes": 18607
+      "bytes": 18611
     },
     {
       "path": "/blog/?page=5",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=5",
       "cache": "DYNAMIC",
-      "bytes": 18738
+      "bytes": 18742
     },
     {
       "path": "/blog/?page=6",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=6",
       "cache": "DYNAMIC",
-      "bytes": 18868
+      "bytes": 18872
     },
     {
       "path": "/blog/?page=7",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=7",
       "cache": "DYNAMIC",
-      "bytes": 18952
+      "bytes": 18956
     },
     {
       "path": "/blog/?page=8",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=8",
       "cache": "DYNAMIC",
-      "bytes": 18964
+      "bytes": 18968
     },
     {
       "path": "/blog/?page=9",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=9",
       "cache": "DYNAMIC",
-      "bytes": 18817
+      "bytes": 18821
     },
     {
       "path": "/blog/?page=10",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=10",
       "cache": "DYNAMIC",
-      "bytes": 18828
+      "bytes": 18832
     },
     {
       "path": "/blog/?page=11",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=11",
       "cache": "DYNAMIC",
-      "bytes": 19014
+      "bytes": 19018
     },
     {
       "path": "/blog/?page=12",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=12",
       "cache": "DYNAMIC",
-      "bytes": 18891
+      "bytes": 18895
     },
     {
       "path": "/blog/?page=13",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/?page=13",
       "cache": "DYNAMIC",
-      "bytes": 15158
+      "bytes": 15162
     },
     {
       "path": "/blog/guitarras/?page=2",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/guitarras/?page=2",
       "cache": "DYNAMIC",
-      "bytes": 17381
+      "bytes": 17385
     },
     {
       "path": "/blog/microfones/?page=2",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/microfones/?page=2",
       "cache": "DYNAMIC",
-      "bytes": 13156
+      "bytes": 13160
     },
     {
       "path": "/blog/teclados/?page=2",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/teclados/?page=2",
       "cache": "DYNAMIC",
-      "bytes": 16830
+      "bytes": 16834
     },
     {
       "path": "/blog/violao/?page=2",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/violao/?page=2",
       "cache": "DYNAMIC",
-      "bytes": 18944
+      "bytes": 18948
     },
     {
       "path": "/blog/violao/?page=3",
       "status": 200,
       "canonical": "https://www.geekmusical.com.br/blog/violao/?page=3",
       "cache": "DYNAMIC",
-      "bytes": 16240
+      "bytes": 16244
     }
   ],
   "redirects": [
@@ -4752,72 +4752,72 @@
     {
       "base": "http://127.0.0.1:3230",
       "sample": 0,
-      "headersMs": 166.2,
-      "totalMs": 167.1,
+      "headersMs": 569.7,
+      "totalMs": 570.7,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 1,
-      "headersMs": 100.6,
-      "totalMs": 101.3,
+      "headersMs": 132.4,
+      "totalMs": 133.4,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 2,
-      "headersMs": 91.7,
-      "totalMs": 92.4,
+      "headersMs": 127.1,
+      "totalMs": 127.8,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 3,
-      "headersMs": 97.3,
-      "totalMs": 98,
+      "headersMs": 115.1,
+      "totalMs": 115.6,
       "htmlBytes": 54921
     },
     {
       "base": "http://127.0.0.1:3230",
       "sample": 4,
-      "headersMs": 91.8,
-      "totalMs": 93,
+      "headersMs": 110.9,
+      "totalMs": 111.7,
       "htmlBytes": 54921
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 0,
-      "headersMs": 215.5,
-      "totalMs": 219.6,
-      "htmlBytes": 55375
+      "headersMs": 201,
+      "totalMs": 208.2,
+      "htmlBytes": 55379
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 1,
-      "headersMs": 236.5,
-      "totalMs": 239.1,
-      "htmlBytes": 55375
+      "headersMs": 191.2,
+      "totalMs": 199.2,
+      "htmlBytes": 55379
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 2,
-      "headersMs": 216.6,
-      "totalMs": 224.7,
-      "htmlBytes": 55375
+      "headersMs": 188.5,
+      "totalMs": 195.8,
+      "htmlBytes": 55379
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 3,
-      "headersMs": 185.1,
-      "totalMs": 188.7,
-      "htmlBytes": 55375
+      "headersMs": 195.3,
+      "totalMs": 201.4,
+      "htmlBytes": 55379
     },
     {
       "base": "https://www.geekmusical.com.br",
       "sample": 4,
-      "headersMs": 169.5,
-      "totalMs": 172.3,
-      "htmlBytes": 55375
+      "headersMs": 182.1,
+      "totalMs": 191.1,
+      "htmlBytes": 55379
     }
   ],
   "measurementScope": "Cinco amostras locais e HTTP público até cabeçalhos/conclusão; não são Core Web Vitals de campo.",

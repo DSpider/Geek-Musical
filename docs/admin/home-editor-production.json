@@ -1,0 +1,23 @@
+{
+  "commit": "ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
+  "release": "/opt/geek-musical/releases/ca6c9b4dabd74a8338c0db88a1d2d58d1483f5ea",
+  "sqliteIntegrity": "ok",
+  "homeLayoutPreserved": true,
+  "usersPreserved": true,
+  "environmentPreserved": true,
+  "migrationsUnchanged": true,
+  "contentFilesUnchanged": 6831,
+  "referenceVhostsUnchanged": true,
+  "referencePidsUnchanged": true,
+  "services": {
+    "geek-musical": "active",
+    "guia-produto-production": "active",
+    "mago-de-casa": "active"
+  },
+  "bind": "127.0.0.1:3230",
+  "health": {
+    "ok": true,
+    "site": "Geek Musical",
+    "environment": "production"
+  }
+}
